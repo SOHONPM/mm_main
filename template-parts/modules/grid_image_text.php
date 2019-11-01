@@ -11,13 +11,17 @@
                         <div class="col-md-6">
                             <div class="wrapper">
                                 <?php if ($key % 2 == 0) { ?>
-                                    <img class='image_top' src="<?php echo $value['image']['url'] ?>">
+                                    <div class="img-wrap">
+                                        <img class='image_top' src="<?php echo $value['image']['url'] ?>">
+                                    </div>
                                 <?php } ?>
                                 <div class="paragraph">
                                     <?php echo $value['content'] ?>
                                 </div>
                                 <?php if ($key % 2 == 1) { ?>
-                                    <img class='image_down' src="<?php echo $value['image']['url'] ?>">
+                                    <div class="img-wrap">
+                                        <img class='image_down' src="<?php echo $value['image']['url'] ?>">
+                                    </div>
                                 <?php } ?>
                             </div>
                         </div>

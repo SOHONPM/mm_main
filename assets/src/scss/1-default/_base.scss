@@ -19,9 +19,9 @@ html {
 }
 
 body {
-    color: $darker_color;
+    color: #424242;
     font-family: $body_text;
-    @include rem("font-size", 16);
+    font-size: 17px;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0;
@@ -36,6 +36,7 @@ body {
 
 p {
     margin: 0 0 20px 0;
+
 }
 
 /*----------------
