@@ -2922,7 +2922,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .hero-section{opacity:1;left:-237px;width:100%;height:auto;background-size:cover}
 .hero-section .container{padding:80px 15px 0}
 .hero-section .container .title span{color:#f05d34}
-.hero-section .container .wrapper{background:#f2f2f2;padding:30px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-top:145px;bottom:0}
+.hero-section .container .wrapper{background:rgba(242,242,242,0.9);padding:30px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-top:145px;bottom:0}
 .hero-section .container .wrapper .title{text-align:left;font-size:40px;line-height:1.5em;font-family:Century Gothic;font-weight:bold;letter-spacing:0;color:#000;max-width:621px}
 .hero-section .container .form-section .form__horizontal{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;opacity:1;padding:24px 27px 24px 21px;margin-bottom:80px}
 .hero-section .container .form-section .form__horizontal .form-title span{color:#bc0078}
