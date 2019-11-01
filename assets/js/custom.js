@@ -8,7 +8,7 @@
  * @since 1.0.0
  */
 (function ($) {
-  $('.owl-carousel').owlCarousel({
+  $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 10,
     autoplay: false,
@@ -29,7 +29,7 @@
       }
     }
   });
-  $('.slider1').owlCarousel({
+  $(".slider1").owlCarousel({
     loop: true,
     margin: 10,
     autoplay: false,
@@ -59,58 +59,106 @@
       pausevideo: false,
       idvideo: ""
     };
-    var patter = this.attr('id');
+    var patter = this.attr("id");
     var settings = $.extend({}, defaults, options);
     var video = document.getElementById(settings.idvideo);
 
     function stopVideo() {
-      var tag = $('#' + patter + '').get(0).tagName;
+      var tag = $("#" + patter + "").get(0).tagName;
 
-      if (tag == 'video') {
+      if (tag == "video") {
         video.pause();
         video.currentTime = 0;
       }
     }
 
-    $('#' + patter + '').css("display", "none");
-    $('#' + patter + '').append('<div id="opct"></div>');
-    $('#opct').css("background", settings.backgroundColor);
-    $('#' + patter + '').css("z-index", "100001");
-    $('#' + patter + '').css("position", "fixed");
-    $('#' + patter + '').css("top", "0");
-    $('#' + patter + '').css("bottom", "0");
-    $('#' + patter + '').css("right", "0");
-    $('#' + patter + '').css("left", "0");
-    $('#' + patter + '').css("padding", "auto");
-    $('#' + patter + '').css("text-align", "center");
-    $('#' + patter + '').css("background", "none");
-    $('#' + patter + '').css("vertical-align", "vertical-align");
+    $("#" + patter + "").css("display", "none");
+    $("#" + patter + "").append('<div id="opct"></div>');
+    $("#opct").css("background", settings.backgroundColor);
+    $("#" + patter + "").css("z-index", "100001");
+    $("#" + patter + "").css("position", "fixed");
+    $("#" + patter + "").css("top", "0");
+    $("#" + patter + "").css("bottom", "0");
+    $("#" + patter + "").css("right", "0");
+    $("#" + patter + "").css("left", "0");
+    $("#" + patter + "").css("padding", "auto");
+    $("#" + patter + "").css("text-align", "center");
+    $("#" + patter + "").css("background", "none");
+    $("#" + patter + "").css("vertical-align", "vertical-align");
     $("#videCont").css("z-index", "100002");
-    $('#' + patter + '').append('<div id="closer_videopopup">&otimes;</div>');
-    $("#" + settings.opener + "").on('click', function () {
-      $('#' + patter + "").show();
-      $('#' + settings.idvideo + '').trigger('play');
+    $("#" + patter + "").append('<div id="closer_videopopup">&otimes;</div>');
+    $("#" + settings.opener + "").on("click", function () {
+      $("#" + patter + "").show();
+      $("#" + settings.idvideo + "").trigger("play");
     });
-    $("#closer_videopopup").on('click', function () {
+    $("#closer_videopopup").on("click", function () {
       if (settings.pausevideo == true) {
-        $('#' + settings.idvideo + '').trigger('pause');
+        $("#" + settings.idvideo + "").trigger("pause");
       } else {
         stopVideo();
       }
 
-      $('#' + patter + "").hide();
+      $("#" + patter + "").hide();
     });
     return this.css({});
   };
 
-  $('#vidBox').VideoPopUp({
+  $("#vidBox").VideoPopUp({
     backgroundColor: "#17212a",
     opener: "videoBtn",
     maxweight: "340",
     idvideo: "videoPopper"
   });
-  $(window).on('load', function () {
-    $('.preloader').addClass('hide');
-    $('body').addClass('scroll-enable');
+  $(window).on("load", function () {
+    $(".preloader").addClass("hide");
+    $("body").addClass("scroll-enable");
+  });
+})(jQuery); //
+
+
+(function ($) {
+  $(function () {
+    if (typeof $().slick !== "undefined") {
+      console.log("Custom JS");
+      $(".carousel-cols-3").each(function () {
+        var $carousel_nav = $(this).find(".carousel-nav");
+        var $carousel_items = $(this).find(".carousel-items");
+        $carousel_items.slick({
+          dots: false,
+          infinite: true,
+          arrows: true,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          appendArrows: $carousel_nav,
+          responsive: [{
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          }, {
+            breakpoint: 539,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }]
+        });
+      });
+    }
+  });
+})(jQuery);
+
+(function ($) {
+  $(function () {
+    $(".button-dropdown").click(function () {
+      if ($(this).next().hasClass("active")) {
+        $(this).next().removeClass("active");
+      } else {
+        $(".content-block").removeClass("active");
+        $(this).next().addClass("active");
+      }
+    });
   });
 })(jQuery);

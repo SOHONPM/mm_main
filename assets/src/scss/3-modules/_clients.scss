@@ -1,0 +1,22 @@
+.client-section {
+    .container {
+        padding: 0 0 50px 0;
+
+        .title {
+            text-align: center;
+            font-size: 29px;
+            line-height: 49px;
+            font-weight: normal;
+            letter-spacing: 0;
+            color: #A1A1A1;
+            opacity: 1;
+        }
+
+        @include breakpoint(768) {
+            .col-md-2 {
+                width: 50%;
+                text-align: center;
+            }
+        }
+    }
+}

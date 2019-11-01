@@ -1,0 +1,41 @@
+.text-section {
+    .container {
+        padding: 30px 0;
+
+        .title {
+            h1 {
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 49px;
+                letter-spacing: 0;
+                color: #000000;
+                opacity: 1;
+            }
+        }
+
+        .content {
+            p {
+                font-size: 18px;
+                line-height: 29px;
+                font-weight: normal;
+                letter-spacing: 0;
+                color: #000000;
+            }
+
+            ul {
+                list-style-type: disc;
+
+                p,
+                li {
+                    text-align: left;
+                    font-size: 18px;
+                    font-weight: normal;
+                    line-height: 31px;
+                    letter-spacing: 0;
+                    color: #313131;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

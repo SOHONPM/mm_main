@@ -1,0 +1,153 @@
+.blog-section {
+    .container {
+        padding: 50px 15px;
+
+        .custom-carousel .r1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+
+            @include breakpoint(505) {
+                display: block;
+            }
+
+            .c2 {
+                display: flex;
+                align-items: center;
+            }
+
+            .carousel-nav {
+                margin-left: 30px;
+
+                @include breakpoint(480) {
+                    margin-left: 20px;
+                    width: 55px;
+                }
+            }
+
+            .carousel-nav .slick-next {
+                margin-left: 10px;
+            }
+
+            .blog-view-all {
+                padding: 12px 24px;
+                display: inline-block;
+                border-radius: 4px;
+                background-color: $brand_color;
+                box-shadow: 0 1px 1px 0 transparent;
+                -webkit-transition: box-shadow 200ms ease;
+                transition: box-shadow 200ms ease;
+                color: $w;
+                line-height: 1;
+                font-weight: 400;
+                text-decoration: none;
+                letter-spacing: 0.5px;
+                transition: box-shadow 0.2s ease 0s;
+            }
+        }
+
+
+        .slick-prev,
+        .slick-next {
+            font-size: 0;
+            background: none;
+            padding: 0;
+            line-height: 1;
+            outline: none;
+        }
+
+        .slick-next:before,
+        .slick-prev:before {
+            font-size: 24px;
+            color: #e72b8b;
+        }
+
+        .slick-prev {
+            transform: rotate(225deg);
+            border-top: 2px solid #e72b8b;
+            border-right: 2px solid #e72b8b;
+            width: 15px;
+            height: 15px;
+            border-radius: unset;
+
+            &:hover,
+            &:focus {
+                background: none;
+                outline: none;
+            }
+        }
+
+        .slick-next {
+            transform: rotate(45deg);
+            border-top: 2px solid #e72b8b;
+            border-right: 2px solid #e72b8b;
+            width: 15px;
+            height: 15px;
+            border-radius: unset;
+
+            &:hover,
+            &:focus {
+                background: none;
+                outline: none;
+
+            }
+
+            .single .main-container .wrapper {
+                width: 960px;
+            }
+
+            .nav-links {
+                max-height: 100%;
+            }
+
+            .nav-text {
+                padding: 5px 0;
+            }
+
+            .nav-linka,
+            .nav-linkb {
+                justify-content: center;
+            }
+        }
+
+        .post-item {
+            box-shadow: 0 3px 24px 0 rgba(2, 6, 19, 0.12);
+            border-radius: 3px;
+            background-color: #fff;
+            margin-bottom: 30px;
+
+            .title a {
+                color: black
+            }
+
+            .s2 {
+                padding: 18px 20px;
+
+                .link-container a {
+                    text-align: left;
+                    font: Bold 15px/27px Century Gothic;
+                    letter-spacing: 0;
+                    color: #F05D34;
+                    opacity: 1;
+                }
+
+                .title {
+                    text-align: left;
+                    font: Bold 21px/27px Century Gothic;
+                    letter-spacing: 0;
+                    color: #000000;
+                    opacity: 1;
+                }
+
+                .content {
+                    text-align: left;
+                    font: normal 18px/27px Century Gothic;
+                    letter-spacing: 0;
+                    color: #000000;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

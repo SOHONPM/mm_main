@@ -8,6 +8,8 @@
 @import "0-vendors/normalize";
 @import "0-vendors/bootstrap";
 @import "0-vendors/carousel";
+@import "0-vendors/bootstrap-grid";
+@import "0-vendors/fontawesome";
 
 /*
 2.0 Utilities
@@ -28,24 +30,25 @@
 4.0 Homepage
 */
 @import "2-layouts/header";
-@import "3-modules/banner";
-@import "3-modules/features";
-@import "3-modules/leads";
-@import "3-modules/benefits";
-@import "3-modules/team";
-@import "3-modules/testimonials";
-@import "3-modules/partners";
-@import "3-modules/blog";
 @import "2-layouts/footer";
 
 
-@import "3-modules/form-text";
-@import "3-modules/list-area";
-@import "3-modules/process-area";
-@import "3-modules/two-cols";
-@import "3-modules/form";
-@import "3-modules/video";
-@import "3-modules/founder";
-@import "3-modules/article";
+@import "3-modules/hero";
+@import "3-modules/feature";
+@import "3-modules/about";
+@import "3-modules/clients";
+@import "3-modules/grid_image_text";
+@import "3-modules/solutions";
+@import "3-modules/testimonials";
+@import "3-modules/blog";
+@import "3-modules/headline";
+@import "3-modules/text";
+@import "3-modules/grid";
+@import "3-modules/formula_form";
+@import "3-modules/profile";
+@import "3-modules/text_video";
 @import "3-modules/contact";
-@import "2-layouts/sidebar";
+@import "3-modules/image";
+@import "3-modules/toggle_list";
+@import "3-modules/connect_with_us";
+@import "3-modules/subscribe";

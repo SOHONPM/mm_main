@@ -1,0 +1,49 @@
+.profile-section {
+    .container {
+        padding: 50px 0;
+
+        .profile-pic {
+            img {
+                height: 200px;
+                width: 200px;
+            }
+        }
+
+        .social-link {
+            a {
+                i {
+                    font-size: 40px;
+                    margin: 10px;
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .content {
+            p {
+                font-size: 18px;
+                line-height: 29px;
+                font-weight: normal;
+                letter-spacing: 0;
+                color: #000000;
+            }
+        }
+
+        .name-div {
+            .name {
+                font-size: 20px;
+                line-height: 53px;
+                font-weight: bold;
+                letter-spacing: 0;
+                color: #040404;
+                opacity: 1;
+            }
+        }
+
+        .learn-more-link {
+            .link {
+                color: $brand_color;
+            }
+        }
+    }
+}

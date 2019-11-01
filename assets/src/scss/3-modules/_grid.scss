@@ -1,0 +1,61 @@
+.grid-section {
+    .container {
+        .title {
+            text-align: center;
+            font-size: 38px;
+            line-height: 49px;
+            font-weight: bold;
+            letter-spacing: 0;
+            color: $b;
+            opacity: 1;
+        }
+
+        .grid {
+            height: 245px;
+            margin-bottom: 30px;
+
+            .wrapper {
+                width: 100%;
+                background-repeat: no-repeat !important;
+                background-size: cover !important;
+                position: relative;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    background: $b;
+                    opacity: 0.54;
+                }
+
+                .number_count {
+                    p {
+                        text-align: center;
+                        font-size: 38px;
+                        line-height: 49px;
+                        font-weight: normal;
+                        letter-spacing: 0;
+                        color: #878787;
+                        opacity: 1;
+                        margin-bottom: 0;
+                        margin-top: 66px;
+                    }
+                }
+
+                .title {
+                    p {
+                        text-align: center;
+                        font-size: 23px;
+                        line-height: 30px;
+                        font-weight: bold;
+                        letter-spacing: 0;
+                        color: $w;
+                        opacity: 1;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

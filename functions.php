@@ -1,13 +1,14 @@
 <?php
+
 /**
-*  Themezero functions and definitions
-*
-*
-* Learn more: https://codex.wordpress.org/Functions_File_Explained
-*
-* @since   1.0.0
-* @package themezero
-*/
+ *  Themezero functions and definitions
+ *
+ *
+ * Learn more: https://codex.wordpress.org/Functions_File_Explained
+ *
+ * @since   1.0.0
+ * @package themezero
+ */
 
 
 
@@ -57,3 +58,9 @@ require get_template_directory() . '/inc/bootstrap-wp-navwalker.php';
  */
 require get_template_directory() . '/inc/editor.php';
 
+
+add_action('wp_enqueue_scripts', function () {
+    wp_enqueue_style('slick-css', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css');
+    wp_enqueue_script('slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', array('jquery'), '1.9.0', true);
+});
+require get_template_directory() . '/inc/shortcodes.php';

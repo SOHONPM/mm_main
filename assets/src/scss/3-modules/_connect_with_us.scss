@@ -1,0 +1,42 @@
+.connect_with_us-section {
+    .container {
+        padding: 30px;
+
+        .title {
+            text-align: center;
+            font-size: 38px;
+            font-weight: bold;
+            line-height: 49px;
+            letter-spacing: 0;
+            color: #000000;
+            opacity: 1;
+        }
+
+        .wrapper {
+            text-align: center;
+
+            &>a {
+                padding: 9px 11px;
+                border-radius: 38px;
+                background: #BC0078;
+                width: 30px;
+                height: 30px;
+                margin: 0 5px;
+
+                i {
+                    color: white;
+                }
+            }
+        }
+
+        .content {
+            margin-top: 20px;
+
+            i {
+                color: #ffea00;
+                font-size: 30px;
+            }
+        }
+
+    }
+}

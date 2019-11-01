@@ -1,0 +1,142 @@
+.formula-section {
+    .container {
+        max-width: 850px;
+        padding: 50px 0;
+
+        .formula {
+            padding: 50px 0;
+            border-top: 1px solid $w;
+            border-bottom: 1px solid $w;
+            opacity: 1;
+
+            .title {
+                text-align: center;
+                font-size: 38px;
+                line-height: 49px;
+                font-weight: bold;
+                letter-spacing: 0;
+                color: $b;
+                opacity: 1;
+            }
+
+            .content {
+                text-align: center;
+                font-size: 18px;
+                line-height: 34px;
+                font-weight: normal;
+                letter-spacing: 0;
+                color: $b;
+                opacity: 1;
+            }
+
+            .formula_img {
+                text-align: center;
+
+                img {
+                    width: 392px;
+                    height: 63px;
+                    margin-top: 33px;
+                }
+            }
+        }
+
+        .form {
+            padding: 50px 0;
+
+            .title {
+                text-align: center;
+                font-size: 38px;
+                line-height: 49px;
+                font-weight: bold;
+                letter-spacing: 0;
+                color: $b;
+
+                & span {
+                    color: $brand_color;
+                }
+            }
+
+            .subtitle {
+                text-align: center;
+                font-size: 18px;
+                line-height: 29px;
+                font-weight: normal;
+                letter-spacing: 0;
+                color: #010101;
+                opacity: 1;
+                max-width: 450px;
+                margin: 0 auto 20px;
+            }
+
+            .gform_wrapper {
+                input[type="submit"] {
+                    width: 277px;
+                    height: 48px;
+                    background: $brand_color 0% 0% no-repeat padding-box;
+                    border-radius: 6px;
+                    opacity: 1;
+                    font-size: 18px;
+                    line-height: 49px;
+                    font-weight: bold;
+                    letter-spacing: 0;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    padding: 0;
+
+                }
+
+                .gform_title {
+                    display: none;
+                }
+
+                .gform_footer {
+                    margin: 0;
+                }
+
+                #gform_fields_5 {
+
+                    .gfield_label {
+                        display: none;
+                    }
+
+                    .gfield {
+                        margin: 0
+                    }
+
+                    input {
+                        background: $w 0% 0% no-repeat padding-box;
+                        border: 1px solid $b;
+                        height: 48px;
+                        opacity: 1;
+                        font-size: 18px;
+                        line-height: 49px;
+                        font-weight: normal;
+                        letter-spacing: 0;
+                        color: $b;
+                        opacity: 1;
+
+                        &::placeholder {
+                            color: $b;
+                        }
+                    }
+
+                    textarea {
+                        height: 106px;
+                        background: #FFFFFF 0% 0% no-repeat padding-box;
+                        border: 1px solid #0C0C0C;
+                        opacity: 1;
+
+                        &::placeholder {
+                            color: #0C0C0C;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,78 +1,83 @@
-/**--------------------------
-Site Footer
----------------------------- **/
 .site-footer {
-	padding: 50px 0 0 0;
-	background: rgba(200, 210, 235, 0.3);
-	text-align: center;
+    background: #F2F4F5 0% 0% no-repeat padding-box;
+    opacity: 1;
 
-	@include min-breakpoint(768) {
-		text-align: left;
-	}
-	.site-logo {
-		margin: 0 auto;
+    .container {
+        padding-top: 50px;
 
-		@include min-breakpoint(768) { 
-			margin: 0;
-		}
-	}
-	.site-info {
-		display: none;
+        .site-logo {
+            width: unset;
 
-		@include min-breakpoint(768) {
-			line-height: 21px;
-			display: block;
-			margin-top: 10px;
-		}
+            img {
+                width: 100px;
+                height: 91px;
+                margin-bottom: 30px;
+            }
+        }
 
-	}
-	
+        .content {
+            p {
+                text-align: left;
+                font: normal 18px/31px Century Gothic;
+                letter-spacing: 0;
+                color: #313131;
+                opacity: 1;
+            }
+        }
 
+        .copyright {
+            p {
+                font: normal 18px/33px Century Gothic;
+                letter-spacing: 0;
+                color: #807E7E;
+                opacity: 1;
 
-	&__bottom {
-		padding: 20px 0 15px 0;
-		text-align: center;
+                @include min-breakpoint(768) {
+                    margin-top: 80px;
+                }
 
-		@include min-breakpoint(768) {
-			text-align: left;
-		}
-	}
-}
-.footer-navigation {
-	margin-bottom: 20px;
-	@include min-breakpoint(768) {
-		margin-bottom: 0;
-	}
-	h3 {
-		font-size: 19px;
-	}
-	ul {
-		text-align: center;
+            }
+        }
 
-		@include min-breakpoint(768) {
-			text-align: left;
-		}
-		li {
-			display: inline-block;
+        .menu-title,
+        .contact-us {
+            text-align: left;
+            font: Bold 20px/25px Century Gothic;
+            letter-spacing: 0;
+            color: #BC0078;
+            opacity: 1;
+        }
 
-			@include min-breakpoint(768) {
-				display: block;
-			}
+        .footer-menu {
+            margin-bottom: 25px;
 
-		}
-	}
-}
-.footer-nav-extra {
-	text-align: center;
+            li {
+                padding: 0;
 
-	@include min-breakpoint(768) {
-		text-align: right;
-	}
-	li {
-		display: inline-block;
-		margin-left: 10px;
-	}
-}
-.copyright {
-	color: #ABB2C7;
+                &.active {
+                    a {
+                        color: #BC0078;
+                    }
+                }
+
+                a {
+                    text-align: left;
+                    font: normal 17px/33px Century Gothic;
+                    letter-spacing: 0;
+                    color: #313131;
+                    opacity: 1;
+                    padding: 0;
+                }
+            }
+        }
+
+        .contact-address,
+        .phone-number {
+            text-align: left;
+            font: normal 18px/29px Century Gothic;
+            letter-spacing: 0;
+            color: #4A4A4A;
+            opacity: 1;
+        }
+    }
 }

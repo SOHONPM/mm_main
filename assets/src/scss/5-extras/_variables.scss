@@ -6,27 +6,39 @@
  * Colors
  * -------------------------------------------------- */
 
-$brand_color : #51E9B7;
+$brand_color : #BC0078;
 $darker_color : #585B63;
 $gray_color : #666;
 
-$w			     : #ffffff;
-$b			     : #000000;
-$primary_color   : #51E9B7;
+$w : #ffffff;
+$b : #000000;
+$primary_color : #BC0078;
 $secondary_color : #2B4DA0;
-$dark_color 	 : #222;
-$light_color     : #78CDE6;
-$blue_color      : #5b82df;
-$darkerblue_color  : #0E2357;
+$dark_color : #222;
+$light_color : #78CDE6;
+$orange_color : #F05D34;
+$darkerblue_color : #0E2357;
 
 /* ---------------------------------------------------
  * Fonts
  * -------------------------------------------------- */
 
- 
- $body_text : 'bariol', "Helvetica Neue", helvetica, arial, sans-serif;
- $body_heading: "bariol", "Helvetica Neue", helvetica, arial, sans-serif;
- $brand_fontbold : 'bariol bold', "Helvetica Neue", helvetica, arial, sans-serif;
+
+$body_text : 'Century Gothic',
+"Helvetica Neue",
+helvetica,
+arial,
+sans-serif;
+$body_heading: "Century Gothic",
+"Helvetica Neue",
+helvetica,
+arial,
+sans-serif;
+$brand_fontbold : 'Century Gothic',
+"Helvetica Neue",
+helvetica,
+arial,
+sans-serif;
 
 
 
@@ -45,36 +57,40 @@ $smaller_line_height : 1.2;
  * --------------------- */
 
 @mixin bgSecondary {
-	background: #C6E8DD;
+    background: #C6E8DD;
     background: rgba(198, 232, 221, 0.6)
 }
+
 @mixin headingSecondary {
     font-size: 27px;
     font-weight: 600;
 }
+
 @mixin headingTertiary {
     font-size: 20px;
     font-weight: 600;
 }
+
 @mixin sectionPaddingMedium {
     padding: 30px 0;
-    
+
     @include min-breakpoint(768) {
-    	padding: 50px 0;
+        padding: 50px 0;
     }
 }
 
 @mixin sectionPaddingLarge {
     padding: 40px 0;
-    
+
     @include min-breakpoint(768) {
-    	padding: 70px 0;
+        padding: 70px 0;
     }
 }
+
 @mixin sectionPaddingXLarge {
     padding: 40px 0;
-    
+
     @include min-breakpoint(768) {
-    	padding: 100px 0;
+        padding: 100px 0;
     }
 }

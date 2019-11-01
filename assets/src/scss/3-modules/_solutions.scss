@@ -1,0 +1,57 @@
+.solutions-section {
+    .container {
+        padding: 50px 15px;
+
+        .title {
+            text-align: center;
+            font-size: 38px;
+            font-weight: bold;
+            line-height: 49px;
+            letter-spacing: 0;
+            color: $b;
+            opacity: 1;
+        }
+
+        hr {
+            width: 120px;
+            height: 3px;
+            background: $brand_color 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+        .grid {
+            margin-bottom: 30px;
+
+            .icon {
+                text-align: center;
+                padding: 36px 18px;
+
+                img {
+                    width: 71px;
+                    height: 78px;
+                }
+            }
+
+            .title {
+                text-align: center;
+                font-size: 21px;
+                font-weight: bold;
+                line-height: 53px;
+                letter-spacing: 0;
+                color: $b;
+                opacity: 1;
+            }
+
+            .content {
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 27px;
+                letter-spacing: 0;
+                color: #313131;
+                opacity: 1;
+            }
+        }
+
+    }
+}

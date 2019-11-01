@@ -11,10 +11,11 @@
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
+
 html {
     font-size: 62.5%;
-    height:100%;
-    min-height:100%;
+    height: 100%;
+    min-height: 100%;
 }
 
 body {
@@ -23,14 +24,16 @@ body {
     @include rem("font-size", 16);
     font-weight: 400;
     line-height: 1.7;
-    letter-spacing: 0; 
+    letter-spacing: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow: hidden;
+
     &.scroll-enable {
         overflow: inherit;
     }
 }
+
 p {
     margin: 0 0 20px 0;
 }
@@ -49,24 +52,29 @@ h6 {
     margin: 0 0 0.3em;
     padding: 0;
     font-family: $brand_fontbold;
-    color: $darkerblue_color;
+    color: $b;
 }
 
 h1 {
     font-size: 38px;
 }
+
 h2 {
     font-size: 33px;
 }
+
 h3 {
     font-size: 28px;
 }
+
 h4 {
     font-size: 24px;
 }
+
 h5 {
     font-size: 20px;
 }
+
 h6 {
     font-size: 18px;
 }
@@ -75,22 +83,23 @@ h6 {
  List
 ----------------*/
 ol {
-  list-style: none; 
+    list-style: none;
 }
 
 ul {
-  padding: 0;
-  list-style: none;
-  margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0;
 }
 
 ul ul {
-  padding-top: 8px;
+    padding-top: 8px;
 }
 
 li {
-  padding-bottom: 8px;
+    padding-bottom: 8px;
 }
+
 dt {
     font-weight: 700;
 }
@@ -106,12 +115,13 @@ dd {
 a {
     text-decoration: none;
     color: $secondary_color;
+
     &:hover,
     &:focus {
-      cursor: pointer !important;
-      outline: none;
-      text-decoration: none; 
-      color: $primary_color;
+        cursor: pointer !important;
+        outline: none;
+        text-decoration: none;
+        color: $primary_color;
     }
 }
 
@@ -120,39 +130,40 @@ a {
  Button
 ----------------*/
 button {
-  border: none;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  display: block;
-  padding: 0;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    padding: 0;
 }
 
 
 /*----------------
  Quotes
 ----------------*/
-blockquote, 
+blockquote,
 q {
-  quotes: none; 
+    quotes: none;
 }
 
 
-blockquote:before, 
+blockquote:before,
 blockquote:after,
-q:before, 
+q:before,
 q:after {
-  content: '';
-  content: none; 
+    content: '';
+    content: none;
 }
 
 /*----------------
  Table
 ----------------*/
 table {
-  border-collapse: collapse;
-  border-spacing: 0; 
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 thead th {
     border-bottom: 2px solid #bbb;
     padding-bottom: 0.5em;
@@ -249,8 +260,8 @@ input[type="checkbox"] {
     margin-right: 0.5em;
 }
 
-input[type="radio"] + label,
-input[type="checkbox"] + label {
+input[type="radio"]+label,
+input[type="checkbox"]+label {
     font-weight: 400;
 }
 
@@ -290,7 +301,7 @@ input[type="submit"] {
 }
 
 :-moz-placeholder {
-    color:$secondary_color;
+    color: $secondary_color;
     font-family: $body_text, "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
@@ -318,12 +329,12 @@ hr {
 }
 
 img {
-  max-width: 100%; 
+    max-width: 100%;
 }
 
 
 strong {
-  font-weight: 700; 
+    font-weight: 700;
 }
 
 dfn,

@@ -1,0 +1,55 @@
+.toggle_list-section {
+    .container {
+        padding: 30px 0;
+
+        .col-sm-6 {
+            margin: 15px 0;
+        }
+
+        .button-dropdown {
+            cursor: pointer;
+        }
+
+        .modal-dialog {
+            width: 75%;
+            max-width: 100%;
+        }
+
+        .item {
+            height: 100%;
+            min-height: 200px;
+            padding: 15px;
+
+            p {
+                text-align: left;
+                font-size: 18px;
+                line-height: 31px;
+                letter-spacing: 0;
+                color: #313131;
+                opacity: 1;
+            }
+
+            h2 {
+                text-align: left;
+                font-size: 25px;
+                line-height: 40px;
+                font-weight: bold;
+                letter-spacing: 0;
+                color: #000000;
+                opacity: 1;
+
+            }
+        }
+
+        .modal {
+            .close {
+                font-size: 30px;
+
+                &:hover {
+                    background: white;
+                    color: red;
+                }
+            }
+        }
+    }
+}

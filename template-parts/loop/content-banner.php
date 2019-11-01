@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Display Content Banner
@@ -13,28 +13,50 @@
 
 ?>
 <!-- Banner -->
+<section class="headline-section" style="background:url(<?php echo get_sub_field('background') ?>)">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<?php
+				the_archive_title('<h1 class="page-title">', '</h1>');
+				?>
+			</div>
+			<div class="col-md-3 form-section">
+				<p class="form-title"><?php echo get_sub_field('hero_form')['form_title'] ?></p>
+				<?php
+				if ($headline_form = get_sub_field('hero_form')) {
+
+					echo $headline_form;
+				}
+				?>
+
+			</div>
+		</div>
+	</div>
+</section>
+
 <div class="banner banner__sub" itemscope itemtype="http://schema.org/WebPageElement">
 	<div class="container">
 		<div class="banner__inner">
-	       
-	          <div class="banner__header">  
-					
-				 <?php if(  is_archive() ) : ?>	
+
+			<div class="banner__header">
+
+				<?php if (is_archive()) : ?>
 					<h1 class="banner__title">
 						<?php
-						the_archive_title( '<h1 class="page-title">', '</h1>' );
-						the_archive_description( '<div class="taxonomy-description">', '</div>' );
-						?>
+							the_archive_title('<h1 class="page-title">', '</h1>');
+							the_archive_description('<div class="taxonomy-description">', '</div>');
+							?>
 					</h1>
-	             <?php else: ?>
-	              	<h1 class="banner__title"><?php echo get_the_title() ?></h1>
-				 <?php endif; ?>
-				 
-	          </div>  
-	          
-	     </div>
+				<?php else : ?>
+					<h1 class="banner__title"><?php echo get_the_title() ?></h1>
+				<?php endif; ?>
+
+
+
+			</div>
+
+		</div>
 	</div>
 </div>
 <!-- ./banner -->
-
-
