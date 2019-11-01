@@ -7227,9 +7227,9 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 
 .hero-section .container .title span { color: #F05D34; }
 
-.hero-section .container .wrapper { background: rgba(242, 242, 242, 0.9); padding: 30px 30px; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; margin-top: 145px; bottom: 0; }
+.hero-section .container .wrapper { background: rgba(242, 242, 242, 0.9); padding: 30px 30px; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; margin-top: 170px; bottom: 0; }
 
-@media only screen and (max-width: 1200px) { .hero-section .container .wrapper { margin-top: 170px; } }
+@media only screen and (max-width: 1200px) { .hero-section .container .wrapper { margin-top: 182px; } }
 
 @media only screen and (max-width: 991px) { .hero-section .container .wrapper { margin-top: 0; background: none; padding: 20px 0; } }
 
