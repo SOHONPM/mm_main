@@ -1,4 +1,4 @@
-<section class="headline-section" style="background:url(<?php echo get_sub_field('background') ?>)">
+<section class="headline-section" style="background:transparent url(<?php echo get_sub_field('background') ?>) center center no-repeat padding-box">
     <div class="container">
         <div class="row">
             <?php if (get_sub_field('hero_form')) : ?>
