@@ -1,4 +1,4 @@
-<section class="hero-section" style="background:url(<?php echo get_sub_field('background') ?>)">
+<section class="hero-section" style="background:transparent url(<?php echo get_sub_field('background') ?>) center center no-repeat padding-box">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-lg-9">
