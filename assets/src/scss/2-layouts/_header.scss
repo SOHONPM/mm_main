@@ -64,6 +64,11 @@
 
                     .info {
                         margin: 0;
+
+                        i {
+                            color: #b3b3b3;
+                            margin-right: 2px;
+                        }
                     }
 
                     .call {
@@ -100,12 +105,13 @@
                         padding: 0;
 
                         a {
-                            padding: 2px 9px;
+                            padding: 0;
                             border-radius: 38px;
-                            background: #BC0078;
-                            width: 30px;
-                            height: 30px;
-                            margin: 0 5px;
+                            background: #bc0078;
+                            width: 24px;
+                            height: 24px;
+                            margin: 0 0 0 6px;
+                            text-align: center;
 
                             @include breakpoint(768) {
                                 padding: 0px 0px 1px;
@@ -219,6 +225,10 @@
         letter-spacing: 0;
         color: #171717;
         opacity: 1;
+
+        &:hover {
+            color: #BC0078;
+        }
     }
 
     .active .nav-link {
