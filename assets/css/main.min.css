@@ -2968,7 +2968,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .solutions-section .container .grid .icon{text-align:center;padding:36px 18px}
 .solutions-section .container .grid .icon img{width:71px;height:78px}
 .solutions-section .container .grid .title{text-align:center;font-size:21px;font-weight:bold;line-height:53px;letter-spacing:0;color:#000;opacity:1}
-.solutions-section .container .grid .content{text-align:center;font-size:18px;font-weight:bold;line-height:27px;letter-spacing:0;color:#313131;opacity:1}
+.solutions-section .container .grid .content{text-align:center;font-size:18px;line-height:27px;letter-spacing:0;color:#313131;opacity:1}
 .testimonials-section{background:#f2f4f5}
 .testimonials-section .container{padding:50px 15px}
 .testimonials-section .container .title{text-align:center;font-size:38px;font-weight:bold;line-height:49px;letter-spacing:0;color:#000;opacity:1}
