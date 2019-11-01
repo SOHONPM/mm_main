@@ -2868,12 +2868,13 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header__top .col--right{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .site-header__top .col--right .wrapper{display:-webkit-box;display:-ms-flexbox;display:flex}
 .site-header__top .col--right .wrapper .info{margin:0}
+.site-header__top .col--right .wrapper .info i{color:#b3b3b3;margin-right:2px}
 .site-header__top .col--right .wrapper .call{display:-webkit-box;display:-ms-flexbox;display:flex}
 .site-header__top .col--right span{display:inline-block;margin-right:5px;font-size:14px}
 .site-header__top .col--right span.email{margin-right:20px}
 .site-header__top .col--right ul{display:-webkit-box;display:-ms-flexbox;display:flex;text-align:center;margin:0 auto;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}
 .site-header__top .col--right ul li{padding:0}
-.site-header__top .col--right ul li a{padding:2px 9px;border-radius:38px;background:#bc0078;width:30px;height:30px;margin:0 5px}
+.site-header__top .col--right ul li a{padding:0;border-radius:38px;background:#bc0078;width:24px;height:24px;margin:0 0 0 6px;text-align:center}
 .site-header__top .col--right ul li a i{color:white}
 .site-header__top span{font-size:18px;line-height:1.2}
 .site-header__top .btn{padding:6px 15px;font-size:15px;text-transform:uppercase;color:#0e2357}
@@ -2889,6 +2890,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-logo{width:130px}
 .site-nav{width:calc(100% - 130px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
 .site-nav .nav-link{text-align:left;font:Bold 18px/25px Century Gothic;letter-spacing:0;color:#171717;opacity:1}
+.site-nav .nav-link:hover{color:#bc0078}
 .site-nav .active .nav-link{color:#bc0078}
 .site-nav .btn{display:none}
 .site-nav #burgerMenu{width:25px}
@@ -4127,7 +4129,6 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 }@media only screen and (min-width:1200px){.about-section .container{width:971px}
 .grid_image_text-section .container .title{width:507px}
 }@media only screen and (max-width:1280px){.wp-caption .wp-caption-text,.gallery-caption{font:300 2rem/3.1rem sans-serif}
-.row{margin:0}
 }@media only screen and (max-width:1200px){.hero-section .container .wrapper{margin-top:170px}
 }@media(max-width:1199.98px){.table-responsive-xl{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .table-responsive-xl>.table-bordered{border:0}

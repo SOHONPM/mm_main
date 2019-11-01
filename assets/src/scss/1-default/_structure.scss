@@ -345,11 +345,4 @@ a img.aligncenter {
   @include breakpoint(1280) {
     font: 300 2rem/3.1rem sans-serif;
   }
-
-}
-
-.row {
-  @include breakpoint(1280) {
-    margin: 0;
-  }
 }
