@@ -17,11 +17,11 @@
             background: rgba(242, 242, 242, .9);
             padding: 30px 30px;
             width: fit-content;
-            margin-top: 170px;
+            margin-top: 180px;
             bottom: 0;
 
             @include breakpoint(1200) {
-                margin-top: 182px;
+                margin-top: 195px;
             }
 
             @include breakpoint(991) {
