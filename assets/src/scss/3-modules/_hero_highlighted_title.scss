@@ -1,0 +1,164 @@
+.hero_highlighted_title-section {
+    .title {
+        background: #171717 0% 0% no-repeat padding-box;
+
+        .container {
+            padding: 15px 15px;
+
+            h1 {
+                font-weight: bold;
+                font-size: 42px;
+                letter-spacing: 0;
+                opacity: 1;
+                color: white;
+                margin-bottom: 0;
+
+                @include breakpoint(768) {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+
+                @include breakpoint(510) {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+
+                @include breakpoint(398) {
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+
+                span {
+                    color: #F05D34;
+                }
+            }
+
+        }
+    }
+
+    .container {
+        padding: 50px 15px;
+
+        .form-section {
+            .form__horizontal {
+                height: auto;
+                background: $w 0% 0% no-repeat padding-box;
+                box-shadow: 0px 20px 40px #0000000F;
+                opacity: 1;
+                padding: 24px 27px 24px 21px;
+                margin-bottom: 80px;
+                border-top: 17px solid black;
+                position: relative;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    top: -100px;
+                    right: -10px;
+                    background: url(../images/curved-down-arrow.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 105px;
+                    height: 90px;
+
+                    @include breakpoint(435) {
+                        top: -95px;
+                        width: 75px;
+                    }
+                }
+
+                .form-title span {
+                    color: $brand_color;
+                }
+
+                .form-title {
+                    text-align: left;
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 27px;
+                    letter-spacing: 0;
+                    opacity: 1;
+                    max-width: 183px;
+
+                    @include breakpoint(991) {
+                        font-size: 19px;
+                        max-width: unset;
+                    }
+
+                    @include breakpoint(768) {
+                        max-width: unset;
+                    }
+                }
+
+                .gform_wrapper {
+                    #gform_fields_7 {
+                        .gfield_error {
+                            max-width: 100% !important;
+                        }
+                    }
+
+                    .gform_footer {
+                        padding: 0;
+                    }
+
+                    .gfield_label {
+                        line-height: 0;
+                        display: none;
+                    }
+
+                    li {
+                        margin-top: 0;
+                        padding: 0;
+                    }
+
+                    .gform_title {
+                        display: none;
+                    }
+
+                    input::placeholder {
+                        text-align: left;
+                        font-size: 18px;
+                        font-weight: normal;
+                        line-height: 27px;
+                        letter-spacing: 0;
+                        color: #9A9A9A;
+                        opacity: 1;
+                    }
+
+                    input {
+                        background: $w 0% 0% no-repeat padding-box;
+                        border: 1px solid #C4C4C4;
+                        border-radius: 6px;
+                        opacity: 1;
+                        width: 100%;
+                        height: 43px;
+                        text-align: left;
+                        font-size: 18px;
+                        font-weight: normal;
+                        line-height: 27px;
+                        padding: 7px 10px;
+                        color: #9A9A9A;
+                        opacity: 1;
+                        margin: 0;
+                    }
+
+                    input[type="submit"] {
+                        width: 100%;
+                        height: 42px;
+                        background: #8BC34A 0% 0% no-repeat padding-box;
+                        border-radius: 6px;
+                        opacity: 1;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: bold;
+                        line-height: 27px;
+                        letter-spacing: 0;
+                        color: $w;
+                        opacity: 1;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}

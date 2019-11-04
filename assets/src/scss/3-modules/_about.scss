@@ -2,10 +2,6 @@
     .container {
         padding: 50px 15px;
 
-        @include min-breakpoint(1200) {
-            width: 971px;
-        }
-
         .title {
             text-align: center;
             font-size: 38px;
