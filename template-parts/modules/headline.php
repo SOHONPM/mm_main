@@ -4,7 +4,8 @@
             <?php if (get_sub_field('hero_form')) : ?>
                 <div class="col-md-9 col-lg-9">
                     <h1 class="title"><?php echo get_sub_field('title') ?></h1>
-                    <h2 class="subtitle"><?php echo get_sub_field('subtitle') ?></h2>
+                    <?php if (get_sub_field('subtitle')) : ?><h2 class="subtitle"><?php echo get_sub_field('subtitle'); ?></h2>
+                    <?php endif ?>
                 </div>
                 <div class="col-md-12 form-section col-lg-3">
                     <div class="form__horizontal">

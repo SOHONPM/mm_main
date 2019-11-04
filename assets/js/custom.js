@@ -132,13 +132,13 @@
           slidesToScroll: 3,
           appendArrows: $carousel_nav,
           responsive: [{
-            breakpoint: 767,
+            breakpoint: 992,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2
             }
           }, {
-            breakpoint: 539,
+            breakpoint: 768,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1

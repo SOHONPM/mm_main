@@ -2,6 +2,15 @@
     .container {
         padding: 50px 15px;
 
+        .slick-slide {
+            margin: 10px;
+
+            & img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
         .custom-carousel .r1 {
             display: flex;
             justify-content: space-between;

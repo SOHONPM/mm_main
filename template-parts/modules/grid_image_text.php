@@ -1,7 +1,7 @@
 <section class="grid_image_text-section">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-md-12">
                 <h1 class="title"><?php echo get_sub_field('title') ?></h1>
                 <hr>
                 <div class="row">

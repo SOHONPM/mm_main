@@ -1,7 +1,11 @@
 /* Bootstrap Grid */
 .row {
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row div {
+    padding: 0;
 }
 
 .row-no-gutters {

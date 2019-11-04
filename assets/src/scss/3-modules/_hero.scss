@@ -9,6 +9,10 @@
     .container {
         padding: 80px 15px 0;
 
+        @include breakpoint(768) {
+            padding: 50px 15px 0;
+        }
+
         .title span {
             color: $orange_color;
         }
