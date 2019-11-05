@@ -54,12 +54,16 @@ if (!defined('ABSPATH')) {
 										<div class="modal-dialog modal-dialog-centered" role="document">
 											<div class="modal-content">
 												<div class="modal-header">
+
 													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 														<span aria-hidden="true">&times;</span>
 													</button>
 												</div>
 												<div class="modal-body">
-													<?php echo do_shortcode('[gravityform id="1" title="true" description="true" ajax="true"]') ?>
+													<div class="form__horizontal">
+														<h1 class="form-title">Email Us</h1>
+														<?php echo do_shortcode('[gravityform id="1" title="true" description="true" ajax="true"]') ?>
+													</div>
 												</div>
 											</div>
 										</div>

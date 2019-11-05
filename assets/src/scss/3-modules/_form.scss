@@ -4,8 +4,7 @@
     background: $w 0% 0% no-repeat padding-box;
     box-shadow: 0px 20px 40px #0000000F;
     opacity: 1;
-    padding: 24px 27px 24px 21px;
-    margin-bottom: 80px;
+    padding: 24px 15px;
 
     .form-title span {
         color: $brand_color;
@@ -30,6 +29,10 @@
         }
     }
 
+    div.validation_error {
+        display: none;
+    }
+
     .gform_wrapper {
 
         &.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),
@@ -39,9 +42,6 @@
             max-width: 100% !important;
         }
 
-        .validation_error {
-            display: none;
-        }
 
         .gform_footer {
             padding: 0;
