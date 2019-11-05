@@ -2709,7 +2709,7 @@ a.text-dark:hover,a.text-dark:focus{color:#121416 !important}
 @font-face{font-family:"century gothic";font-style:normal;font-weight:normal;src:url("../../assets/fonts/century-gothic/CenturyGothic.eot");src:url("../../assets/fonts/century-gothic/CenturyGothic.eot#iefix") format("embedded-opentype"),url("../../assets/fonts/century-gothic/CenturyGothic.woff") format("woff"),url("../../assets/fonts/century-gothic/CenturyGothic.ttf") format("truetype"),url("../../assets/fonts/century-gothic/CenturyGothic.svg#CenturyGothic") format("svg")}
 *,*:before,*:after{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}
 html{font-size:62.5%;height:100%;min-height:100%}
-body{color:#424242;font-family:"Century Gothic","Helvetica Neue",helvetica,arial,sans-serif;font-size:17px;font-weight:400;line-height:1.7;letter-spacing:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow:hidden}
+body{color:#424242;font-family:"Century Gothic","Helvetica Neue",helvetica,arial,sans-serif;font-size:18px;font-weight:400;line-height:1.7;letter-spacing:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow:hidden}
 body.scroll-enable{overflow:inherit}
 p{margin:0 0 20px 0}
 h1,h2,h3,h4,h5,h6{clear:both;line-height:1.4;margin:0 0 .3em;padding:0;font-family:"Century Gothic","Helvetica Neue",helvetica,arial,sans-serif;color:#000}
@@ -3061,7 +3061,6 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .profile-section .container{padding:50px 15px}
 .profile-section .container .profile-pic img{height:200px;width:200px}
 .profile-section .container .social-link a i{font-size:40px;margin:10px;margin-left:0}
-.profile-section .container .content p{font-size:18px;line-height:29px;font-weight:normal;letter-spacing:0;color:#000}
 .profile-section .container .name-div .name{font-size:20px;line-height:53px;font-weight:bold;letter-spacing:0;color:#040404;opacity:1}
 .profile-section .container .learn-more-link .link{color:#bc0078}
 .text_video-section .container{padding:50px 15px}
@@ -3130,7 +3129,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input{background:#fff 0 0 no-repeat padding-box;border:1px solid #c4c4c4;border-radius:6px;opacity:1;width:100%;height:43px;text-align:left;font-size:18px;font-weight:normal;line-height:27px;padding:7px 10px;color:#9a9a9a;opacity:1;margin:0}
 .hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input[type="submit"]{width:100%;height:42px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:6px;opacity:1;text-align:center;font-size:18px;font-weight:bold;line-height:27px;letter-spacing:0;color:#fff;opacity:1;border:0}
 .blur-section .container{padding:50px 15px}
-.blur-section .container h3{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;margin-top:20px}
+.blur-section .container h3{text-align:left;font-size:40px;line-height:60px;letter-spacing:0;color:#fff;margin-top:20px}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}
 .fade{-webkit-transition:none;transition:none}
