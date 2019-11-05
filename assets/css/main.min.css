@@ -2910,8 +2910,8 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-footer .container{padding-top:50px}
 .site-footer .container .site-logo{width:unset}
 .site-footer .container .site-logo img{width:100px;height:91px;margin-bottom:30px}
-.site-footer .container .content p{text-align:left;font:normal 18px/31px Century Gothic;letter-spacing:0;color:#313131;opacity:1}
-.site-footer .container .copyright p{font:normal 18px/33px Century Gothic;letter-spacing:0;color:#807e7e;opacity:1}
+.site-footer .container .content p{text-align:left;letter-spacing:0;color:#313131;opacity:1}
+.site-footer .container .copyright p{letter-spacing:0;color:#807e7e;opacity:1}
 .site-footer .container .menu-title,.site-footer .container .contact-us{text-align:left;font:Bold 20px/25px Century Gothic;letter-spacing:0;color:#bc0078;opacity:1}
 .site-footer .container .footer-menu{margin-bottom:25px}
 .site-footer .container .footer-menu li{padding:0}
@@ -3006,7 +3006,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .headline-section .container .title span{color:#aa9766;display:inline-block;padding:10px;background:#fff}
 .headline-section .container .title{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px}
 .headline-section .container .subtitle{color:#aa9766;display:inline-block;padding:10px;background:#fff;text-align:left;font-size:30px;font-weight:bold;line-height:40px;letter-spacing:0;max-width:621px;margin-top:20px}
-.headline-section .container .form-section .form__horizontal{background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;opacity:1;padding:24px 27px 24px 21px}
+.headline-section .container .form-section .form__horizontal{background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;opacity:1;padding:24px 21}
 .headline-section .container .form-section .form__horizontal .form-title{text-align:left;font-size:22px;font-weight:bold;line-height:27px;letter-spacing:0;opacity:1;max-width:183px}
 .headline-section .container .form-section .form__horizontal .form-title span{color:#bc0078}
 .headline-section .container .form-section .form__horizontal .gform_wrapper #gform_fields_4 .gfield_error{max-width:100% !important}
