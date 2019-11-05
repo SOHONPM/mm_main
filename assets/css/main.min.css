@@ -2906,7 +2906,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .main-menu li{display:inline-block;margin-left:20px;padding:0}
 .main-menu li a{font-family:"Century Gothic","Helvetica Neue",helvetica,arial,sans-serif;font-size:19px;-webkit-transition:color .3s ease;transition:color .3s ease;padding-left:0 !important;padding-right:0 !important}
 .main-menu li.current-menu-item a{color:#bc0078}
-.site-footer{background:#f2f4f5 0 0 no-repeat padding-box;opacity:1}
+.site-footer{background:#e6e6e6;opacity:1}
 .site-footer .container{padding-top:50px}
 .site-footer .container .site-logo{width:unset}
 .site-footer .container .site-logo img{width:100px;height:91px;margin-bottom:30px}
@@ -2919,8 +2919,11 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-footer .container .footer-menu li a{text-align:left;font:normal 17px/33px Century Gothic;letter-spacing:0;color:#313131;opacity:1;padding:0}
 .site-footer .container .footer-menu li a:hover{color:#bc0078}
 .site-footer .container .contact-address,.site-footer .container .phone-number{text-align:left;font:normal 18px/29px Century Gothic;letter-spacing:0;color:#4a4a4a;opacity:1}
+.banner.banner__sub{background-size:cover;background-position:center top;background-repeat:no-repeat}
+.banner.banner__sub.banner__sub-alt{background-color:red}
 .banner.banner__sub .container{padding:50px}
 .banner.banner__sub .container .banner__title{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px}
+#content article img{height:auto}
 .hero-section{opacity:1;left:-237px;width:100%;height:auto;background-size:cover !important}
 .hero-section .container{padding:80px 15px 0}
 .hero-section .container .title span{color:#f05d34}
@@ -3006,7 +3009,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .headline-section .container .title span{color:#aa9766;display:inline-block;padding:10px;background:#fff}
 .headline-section .container .title{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px}
 .headline-section .container .subtitle{color:#aa9766;display:inline-block;padding:10px;background:#fff;text-align:left;font-size:30px;font-weight:bold;line-height:40px;letter-spacing:0;max-width:621px;margin-top:20px}
-.headline-section .container .form-section .form__horizontal{background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;opacity:1;padding:24px 21}
+.headline-section .container .form-section .form__horizontal{background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;opacity:1;padding:24px 21px}
 .headline-section .container .form-section .form__horizontal .form-title{text-align:left;font-size:22px;font-weight:bold;line-height:27px;letter-spacing:0;opacity:1;max-width:183px}
 .headline-section .container .form-section .form__horizontal .form-title span{color:#bc0078}
 .headline-section .container .form-section .form__horizontal .gform_wrapper #gform_fields_4 .gfield_error{max-width:100% !important}

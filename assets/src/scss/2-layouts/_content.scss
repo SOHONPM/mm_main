@@ -1,4 +1,12 @@
 .banner.banner__sub {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    &.banner__sub-alt {
+        background-color: red;
+    }
+
     .container {
         padding: 50px;
 
@@ -11,6 +19,14 @@
             color: #ffffff;
             max-width: 621px;
             margin-top: 20px;
+        }
+    }
+}
+
+#content {
+    article {
+        img {
+            height: auto;
         }
     }
 }
