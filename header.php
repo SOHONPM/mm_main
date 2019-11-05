@@ -59,7 +59,7 @@ if (!defined('ABSPATH')) {
 													</button>
 												</div>
 												<div class="modal-body">
-													<?php echo do_shortcode('[gravityform id="1" title="true" description="true"]') ?>
+													<?php echo do_shortcode('[gravityform id="1" title="true" description="true" ajax="true"]') ?>
 												</div>
 											</div>
 										</div>

@@ -21,7 +21,9 @@
     .gform_wrapper {
 
         #gform_1 {
-
+            .gfield_error {
+                max-width: 100% !important;
+            }
 
             .gfield_label {
                 display: none;

@@ -2861,6 +2861,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header .modal .close span{font-size:30px}
 .site-header .modal .close:hover{background:0}
 .site-header .modal .close:hover span{color:red}
+.site-header .gform_wrapper #gform_1 .gfield_error{max-width:100% !important}
 .site-header .gform_wrapper #gform_1 .gfield_label{display:none}
 .site-header .gform_wrapper #gform_1 ul{width:100%}
 .site-header .gform_wrapper #gform_1 li{margin-top:0;padding-right:0}
@@ -2997,6 +2998,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .testimonials-section .container .carousel .prev{-webkit-transform:rotate(225deg);transform:rotate(225deg);border-top:2px solid #707070;border-right:2px solid #707070;width:21px;height:21px}
 .testimonials-section .container .carousel .next{-webkit-transform:rotate(45deg);transform:rotate(45deg);border-top:2px solid #707070;border-right:2px solid #707070;width:21px;height:21px}
 .blog-section .container{padding:50px 15px}
+.blog-section .container .media-box-container .more-link{font-size:16px}
 .blog-section .container .slick-slider{margin-left:-15px;margin-right:-15px}
 .blog-section .container .slick-slide img{width:100%;height:auto}
 .blog-section .container .custom-carousel .r1{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:20px}
