@@ -14,20 +14,19 @@
     .container {
         padding: 50px 15px;
 
+        h2,
+        h1 {
+            text-align: left;
+            font-size: 25px;
+            line-height: 30px;
+            font-weight: bold;
+            letter-spacing: 0;
+            color: #000000;
+            opacity: 1;
+        }
+
         .form-section {
             .form__horizontal {
-
-                h2,
-                h1 {
-                    text-align: left;
-                    font-size: 25px;
-                    line-height: 30px;
-                    font-weight: bold;
-                    letter-spacing: 0;
-                    color: #000000;
-                    opacity: 1;
-                }
-
                 .sign-up-text {
                     p {
                         text-align: left;
