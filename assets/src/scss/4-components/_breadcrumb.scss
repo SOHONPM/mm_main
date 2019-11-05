@@ -1,15 +1,18 @@
 .breadcrumbs {
-	margin-bottom: 30px;
-	li {
-		display: inline-block;
+    margin-bottom: 30px;
+    font-size: 16px;
 
-		&.separator, {
-			padding: 5px;
-			color: #c5c5c5;
-		}
-	}
-	span {
-		padding: 5px;
-		color: #c5c5c5;
-	}
+    li {
+        display: inline-block;
+
+        &.separator {
+            padding: 5px;
+            color: #c5c5c5;
+        }
+    }
+
+    span {
+        padding: 5px;
+        color: #c5c5c5;
+    }
 }

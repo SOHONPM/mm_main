@@ -1,0 +1,103 @@
+.form__horizontal,
+#sidebar .gform_widget {
+    height: auto;
+    background: $w 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 40px #0000000F;
+    opacity: 1;
+    padding: 24px 27px 24px 21px;
+    margin-bottom: 80px;
+
+    .form-title span {
+        color: $brand_color;
+    }
+
+    .form-title {
+        text-align: left;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 27px;
+        letter-spacing: 0;
+        opacity: 1;
+        max-width: 183px;
+
+        @include breakpoint(991) {
+            font-size: 19px;
+            max-width: unset;
+        }
+
+        @include breakpoint(768) {
+            max-width: unset;
+        }
+    }
+
+    .gform_wrapper {
+        .gform_wrapper {
+            .gfield_error {
+                max-width: 100% !important;
+            }
+        }
+
+        .gform_footer {
+            padding: 0;
+        }
+
+        .gfield_label {
+            line-height: 0 !important;
+            display: none !important;
+        }
+
+        li {
+            margin-top: 0 !important;
+            padding: 0 !important;
+            max-width: 100%;
+        }
+
+        .gform_title {
+            display: none;
+        }
+
+        input::placeholder {
+            text-align: left;
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 27px;
+            letter-spacing: 0;
+            color: #9A9A9A;
+            opacity: 1;
+        }
+
+        input {
+            background: $w 0% 0% no-repeat padding-box;
+            border: 1px solid #C4C4C4;
+            border-radius: 6px;
+            opacity: 1;
+            width: 100% !important;
+            max-width: 100% !important;
+            height: 43px;
+            text-align: left;
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 27px;
+            padding: 7px 10px;
+            color: #9A9A9A;
+            opacity: 1;
+            margin: 0;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            height: 42px;
+            background: #8BC34A 0% 0% no-repeat padding-box;
+            border-radius: 6px;
+            opacity: 1;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 27px;
+            letter-spacing: 0;
+            color: $w;
+            opacity: 1;
+            border: none;
+        }
+    }
+}

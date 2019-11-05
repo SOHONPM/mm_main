@@ -1,24 +1,27 @@
-.banner.banner__sub {
+.banner__sub {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
 
-    &.banner__sub-alt {
-        background-color: red;
+    .banner__header {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
-    .container {
-        padding: 50px;
+    h1 {
+        text-align: left;
+        font-size: 53px;
+        font-weight: bold;
+        letter-spacing: 0;
+        color: #ffffff;
+        max-width: 621px;
+        margin-top: 20px;
+    }
 
-        .banner__title {
-            text-align: left;
-            font-size: 53px;
-            font-weight: bold;
-            line-height: 66px;
-            letter-spacing: 0;
-            color: #ffffff;
-            max-width: 621px;
-            margin-top: 20px;
+    &-alt {
+
+        h1 {
+            max-width: 100%;
         }
     }
 }
