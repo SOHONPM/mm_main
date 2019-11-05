@@ -31,10 +31,12 @@
     }
 
     .gform_wrapper {
-        .gform_wrapper {
-            .gfield_error {
-                max-width: 100% !important;
-            }
+
+        &.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),
+        li {
+            margin-top: 0 !important;
+            padding: 0 !important;
+            max-width: 100% !important;
         }
 
         .gform_footer {
@@ -44,12 +46,6 @@
         .gfield_label {
             line-height: 0 !important;
             display: none !important;
-        }
-
-        li {
-            margin-top: 0 !important;
-            padding: 0 !important;
-            max-width: 100%;
         }
 
         .gform_title {
