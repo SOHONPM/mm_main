@@ -21,6 +21,9 @@
                         ?>
                         <div class="carousel-item <?php echo $key == 0 ? 'active' : '' ?>">
                             <div class="carousel-caption">
+                                <div class="image-cropper">
+                                    <img class='profile' src="<?php echo $value['profile'] ?>">
+                                </div>
                                 <p class="name"><?php echo $value['name'] ?></p>
                                 <p class="position"><?php echo $value['position'] ?></p>
                                 <p class="content"><?php echo $value['content'] ?></p>

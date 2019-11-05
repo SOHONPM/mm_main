@@ -47,7 +47,24 @@ if (!defined('ABSPATH')) {
 
 							<div class="col-md-12">
 								<div class="wrapper">
-									<p class="info"><?php echo "<span class='email'><i class='fas fa-envelope'></i> " . get_theme_mod('header_info') . "</span>" ?></p>
+									<p class="info button-dropdown " data-toggle="modal" data-target="#email"><?php echo "<span class='email'><i class='fas fa-envelope'></i> " . get_theme_mod('header_info') . "</span>" ?></p>
+
+									<!-- Modal -->
+									<div class="modal fade bd-example-modal-lg" id="email" tabindex="-1" role="dialog" aria-labelledby="emailLabel" aria-hidden="true">
+										<div class="modal-dialog modal-dialog-centered" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<?php echo do_shortcode('[gravityform id="1" title="true" description="true"]') ?>
+												</div>
+											</div>
+										</div>
+									</div>
+
 									<div class="call">
 										<p class="info"><?php echo "<span class='call-us'><i class='fas fa-phone-alt'></i> " . get_theme_mod('header_info_2') . "</span>" ?></p>
 

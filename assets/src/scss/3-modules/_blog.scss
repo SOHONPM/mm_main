@@ -2,6 +2,11 @@
     .container {
         padding: 50px 15px;
 
+        .slick-slider {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
         .slick-slide {
             & img {
                 width: 100%;
