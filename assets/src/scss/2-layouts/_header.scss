@@ -247,6 +247,10 @@
             width: max-content;
             margin-top: -5px;
 
+            @include breakpoint(767) {
+                width: unset;
+            }
+
             li {
                 display: block;
                 margin: 0 15px;
@@ -411,6 +415,10 @@
         display: inline-block;
         margin-left: 20px;
         padding: 0;
+
+        @include breakpoint(767) {
+            margin-left: 0;
+        }
 
         a {
             font-family: $brand_fontbold;
