@@ -24,13 +24,13 @@
 					<h1 class="banner__title">
 						<?php
 							the_archive_title('<h1 class="page-title">', '</h1>');
-							the_archive_description('<div class="taxonomy-description">fsddsf', '</div>');
+							the_archive_description('<div class="taxonomy-description">', '</div>');
 							?>
 					</h1>
 				<?php elseif (is_404()) : ?>
 					<h1 class="banner__title">404</h1>
 				<?php else : ?>
-					<h1 class="banner__title"><?php echo get_the_title() . 'test' ?></h1>
+					<h1 class="banner__title"><?php echo get_the_title() ?></h1>
 				<?php endif; ?>
 
 

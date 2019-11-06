@@ -34,6 +34,9 @@
     }
 
     .gform_wrapper {
+        ul {
+            width: 100%;
+        }
 
         &.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),
         li {
