@@ -8,7 +8,7 @@
                     while (have_rows('list')) : the_row();
                         $count++;
                         ?>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 button-dropdown" data-toggle="modal" data-target="#<?php echo $count ?>">
                         <div class="item" style="background:<?php echo get_sub_field('colors') ?>">
                             <h2>
                                 <?php echo get_sub_field('title'); ?>
