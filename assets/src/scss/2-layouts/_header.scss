@@ -241,6 +241,7 @@
 
 .site-logo {
     width: 130px;
+    position: relative;
 
     img.attachment-thumbnail.size-thumbnail {
         @include breakpoint(768) {

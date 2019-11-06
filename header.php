@@ -51,7 +51,19 @@ if (!defined('ABSPATH')) {
 	<!-- Preloader -->
 	<div class="preloader">
 		<div class="preloader-inner">
-			<span class="fa fa-spinner fa-spin" aria-hidden="true"></span>
+			<!-- <span class="fa fa-spinner fa-spin" aria-hidden="true"></span> -->
+			<div class="vertical-centered-box">
+				<div class="preloader-content">
+					<div class="loader-circle"></div>
+					<div class="loader-line-mask">
+						<div class="loader-line"></div>
+					</div>
+					<div class="preloader-img">
+						<?php themezero_get_logo() ?>
+					</div>
+
+				</div>
+			</div>
 		</div>
 	</div>
 	<!-- ./Preloader -->
