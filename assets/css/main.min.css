@@ -3030,16 +3030,16 @@ lesshat-selector{-lh-property:0}
 .grid-section .container .grid .wrapper::before{content:'';position:absolute;height:100%;width:100%;background:#000;opacity:.54}
 .grid-section .container .grid .wrapper .number_count p{text-align:center;font-size:38px;line-height:49px;font-weight:normal;letter-spacing:0;color:#878787;opacity:1;margin-bottom:0;margin-top:66px}
 .grid-section .container .grid .wrapper .title p{text-align:center;font-size:23px;line-height:30px;font-weight:bold;letter-spacing:0;color:#fff;opacity:1;margin-bottom:0}
-.formula-section .container{max-width:850px;padding:50px 15px}
+.formula-section .container{padding:50px 15px}
 .formula-section .container .formula{padding:50px 0;border-top:1px solid #fff;border-bottom:1px solid #fff;opacity:1}
 .formula-section .container .formula .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
 .formula-section .container .formula .content{text-align:center;font-size:18px;line-height:34px;font-weight:normal;letter-spacing:0;color:#000;opacity:1}
 .formula-section .container .formula .formula_img{text-align:center}
 .formula-section .container .formula .formula_img img{width:392px;height:63px;margin-top:33px}
-.formula-section .container .form{padding:50px 0}
+.formula-section .container .form{padding-top:50px;padding-bottom:50px}
 .formula-section .container .form .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000}
 .formula-section .container .form .title span{color:#bc0078}
-.formula-section .container .form .subtitle{text-align:center;font-size:18px;line-height:29px;font-weight:normal;letter-spacing:0;color:#010101;opacity:1;max-width:450px;margin:0 auto 20px}
+.formula-section .container .form .subtitle{text-align:center;font-size:18px;line-height:29px;font-weight:normal;letter-spacing:0;color:#010101;opacity:1;margin:0 auto 20px}
 .formula-section .container .form .gform_wrapper input[type="submit"]{width:277px;height:48px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:6px;opacity:1;font-size:18px;line-height:49px;font-weight:bold;letter-spacing:0;color:#fff;opacity:1;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;padding:0}
 .formula-section .container .form .gform_wrapper .gform_title{display:none}
 .formula-section .container .form .gform_wrapper .gform_footer{margin:0}
@@ -4156,6 +4156,8 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .hidden-lg{display:none !important}
 .col-lg-5ths{width:20%;float:left}
 }@media only screen and (min-width:1200px){.grid_image_text-section .container .title{width:507px}
+.formula-section .container{max-width:850px}
+.formula-section .container .form .subtitle{max-width:450px}
 }@media only screen and (max-width:1280px){.wp-caption .wp-caption-text,.gallery-caption{font:300 2rem/3.1rem sans-serif}
 }@media only screen and (max-width:1200px){.hero-section .container .wrapper{margin-top:195px}
 }@media(max-width:1199.98px){.table-responsive-xl{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
