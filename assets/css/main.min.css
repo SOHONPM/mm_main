@@ -2879,6 +2879,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header__top .col--right ul li{padding:0}
 .site-header__top .col--right ul li a{padding:0;border-radius:38px;background:#bc0078;width:24px;height:24px;margin:0 0 0 6px;text-align:center;position:relative}
 .site-header__top .col--right ul li a i{color:white}
+.site-header__top .col--right ul li a i.fa-facebook-f:before{left:8px}
 .site-header__top .col--right ul li a i:before{font-size:12px;top:6px;position:absolute;left:7px}
 .site-header__top span{font-size:18px;line-height:1.2}
 .site-header__top .btn{padding:6px 15px;font-size:15px;text-transform:uppercase;color:#0e2357}
