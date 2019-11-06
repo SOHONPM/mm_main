@@ -24,8 +24,8 @@
                                 <div class="image-cropper">
                                     <img class='profile' src="<?php echo $value['profile'] ?>">
                                 </div>
-                                <p class="name"><?php echo ucwords(strval($value['name'])) ?></p>
-                                <p class="position"><?php echo ucwords($value['position']) ?></p>
+                                <p class="name"><?php echo ucwords(strtolower($value['name'])) ?></p>
+                                <p class="position"><?php echo ucwords(strtolower($value['position'])) ?></p>
                                 <p class="content"><?php echo $value['content'] ?></p>
                             </div>
                         </div>
