@@ -3045,8 +3045,6 @@ lesshat-selector{-lh-property:0}
 .formula-section .container .form .gform_wrapper .gform_footer{margin:0}
 .formula-section .container .form .gform_wrapper #gform_fields_5 .gfield_label{display:none}
 .formula-section .container .form .gform_wrapper #gform_fields_5 .gfield{margin:0}
-.formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_left_half{padding-right:8px !important;margin-bottom:12px}
-.formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_right_half{padding-left:8px !important;margin-bottom:12px}
 .formula-section .container .form .gform_wrapper #gform_fields_5 input{background:#fff 0 0 no-repeat padding-box;border:1px solid #000;height:48px;opacity:1;font-size:18px;line-height:49px;font-weight:normal;letter-spacing:0;color:#000;opacity:1}
 .formula-section .container .form .gform_wrapper #gform_fields_5 input::-webkit-input-placeholder{color:#000}
 .formula-section .container .form .gform_wrapper #gform_fields_5 input:-ms-input-placeholder{color:#000}
@@ -3641,6 +3639,8 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .site-footer .container .copyright p{margin-top:80px}
 .feature-section .row{display:-webkit-box;display:-ms-flexbox;display:flex}
 .feature-section .row>div{display:-webkit-box;display:-ms-flexbox;display:flex}
+.formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_left_half{padding-right:8px !important;margin-bottom:12px}
+.formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_right_half{padding-left:8px !important;margin-bottom:12px}
 }@media(min-width:992px){.container{max-width:960px}
 .col-lg{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
 .col-lg-auto{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:100%}
@@ -4195,6 +4195,9 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .site-nav .navbar-collapse{margin-top:20px;position:absolute;z-index:5;width:100%;background:#f4f4f7;left:0;padding:10px 15px}
 .main-menu li{margin-left:0}
 .solutions-section .container .grid{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.formula-section .container .form .gform_wrapper .gf_name_has_2 span{width:100% !important}
+.formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_left_half{width:100% !important;margin-bottom:12px}
+.formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_right_half{width:100% !important;margin-bottom:12px}
 }@media(max-width:767px){.visible-xs{display:block !important}
 table.visible-xs{display:table !important}
 tr.visible-xs{display:table-row !important}
