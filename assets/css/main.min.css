@@ -2941,7 +2941,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .hero-section .container{padding:80px 15px 0}
 .hero-section .container .title span{color:#f05d34}
 .hero-section .container .wrapper{background:rgba(242,242,242,0.9);padding:20px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-top:180px;bottom:0}
-.hero-section .container .wrapper .title{text-align:left;font-size:40px;line-height:1.5em;font-family:Century Gothic;font-weight:bold;letter-spacing:0;color:#000;max-width:621px}
+.hero-section .container .wrapper h1{text-align:left;font-size:40px;line-height:1.5em;font-family:Century Gothic;font-weight:bold;letter-spacing:0;color:#000;max-width:621px}
 .feature-section .container{padding:50px 15px 0}
 .feature-section .container .single-feature{-webkit-box-shadow:0 10px 40px 0 rgba(75,25,141,0.15);box-shadow:0 10px 40px 0 rgba(75,25,141,0.15)}
 .feature-section .container .single-feature .wrapper{padding:30px 30px}
@@ -4152,7 +4152,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .table-responsive-xl>.table-bordered{border:0}
 .navbar-expand-xl>.container,.navbar-expand-xl>.container-fluid{padding-right:0;padding-left:0}
 }@media only screen and (max-width:1024px){.wp-caption .wp-caption-text,.gallery-caption{font:300 2rem/3.1rem sans-serif}
-}@media only screen and (max-width:992px){.hero-section .container .wrapper .title{max-width:unset}
+}@media only screen and (max-width:992px){.hero-section .container .wrapper h1{max-width:unset}
 .feature-section .container .text-center{width:100%;-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;display:block}
 .feature-section .container .single-feature{margin-bottom:25px}
 .solutions-section .container .grid{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
@@ -4171,8 +4171,9 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .site-header__top .col--right ul li a i{font-size:12px;position:relative;top:-3px}
 .site-header__middle .container{padding:15px 15px}
 .site-logo img.attachment-thumbnail.size-thumbnail{width:75px}
+.banner__sub h1{font-size:40px;line-height:50px}
 .hero-section .container{padding:50px 15px 0}
-.hero-section .container .wrapper .title{font-size:40px;line-height:50px}
+.hero-section .container .wrapper h1{font-size:40px;line-height:50px}
 .feature-section .container .single-feature .wrapper{padding-bottom:50px}
 .client-section .container .col-md-2{width:50%;text-align:center}
 .hero_highlighted_title-section .title .container h1{font-size:40px;line-height:50px}
@@ -4198,7 +4199,8 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 }@media(max-width:575.98px){.table-responsive-sm{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .table-responsive-sm>.table-bordered{border:0}
 .navbar-expand-sm>.container,.navbar-expand-sm>.container-fluid{padding-right:0;padding-left:0}
-}@media only screen and (max-width:510px){.hero-section .container .wrapper .title{font-size:30px;line-height:40px}
+}@media only screen and (max-width:510px){.banner__sub h1{font-size:30px;line-height:40px}
+.hero-section .container .wrapper h1{font-size:30px;line-height:40px}
 .hero_highlighted_title-section .title .container h1{font-size:30px;line-height:40px}
 }@media only screen and (max-width:505px){.blog-section .container .custom-carousel .r1{display:block}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}
@@ -4206,7 +4208,8 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 }@media only screen and (max-width:468px){.headline-section .container .title{font-size:1.9em}
 .headline-section .container .subtitle{font-size:40px}
 }@media only screen and (max-width:435px){.hero_highlighted_title-section .container .form-section .form__horizontal:before{top:-95px;width:75px}
-}@media only screen and (max-width:398px){.hero-section .container .wrapper .title{font-size:25px;line-height:30px}
+}@media only screen and (max-width:398px){.banner__sub h1{font-size:25px;line-height:30px}
+.hero-section .container .wrapper h1{font-size:25px;line-height:30px}
 .hero_highlighted_title-section .title .container h1{font-size:25px;line-height:30px}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}
