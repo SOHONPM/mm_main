@@ -3127,7 +3127,8 @@ lesshat-selector{-lh-property:0}
 .form__horizontal .form-title,#sidebar .gform_widget .form-title{text-align:left;font-size:22px;font-weight:bold;line-height:27px;letter-spacing:0;opacity:1;max-width:183px}
 .form__horizontal div.validation_error,#sidebar .gform_widget div.validation_error{display:none}
 .form__horizontal .gform_wrapper ul,#sidebar .gform_widget .gform_wrapper ul{width:100%}
-.form__horizontal .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),.form__horizontal .gform_wrapper li,#sidebar .gform_widget .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),#sidebar .gform_widget .gform_wrapper li{margin-top:0 !important;padding:0 !important;max-width:100% !important}
+.form__horizontal .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),.form__horizontal .gform_wrapper .gform_validation_error .gform_body ul li.gfield.gfield_error,.form__horizontal .gform_wrapper li,#sidebar .gform_widget .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),#sidebar .gform_widget .gform_wrapper .gform_validation_error .gform_body ul li.gfield.gfield_error,#sidebar .gform_widget .gform_wrapper li{margin-top:0 !important;padding:0 !important;max-width:100% !important;border:0}
+.form__horizontal .gform_wrapper .validation_message,#sidebar .gform_widget .gform_wrapper .validation_message{display:none}
 .form__horizontal .gform_wrapper .gform_footer,#sidebar .gform_widget .gform_wrapper .gform_footer{padding:0}
 .form__horizontal .gform_wrapper .gfield_label,#sidebar .gform_widget .gform_wrapper .gfield_label{line-height:0 !important;display:none !important}
 .form__horizontal .gform_wrapper .gform_title,#sidebar .gform_widget .gform_wrapper .gform_title{display:none}
