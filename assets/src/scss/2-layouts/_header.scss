@@ -195,6 +195,7 @@
         .dropdown-menu {
             width: max-content;
             margin-top: -5px;
+            min-width: 165px;
 
             @include breakpoint(767) {
                 width: unset;

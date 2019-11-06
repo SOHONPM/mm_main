@@ -2886,7 +2886,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header__top .btn{padding:6px 15px;font-size:15px;text-transform:uppercase;color:#0e2357}
 .site-header__top .btn:hover{color:#fff}
 .site-header__middle{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
-.site-header__middle .dropdown-menu{width:-webkit-max-content;width:-moz-max-content;width:max-content;margin-top:-5px}
+.site-header__middle .dropdown-menu{width:-webkit-max-content;width:-moz-max-content;width:max-content;margin-top:-5px;min-width:165px}
 .site-header__middle .dropdown-menu li{display:block;margin:0 15px}
 .site-header__middle .container{padding:0 15px 15px 15px}
 .site-header__middle>div{display:-webkit-box;display:-ms-flexbox;display:flex}
