@@ -11,7 +11,6 @@
                     <h1 class="form-title"><?php echo get_sub_field('form_title') ?></h1>
                     <?php
                     if ($headline_form = get_sub_field('hero_form')) {
-
                         echo $headline_form;
                     }
                     ?>
