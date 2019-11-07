@@ -18,16 +18,18 @@
             <div class="col-md-12">
                 <p class="subtitle"><?php echo get_sub_field('form_subtitle') ?></p>
             </div>
-            <div class="col-md-12">
-                <div class="form__horizontal">
-                    <?php
-                    if ($form = get_sub_field('form')) {
+            <?php if (get_sub_field('form')) : ?>
+                <div class="col-md-12">
+                    <div class="form__horizontal">
+                        <?php
+                            if ($form = get_sub_field('form')) {
 
-                        echo $form;
-                    }
-                    ?>
+                                echo $form;
+                            }
+                            ?>
+                    </div>
                 </div>
-            </div>
+            <?php endif ?>
         </div>
     </div>
 </section>
