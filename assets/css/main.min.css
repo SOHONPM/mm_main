@@ -3135,6 +3135,7 @@ lesshat-selector{-lh-property:0}
 .form__horizontal .gform_wrapper .gform_footer,#sidebar .gform_widget .gform_wrapper .gform_footer{padding:0}
 .form__horizontal .gform_wrapper .gfield_label,#sidebar .gform_widget .gform_wrapper .gfield_label{line-height:0 !important;display:none !important}
 .form__horizontal .gform_wrapper .gfield,#sidebar .gform_widget .gform_wrapper .gfield{margin:0 !important;border:0 !important;background:none !important}
+.form__horizontal .gform_wrapper .gfield span,#sidebar .gform_widget .gform_wrapper .gfield span{margin-right:-4px}
 .form__horizontal .gform_wrapper .gform_title,#sidebar .gform_widget .gform_wrapper .gform_title{display:none}
 .form__horizontal .gform_wrapper input::-webkit-input-placeholder,.form__horizontal .gform_wrapper textarea::-webkit-input-placeholder,#sidebar .gform_widget .gform_wrapper input::-webkit-input-placeholder,#sidebar .gform_widget .gform_wrapper textarea::-webkit-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
 .form__horizontal .gform_wrapper input:-ms-input-placeholder,.form__horizontal .gform_wrapper textarea:-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper input:-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper textarea:-ms-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
@@ -3205,7 +3206,6 @@ lesshat-selector{-lh-property:0}
 #_form_34_._inline-style p{margin:0}
 #_form_34_._inline-style ._button-wrapper{position:relative;margin:27px 12.5px 0 20px}
 #_form_34_ ._form-thank-you{position:relative;left:0;right:0;text-align:center;font-size:18px}
-.site-header__top .col--right span{margin-right:-4px !important}
 .form_image-section .container{padding:50px 15px}
 .form_image-section .container .form__horizontal{-webkit-box-shadow:none;box-shadow:none}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}

@@ -73,6 +73,10 @@
             border: 0 !important;
             background: none !important;
 
+            span {
+                margin-right: -4px;
+            }
+
             &.gf_left_half {
                 @include min-breakpoint(768) {
                     padding-right: 8px !important;
@@ -639,8 +643,4 @@
     }
 
 
-}
-
-.site-header__top .col--right span {
-    margin-right: -4px !important;
 }
