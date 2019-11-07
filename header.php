@@ -92,7 +92,7 @@ if (!defined('ABSPATH')) {
 												<div class="modal-body">
 													<div class="form__horizontal">
 														<h1 class="form-title">Email Us</h1>
-														<?php echo do_shortcode('[gravityform id="7" title="true" description="true" ajax="true"]') ?>
+														<?php echo do_shortcode('[gravityform id="5" title="true" description="true" ajax="true"]') ?>
 													</div>
 												</div>
 											</div>

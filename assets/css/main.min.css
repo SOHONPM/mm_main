@@ -3205,6 +3205,7 @@ lesshat-selector{-lh-property:0}
 #_form_34_._inline-style p{margin:0}
 #_form_34_._inline-style ._button-wrapper{position:relative;margin:27px 12.5px 0 20px}
 #_form_34_ ._form-thank-you{position:relative;left:0;right:0;text-align:center;font-size:18px}
+.site-header__top .col--right span{margin-right:-4px !important}
 .form_image-section .container{padding:50px 15px}
 .form_image-section .container .form__horizontal{-webkit-box-shadow:none;box-shadow:none}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
