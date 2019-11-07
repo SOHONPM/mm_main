@@ -2,12 +2,12 @@
     <div class="container">
         <div class="row">
             <?php if (get_sub_field('hero_form')) : ?>
-                <div class="col-md-9 col-lg-9">
+                <div class="col-md-9 col-lg-8">
                     <h1 class="title"><?php echo get_sub_field('title') ?></h1>
                     <?php if (get_sub_field('subtitle')) : ?><h2 class="subtitle"><?php echo get_sub_field('subtitle'); ?></h2>
                     <?php endif ?>
                 </div>
-                <div class="col-md-12 form-section col-lg-3">
+                <div class="col-md-12 form-section col-lg-4">
                     <div class="form__horizontal">
                         <h1 class="form-title"><?php echo get_sub_field('form_title') ?></h1>
                         <?php

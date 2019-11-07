@@ -6,6 +6,17 @@
     height: auto;
     background-size: cover !important;
 
+    .form__horizontal {
+        max-width: 300px;
+        float: right;
+
+        @include breakpoint(991) {
+            float: left;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
     .container {
         padding: 80px 15px 0;
 

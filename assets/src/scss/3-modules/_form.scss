@@ -18,7 +18,7 @@
         line-height: 27px;
         letter-spacing: 0;
         opacity: 1;
-        max-width: 183px;
+        text-align: center;
 
         @include breakpoint(991) {
             font-size: 19px;

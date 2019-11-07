@@ -2945,6 +2945,7 @@ lesshat-selector{-lh-property:0}
 lesshat-selector{-lh-property:0}
 [not-existing]{zoom:1}
 .hero-section{opacity:1;left:-237px;width:100%;height:auto;background-size:cover !important}
+.hero-section .form__horizontal{max-width:300px;float:right}
 .hero-section .container{padding:80px 15px 0}
 .hero-section .container .title span{color:#f05d34}
 .hero-section .container .wrapper{background:rgba(242,242,242,0.9);padding:20px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-top:180px;bottom:0}
@@ -3016,6 +3017,7 @@ lesshat-selector{-lh-property:0}
 .blog-section .container .post-item .s2 .title{text-align:left;font:Bold 21px/27px Century Gothic;letter-spacing:0;color:#000;opacity:1}
 .blog-section .container .post-item .s2 .content{text-align:left;font:normal 18px/27px Century Gothic;letter-spacing:0;color:#000;opacity:1}
 .headline-section{opacity:1;width:100%;height:auto;background-size:cover !important;position:relative}
+.headline-section .form__horizontal{max-width:300px;float:right}
 .headline-section .container{padding:50px 15px 50px}
 .headline-section .container .title span{color:#aa9766;display:inline-block;padding:10px;background:#fff}
 .headline-section .container .title{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px;text-shadow:0 1px 0 black}
@@ -3127,7 +3129,7 @@ lesshat-selector{-lh-property:0}
 .blur-section .container h3{text-align:left;font-size:40px;line-height:60px;letter-spacing:0;color:#fff;margin-top:20px}
 .form__horizontal,#sidebar .gform_widget{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;opacity:1;padding:24px 15px;margin-bottom:50px}
 .form__horizontal .form-title span,#sidebar .gform_widget .form-title span{color:#bc0078}
-.form__horizontal .form-title,#sidebar .gform_widget .form-title{text-align:left;font-size:22px;font-weight:bold;line-height:27px;letter-spacing:0;opacity:1;max-width:183px}
+.form__horizontal .form-title,#sidebar .gform_widget .form-title{text-align:left;font-size:22px;font-weight:bold;line-height:27px;letter-spacing:0;opacity:1;text-align:center}
 .form__horizontal div.validation_error,#sidebar .gform_widget div.validation_error{display:none}
 .form__horizontal .gform_wrapper ul,#sidebar .gform_widget .gform_wrapper ul{width:100%}
 .form__horizontal .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),.form__horizontal .gform_wrapper .gform_validation_error .gform_body ul li.gfield.gfield_error,.form__horizontal .gform_wrapper li,#sidebar .gform_widget .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),#sidebar .gform_widget .gform_wrapper .gform_validation_error .gform_body ul li.gfield.gfield_error,#sidebar .gform_widget .gform_wrapper li{margin-top:0 !important;padding:0 !important;max-width:100% !important;border:0;background:0}
@@ -4267,7 +4269,9 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 }@media(max-width:991.98px){.table-responsive-lg{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .table-responsive-lg>.table-bordered{border:0}
 .navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid{padding-right:0;padding-left:0}
-}@media only screen and (max-width:991px){.hero-section .container .wrapper{margin-top:0;background:0;padding:20px 0}
+}@media only screen and (max-width:991px){.hero-section .form__horizontal{float:left;max-width:100%;width:100%}
+.hero-section .container .wrapper{margin-top:0;background:0;padding:20px 0}
+.headline-section .form__horizontal{float:left;max-width:100%;width:100%}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{font-size:19px;max-width:unset}
 .form__horizontal .form-title,#sidebar .gform_widget .form-title{font-size:19px;max-width:unset}
 }@media only screen and (max-width:768px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.9rem/1.7 sans-serif}
