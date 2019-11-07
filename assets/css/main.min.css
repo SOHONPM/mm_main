@@ -3018,7 +3018,7 @@ lesshat-selector{-lh-property:0}
 .headline-section{opacity:1;width:100%;height:auto;background-size:cover !important;position:relative}
 .headline-section .container{padding:50px 15px 50px}
 .headline-section .container .title span{color:#aa9766;display:inline-block;padding:10px;background:#fff}
-.headline-section .container .title{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px}
+.headline-section .container .title{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px;text-shadow:0 1px 0 black}
 .headline-section .container .title-full{max-width:unset}
 .headline-section .container .subtitle{color:#aa9766;display:inline-block;padding:10px;background:#fff;text-align:left;font-size:30px;font-weight:bold;line-height:40px;letter-spacing:0;max-width:621px;margin-top:20px}
 .headline-section .container .subtitle-full{max-width:unset}
@@ -3102,6 +3102,7 @@ lesshat-selector{-lh-property:0}
 .subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}
 .subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6 .gform_title,.subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6 .gfield_label{display:none}
 .subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6 li{margin-top:0;padding-bottom:0}
+.hero_highlighted_title-section video{width:100% !important}
 .hero_highlighted_title-section .title{background:#171717 0 0 no-repeat padding-box}
 .hero_highlighted_title-section .title .container{padding:15px 15px}
 .hero_highlighted_title-section .title .container h1{font-weight:bold;font-size:42px;letter-spacing:0;opacity:1;color:white;margin-bottom:0}
@@ -4178,6 +4179,8 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .feature-section .container .text-center{width:100%;-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;display:block}
 .feature-section .container .single-feature{margin-bottom:25px}
 .solutions-section .container .grid{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+.headline-section .container .title{max-width:unset}
+.headline-section .container .subtitle{max-width:unset}
 }@media(max-width:991.98px){.table-responsive-lg{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .table-responsive-lg>.table-bordered{border:0}
 .navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid{padding-right:0;padding-left:0}
@@ -4198,6 +4201,8 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .hero-section .container .wrapper h1{font-size:40px;line-height:50px}
 .feature-section .container .single-feature .wrapper{padding-bottom:50px}
 .client-section .container .col-md-2{width:50%;text-align:center}
+.headline-section .container .title{font-size:40px;line-height:50px}
+.headline-section .container .subtitle{font-size:25px;line-height:35px}
 .hero_highlighted_title-section .title .container h1{font-size:40px;line-height:50px}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{max-width:unset}
 .form__horizontal .form-title,#sidebar .gform_widget .form-title{max-width:unset}
@@ -4212,6 +4217,9 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_right_half{width:100% !important}
 .form__horizontal .gform_wrapper .gfield.gf_left_half,#sidebar .gform_widget .gform_wrapper .gfield.gf_left_half{width:100% !important}
 .form__horizontal .gform_wrapper .gfield.gf_right_half,#sidebar .gform_widget .gform_wrapper .gfield.gf_right_half{width:100% !important}
+}@media(max-width:767.98px){.table-responsive-md{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.table-responsive-md>.table-bordered{border:0}
+.navbar-expand-md>.container,.navbar-expand-md>.container-fluid{padding-right:0;padding-left:0}
 }@media(max-width:767px){.visible-xs{display:block !important}
 table.visible-xs{display:table !important}
 tr.visible-xs{display:table-row !important}
@@ -4220,23 +4228,22 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .visible-xs-inline{display:inline !important}
 .visible-xs-inline-block{display:inline-block !important}
 .hidden-xs{display:none !important}
-}@media(max-width:767.98px){.table-responsive-md{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
-.table-responsive-md>.table-bordered{border:0}
-.navbar-expand-md>.container,.navbar-expand-md>.container-fluid{padding-right:0;padding-left:0}
 }@media(max-width:575.98px){.table-responsive-sm{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .table-responsive-sm>.table-bordered{border:0}
 .navbar-expand-sm>.container,.navbar-expand-sm>.container-fluid{padding-right:0;padding-left:0}
 }@media only screen and (max-width:510px){.banner__sub h1{font-size:30px;line-height:40px}
 .hero-section .container .wrapper h1{font-size:30px;line-height:40px}
+.headline-section .container .title{font-size:30px;line-height:40px}
+.headline-section .container .subtitle{font-size:20px;line-height:30px}
 .hero_highlighted_title-section .title .container h1{font-size:30px;line-height:40px}
 }@media only screen and (max-width:505px){.blog-section .container .custom-carousel .r1{display:block}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}
 .blog-section .container .custom-carousel .r1 .carousel-nav{margin-left:20px;width:55px}
-}@media only screen and (max-width:468px){.headline-section .container .title{font-size:1.9em}
-.headline-section .container .subtitle{font-size:40px}
 }@media only screen and (max-width:435px){.hero_highlighted_title-section .container .form-section .form__horizontal:before{top:-95px;width:75px}
 }@media only screen and (max-width:398px){.banner__sub h1{font-size:25px;line-height:30px}
 .hero-section .container .wrapper h1{font-size:25px;line-height:30px}
+.headline-section .container .title{font-size:25px;line-height:30px}
+.headline-section .container .subtitle{font-size:15px;line-height:25px}
 .hero_highlighted_title-section .title .container h1{font-size:25px;line-height:30px}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}

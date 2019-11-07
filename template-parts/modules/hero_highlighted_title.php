@@ -1,4 +1,4 @@
-<section class="hero_highlighted_title-section" style="background:transparent url(<?php echo get_sub_field('background') ?>) center center no-repeat padding-box">
+<section class="hero_highlighted_title-section" style="background:transparent url(<?php echo get_sub_field('background')['type'] == 'image' ? get_sub_field('background')['url'] : '' ?>) center center no-repeat padding-box">
     <div class="title">
         <div class="container">
             <h1 class="title"><?php echo get_sub_field('title') ?></h1>
@@ -7,6 +7,11 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-lg-9">
+                <?php if (get_sub_field('background')['type'] == 'video') : ?>
+                    <video playsinline="playsinline" poster="" controls>
+                        <source src="<?php echo get_sub_field('background')['url'] ?>" type="video/mp4">
+                    </video>
+                <?php endif ?>
             </div>
             <div class="col-md-12 form-section col-lg-3">
                 <div class="form__horizontal">
