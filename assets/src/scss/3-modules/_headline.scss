@@ -26,6 +26,10 @@
             max-width: 621px;
             margin-top: 20px;
 
+            &-full {
+                max-width: unset;
+            }
+
             @include breakpoint(468) {
                 font-size: 1.9em;
             }
@@ -43,6 +47,10 @@
             letter-spacing: 0;
             max-width: 621px;
             margin-top: 20px;
+
+            &-full {
+                max-width: unset;
+            }
 
             @include breakpoint(468) {
                 font-size: 40px;
