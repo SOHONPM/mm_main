@@ -5,5 +5,14 @@
         .form__horizontal {
             box-shadow: none;
         }
+
+        h1 {
+            &.form-title {
+                font-size: 24px;
+                font-weight: bold;
+                line-height: 40px;
+                text-align: center;
+            }
+        }
     }
 }

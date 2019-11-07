@@ -75,6 +75,31 @@
             max-width: 621px;
             margin-top: 20px;
 
+            &.no_title {
+                font-size: 53px;
+                font-weight: bold;
+                line-height: 66px;
+
+                @include breakpoint(992) {
+                    max-width: unset;
+                }
+
+                @include breakpoint(768) {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+
+                @include breakpoint(510) {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+
+                @include breakpoint(398) {
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+            }
+
             @include breakpoint(992) {
                 max-width: unset;
             }

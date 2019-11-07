@@ -21,7 +21,7 @@
             <?php else : ?>
                 <div class="col-md-12 col-lg-12">
                     <h1 class="title title-full"><?php echo get_sub_field('title') ?></h1>
-                    <?php if (get_sub_field('subtitle')) : ?><h2 class="subtitle subtitle-full"><?php echo get_sub_field('subtitle'); ?></h2>
+                    <?php if (get_sub_field('subtitle')) : ?><h2 class="subtitle subtitle-full <?php echo get_sub_field('title') ? '' : 'no_title' ?>"><?php echo get_sub_field('subtitle'); ?></h2>
                     <?php endif ?>
                 </div>
             <?php endif ?>
