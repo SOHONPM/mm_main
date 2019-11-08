@@ -2951,7 +2951,7 @@ lesshat-selector{-lh-property:0}
 .hero-section .container .wrapper{background:rgba(242,242,242,0.9);padding:20px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-top:180px;bottom:0}
 .hero-section .container .wrapper h1{text-align:left;font-size:40px;line-height:1.5em;font-family:Century Gothic;font-weight:bold;letter-spacing:0;color:#000;max-width:621px}
 .feature-section .container{padding:50px 15px 0}
-.feature-section .container h1{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;opacity:1;margin-bottom:30px}
+.feature-section .container h2{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;opacity:1;margin-bottom:30px}
 .feature-section .container .single-feature{-webkit-box-shadow:0 10px 40px 0 rgba(75,25,141,0.15);box-shadow:0 10px 40px 0 rgba(75,25,141,0.15)}
 .feature-section .container .single-feature .wrapper{padding:30px 30px}
 .feature-section .container .single-feature .wrapper .title{font-size:21px;line-height:27px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
@@ -3214,8 +3214,8 @@ lesshat-selector{-lh-property:0}
 .form_image-section .container .form__horizontal{-webkit-box-shadow:none;box-shadow:none}
 .form_image-section .container h1.form-title{font-size:24px;font-weight:bold;line-height:40px;text-align:center}
 .cta-section .container{padding:50px 15px}
-.cta-section h1{text-align:left;font-weight:bold;font-size:44px;line-height:50px}
-.cta-section h1 span{color:#f05d34}
+.cta-section h2{text-align:left;font-weight:bold;font-size:44px;line-height:50px}
+.cta-section h2 span{color:#f05d34}
 .cta-section a.btn{background:#8bc34a 0 0 no-repeat padding-box;width:250px;height:56px;border-radius:0;line-height:40px}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}

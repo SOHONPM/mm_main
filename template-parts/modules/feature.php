@@ -2,7 +2,7 @@
     <div class="container">
         <?php if(get_sub_field('title')): ?>
         <div class="col-md-12">
-            <h1 class="title"><?php echo get_sub_field('title')?></h1>
+            <h2 class="title"><?php echo get_sub_field('title')?></h2>
         </div>
         <?php endif ?>
         <div class="row">
