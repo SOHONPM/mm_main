@@ -6,14 +6,14 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-lg-9">
+            <div class="col-sm-12 col-lg-8">
                 <?php if (get_sub_field('background')['type'] == 'video') : ?>
                     <video playsinline="playsinline" poster="" controls>
                         <source src="<?php echo get_sub_field('background')['url'] ?>" type="video/mp4">
                     </video>
                 <?php endif ?>
             </div>
-            <div class="col-md-12 form-section col-lg-3">
+            <div class="col-md-12 form-section col-lg-4">
                 <div class="form__horizontal">
                     <h1 class="form-title"><?php echo get_sub_field('form_title') ?></h1>
                     <?php

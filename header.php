@@ -100,7 +100,7 @@ if (!defined('ABSPATH')) {
 									</div>
 
 									<div class="call">
-										<p class="info"><?php echo "<span class='call-us'><i class='fas fa-phone-alt'></i> " . get_theme_mod('header_info_2') . "</span>" ?></p>
+										<a class="info" href="tel:<?php echo get_theme_mod('phone') ?>"><?php echo "<span class='call-us'><i class='fas fa-phone-alt'></i> " . get_theme_mod('header_info_2') . "</span>" ?></a>
 
 										<?php
 										wp_nav_menu(array(
