@@ -64,3 +64,4 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('slick', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', array('jquery'), '1.9.0', true);
 });
 require get_template_directory() . '/inc/shortcodes.php';
+?>
