@@ -13,7 +13,7 @@
                     <?php if(get_sub_field('content')):?>
                     <h1 class="title alt_title"><?php echo get_sub_field('title') ?></h1>
                     <?php endif ?>
-                    <h2 class="subtitle"><?php echo get_sub_field('content') ?></h2>
+                    <div><?php echo get_sub_field('content') ?></div>
                 
             </div>
             <div class="col-md-12 form-section col-lg-4">
