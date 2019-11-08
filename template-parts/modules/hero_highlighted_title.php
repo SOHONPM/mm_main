@@ -1,4 +1,4 @@
-<section class="hero_highlighted_title-section" style="background:transparent url(<?php echo get_sub_field('background')['type'] == 'image' ? get_sub_field('background')['url'] : '' ?>) center center no-repeat padding-box">
+<section class="hero_highlighted_title-section" id="hero_highlight" style="background:transparent url(<?php echo get_sub_field('background')['type'] == 'image' ? get_sub_field('background')['url'] : '' ?>) center center no-repeat padding-box">
     <?php if(!get_sub_field('content')):?>
     <div class="title">
         <div class="container">

@@ -1,0 +1,26 @@
+.cta-section {
+    .container {
+        padding: 50px 15px
+    }
+
+    h1 {
+        text-align: left;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 50px;
+
+        & span {
+            color: #F05D34;
+        }
+    }
+
+    a {
+        &.btn {
+            background: #8BC34A 0% 0% no-repeat padding-box;
+            width: 250px;
+            height: 56px;
+            border-radius: 0;
+            line-height: 40px;
+        }
+    }
+}
