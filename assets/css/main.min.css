@@ -3743,6 +3743,7 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .feature-section .row>div{display:-webkit-box;display:-ms-flexbox;display:flex}
 .formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_left_half{padding-right:8px !important}
 .formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_right_half{padding-left:8px !important}
+.text_video-section .container img{margin-top:50px}
 .form__horizontal .gform_wrapper .gfield.gf_left_half,#sidebar .gform_widget .gform_wrapper .gfield.gf_left_half{padding-right:8px !important}
 .form__horizontal .gform_wrapper .gfield.gf_right_half,#sidebar .gform_widget .gform_wrapper .gfield.gf_right_half{padding-left:8px !important}
 }@media(min-width:992px){.container{max-width:960px}

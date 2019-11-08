@@ -9,5 +9,12 @@
             line-height: 44px;
             font-weight: bold;
         }
+
+        @include min-breakpoint(768) {
+            img {
+                margin-top: 50px;
+            }
+        }
+
     }
 }
