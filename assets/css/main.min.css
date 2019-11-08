@@ -3094,8 +3094,8 @@ lesshat-selector{-lh-property:0}
 .connect_with_us-section .container{padding:30px}
 .connect_with_us-section .container .title{text-align:center;font-size:38px;font-weight:bold;line-height:49px;letter-spacing:0;color:#000;opacity:1}
 .connect_with_us-section .container .wrapper{text-align:center}
-.connect_with_us-section .container .wrapper>a{padding:9px 11px;border-radius:38px;background:#bc0078;width:30px;height:30px;margin:0 5px}
-.connect_with_us-section .container .wrapper>a i{color:white}
+.connect_with_us-section .container .wrapper>a{padding:9px 0;border-radius:38px;background:#bc0078;width:30px;height:30px;margin:0 5px}
+.connect_with_us-section .container .wrapper>a i{color:white;width:40px}
 .connect_with_us-section .container .content{margin-top:20px}
 .connect_with_us-section .container .content i{color:#ffea00;font-size:30px}
 .subscribe-section{position:relative;background-size:cover !important}
