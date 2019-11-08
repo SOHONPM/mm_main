@@ -7629,7 +7629,7 @@ lesshat-selector { -lh-property: 0; }
 
 .text_video-section .container h2 { text-align: left; color: #0D0D0D; font-size: 35px; line-height: 44px; font-weight: bold; }
 
-@media only screen and (min-width: 768px) { .text_video-section .container img { margin-top: 50px; } }
+@media only screen and (min-width: 768px) { .text_video-section .container img { margin-top: 70px; } }
 
 .contact-section { position: relative; background-size: cover !important; }
 
