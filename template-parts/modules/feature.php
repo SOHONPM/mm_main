@@ -1,5 +1,8 @@
 <section class="feature-section">
     <div class="container">
+        <div class="col-md-12">
+            <h1 class="title"><?php echo get_sub_field('title')?></h1>
+        </div>
         <div class="row">
             <?php
             foreach (get_sub_field('grid') as $value) {

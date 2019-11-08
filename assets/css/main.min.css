@@ -2951,6 +2951,7 @@ lesshat-selector{-lh-property:0}
 .hero-section .container .wrapper{background:rgba(242,242,242,0.9);padding:20px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-top:180px;bottom:0}
 .hero-section .container .wrapper h1{text-align:left;font-size:40px;line-height:1.5em;font-family:Century Gothic;font-weight:bold;letter-spacing:0;color:#000;max-width:621px}
 .feature-section .container{padding:50px 15px 0}
+.feature-section .container h1{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;opacity:1;margin-bottom:30px}
 .feature-section .container .single-feature{-webkit-box-shadow:0 10px 40px 0 rgba(75,25,141,0.15);box-shadow:0 10px 40px 0 rgba(75,25,141,0.15)}
 .feature-section .container .single-feature .wrapper{padding:30px 30px}
 .feature-section .container .single-feature .wrapper .title{font-size:21px;line-height:27px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
@@ -4275,6 +4276,8 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 }@media only screen and (max-width:991px){.hero-section .form__horizontal{float:left;max-width:100%;width:100%}
 .hero-section .container .wrapper{margin-top:0;background:0;padding:20px 0}
 .headline-section .form__horizontal{float:left;max-width:100%;width:100%}
+.hero_highlighted_title-section .title.alt_title{margin-top:0}
+.hero_highlighted_title-section .title{font-size:35px !important}
 .hero_highlighted_title-section .container .form-section .form__horizontal{float:left;max-width:100%;width:100%}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{font-size:19px;max-width:unset}
 .form__horizontal .form-title,#sidebar .gform_widget .form-title{font-size:19px;max-width:unset}
@@ -4295,7 +4298,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .headline-section .container .title{font-size:40px;line-height:50px}
 .headline-section .container .subtitle.no_title{font-size:40px;line-height:50px}
 .headline-section .container .subtitle{font-size:25px;line-height:35px}
-.hero_highlighted_title-section .title{font-size:40px !important}
+.hero_highlighted_title-section .title{font-size:30px !important}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{max-width:unset}
 .form__horizontal .form-title,#sidebar .gform_widget .form-title{max-width:unset}
 }@media only screen and (max-width:767px){.section-padding{padding:30px 0}

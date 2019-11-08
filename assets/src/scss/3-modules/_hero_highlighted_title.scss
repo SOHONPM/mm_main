@@ -15,10 +15,18 @@
             color: $b;
             font-size: 55px;
             margin-top: 40px;
+
+            @include breakpoint(991) {
+                margin-top: 0;
+            }
+        }
+
+        @include breakpoint(991) {
+            font-size: 35px !important;
         }
 
         @include breakpoint(768) {
-            font-size: 40px !important;
+            font-size: 30px !important;
         }
 
         @include breakpoint(510) {
