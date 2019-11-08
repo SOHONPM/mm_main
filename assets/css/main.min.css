@@ -3216,8 +3216,7 @@ lesshat-selector{-lh-property:0}
 .cta-section .container{padding:50px 15px}
 .cta-section h1{text-align:left;font-weight:bold;font-size:44px;line-height:50px}
 .cta-section h1 span{color:#f05d34}
-.cta-section .text-right{display:-webkit-box;display:-ms-flexbox;display:flex}
-.cta-section a.btn{background:#8bc34a 0 0 no-repeat padding-box;width:250px;height:56px;border-radius:0;line-height:40px;margin:auto auto}
+.cta-section a.btn{background:#8bc34a 0 0 no-repeat padding-box;width:250px;height:56px;border-radius:0;line-height:40px}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}
 .fade{-webkit-transition:none;transition:none}

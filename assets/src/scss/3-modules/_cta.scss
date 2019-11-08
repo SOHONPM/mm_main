@@ -14,10 +14,6 @@
         }
     }
 
-    .text-right {
-        display: flex;
-    }
-
     a {
         &.btn {
             background: #8BC34A 0% 0% no-repeat padding-box;
@@ -25,7 +21,6 @@
             height: 56px;
             border-radius: 0;
             line-height: 40px;
-            margin: auto auto;
         }
     }
 }
