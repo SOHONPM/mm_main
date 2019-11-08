@@ -276,7 +276,7 @@ input[type="submit"] {
     border-radius: 5px;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: $darkerblue_color;
+    color: $w;
     cursor: pointer;
     display: inline-block;
     @include rem("font-size", 16);
@@ -288,7 +288,7 @@ input[type="submit"] {
 
     &:hover,
     &:focus {
-        background-color: $darkerblue_color;
+        background-color: #8BC34A;
         color: #fff;
     }
 }
