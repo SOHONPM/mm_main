@@ -3110,6 +3110,7 @@ lesshat-selector{-lh-property:0}
 .hero_highlighted_title-section .title.alt_title{background:0;color:#000;font-size:55px;margin-top:40px}
 .hero_highlighted_title-section .title span{color:#f05d34}
 .hero_highlighted_title-section .subtitle{font-size:19px;line-height:31px}
+.hero_highlighted_title-section strong.line-through{text-decoration:line-through;color:red;font-weight:700}
 .hero_highlighted_title-section .container{padding:50px 15px}
 .hero_highlighted_title-section .container .form-section .form__horizontal{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 0 30px 13px #0000000F;box-shadow:0 0 30px 13px #0000000F;opacity:1;padding:24px 27px 24px 21px;margin-bottom:80px;position:relative;max-width:300px;float:right}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title span{color:#bc0078}
