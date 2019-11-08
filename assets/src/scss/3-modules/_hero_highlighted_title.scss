@@ -1,44 +1,45 @@
 .hero_highlighted_title-section {
-
-    video {
-        width: 100% !important;
-    }
+    background-size: cover !important;
 
     .title {
         background: #171717 0% 0% no-repeat padding-box;
+        font-weight: bold;
+        font-size: 42px;
+        letter-spacing: 0;
+        opacity: 1;
+        color: white;
+        margin-bottom: 0;
 
-        .container {
-            padding: 15px 15px;
-
-            h1 {
-                font-weight: bold;
-                font-size: 42px;
-                letter-spacing: 0;
-                opacity: 1;
-                color: white;
-                margin-bottom: 0;
-
-                @include breakpoint(768) {
-                    font-size: 40px;
-                    line-height: 50px;
-                }
-
-                @include breakpoint(510) {
-                    font-size: 30px;
-                    line-height: 40px;
-                }
-
-                @include breakpoint(398) {
-                    font-size: 25px;
-                    line-height: 30px;
-                }
-
-                span {
-                    color: #F05D34;
-                }
-            }
-
+        &.alt_title {
+            background: none;
+            color: $b;
+            font-size: 55px;
+            margin-top: 40px;
         }
+
+        @include breakpoint(768) {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        @include breakpoint(510) {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        @include breakpoint(398) {
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+        span {
+            color: #F05D34;
+        }
+    }
+
+    .subtitle {
+        font-size: 19px;
+        line-height: 31px;
     }
 
     .container {

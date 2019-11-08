@@ -1,20 +1,20 @@
 <section class="hero_highlighted_title-section" style="background:transparent url(<?php echo get_sub_field('background')['type'] == 'image' ? get_sub_field('background')['url'] : '' ?>) center center no-repeat padding-box">
+    <?php if(!get_sub_field('content')):?>
     <div class="title">
         <div class="container">
             <h1 class="title"><?php echo get_sub_field('title') ?></h1>
         </div>
     </div>
+    <?php endif ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-lg-8">
-                <p class="content">
-                    <?php echo get_sub_field('content') ?>
-                </p>
-                <!-- <?php if (get_sub_field('background')['type'] == 'video') : ?>
-                    <video playsinline="playsinline" poster="" controls>
-                        <source src="<?php echo get_sub_field('background')['url'] ?>" type="video/mp4">
-                    </video>
-                <?php endif ?> -->
+          
+                    <?php if(get_sub_field('content')):?>
+                    <h1 class="title alt_title"><?php echo get_sub_field('title') ?></h1>
+                    <?php endif ?>
+                    <h2 class="subtitle"><?php echo get_sub_field('content') ?></h2>
+                
             </div>
             <div class="col-md-12 form-section col-lg-4">
                 <div class="form__horizontal">

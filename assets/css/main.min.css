@@ -3105,11 +3105,11 @@ lesshat-selector{-lh-property:0}
 .subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}
 .subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6 .gform_title,.subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6 .gfield_label{display:none}
 .subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6 li{margin-top:0;padding-bottom:0}
-.hero_highlighted_title-section video{width:100% !important}
-.hero_highlighted_title-section .title{background:#171717 0 0 no-repeat padding-box}
-.hero_highlighted_title-section .title .container{padding:15px 15px}
-.hero_highlighted_title-section .title .container h1{font-weight:bold;font-size:42px;letter-spacing:0;opacity:1;color:white;margin-bottom:0}
-.hero_highlighted_title-section .title .container h1 span{color:#f05d34}
+.hero_highlighted_title-section{background-size:cover !important}
+.hero_highlighted_title-section .title{background:#171717 0 0 no-repeat padding-box;font-weight:bold;font-size:42px;letter-spacing:0;opacity:1;color:white;margin-bottom:0}
+.hero_highlighted_title-section .title.alt_title{background:0;color:#000;font-size:55px;margin-top:40px}
+.hero_highlighted_title-section .title span{color:#f05d34}
+.hero_highlighted_title-section .subtitle{font-size:19px;line-height:31px}
 .hero_highlighted_title-section .container{padding:50px 15px}
 .hero_highlighted_title-section .container .form-section .form__horizontal{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 0 30px 13px #0000000F;box-shadow:0 0 30px 13px #0000000F;opacity:1;padding:24px 27px 24px 21px;margin-bottom:80px;position:relative;max-width:300px;float:right}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title span{color:#bc0078}
@@ -4294,7 +4294,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .headline-section .container .title{font-size:40px;line-height:50px}
 .headline-section .container .subtitle.no_title{font-size:40px;line-height:50px}
 .headline-section .container .subtitle{font-size:25px;line-height:35px}
-.hero_highlighted_title-section .title .container h1{font-size:40px;line-height:50px}
+.hero_highlighted_title-section .title{font-size:40px;line-height:50px}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{max-width:unset}
 .form__horizontal .form-title,#sidebar .gform_widget .form-title{max-width:unset}
 }@media only screen and (max-width:767px){.section-padding{padding:30px 0}
@@ -4327,7 +4327,7 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .headline-section .container .title{font-size:30px;line-height:40px}
 .headline-section .container .subtitle.no_title{font-size:30px;line-height:40px}
 .headline-section .container .subtitle{font-size:20px;line-height:30px}
-.hero_highlighted_title-section .title .container h1{font-size:30px;line-height:40px}
+.hero_highlighted_title-section .title{font-size:30px;line-height:40px}
 }@media only screen and (max-width:505px){.blog-section .container .custom-carousel .r1{display:block}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}
 .blog-section .container .custom-carousel .r1 .carousel-nav{margin-left:20px;width:55px}
@@ -4336,7 +4336,7 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .headline-section .container .title{font-size:25px;line-height:30px}
 .headline-section .container .subtitle.no_title{font-size:25px;line-height:30px}
 .headline-section .container .subtitle{font-size:15px;line-height:25px}
-.hero_highlighted_title-section .title .container h1{font-size:25px;line-height:30px}
+.hero_highlighted_title-section .title{font-size:25px;line-height:30px}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}
 }@media print{.d-print-none{display:none !important}
