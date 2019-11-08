@@ -3215,7 +3215,7 @@ lesshat-selector{-lh-property:0}
 .form_image-section .container .form__horizontal{-webkit-box-shadow:none;box-shadow:none}
 .form_image-section .container h1.form-title{font-size:24px;font-weight:bold;line-height:40px;text-align:center}
 .cta-section .container{padding:50px 15px}
-.cta-section h2{text-align:left;font-weight:bold;font-size:44px;line-height:50px}
+.cta-section h2{text-align:left;font-weight:bold;font-size:44px}
 .cta-section h2 span{color:#f05d34}
 .cta-section a.btn{background:#8bc34a 0 0 no-repeat padding-box;width:250px;height:56px;border-radius:0;line-height:40px}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
@@ -4286,6 +4286,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .hero_highlighted_title-section .container .form-section .form__horizontal{float:left;max-width:100%;width:100%}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{font-size:19px;max-width:unset}
 .form__horizontal .form-title,#sidebar .gform_widget .form-title{font-size:19px;max-width:unset}
+.cta-section h2{font-size:40px !important}
 }@media only screen and (max-width:768px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.9rem/1.7 sans-serif}
 .site-header__top .header-info{display:contents}
 .site-header__top .col--right .wrapper{display:unset}
@@ -4306,6 +4307,8 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .hero_highlighted_title-section .title{font-size:30px !important}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{max-width:unset}
 .form__horizontal .form-title,#sidebar .gform_widget .form-title{max-width:unset}
+.cta-section h2{font-size:30px !important}
+.cta-section .text-right{text-align:left !important}
 }@media only screen and (max-width:767px){.section-padding{padding:30px 0}
 .site-header__middle .dropdown-menu{width:unset}
 .site-nav .navbar{position:inherit}
@@ -4337,6 +4340,7 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .headline-section .container .subtitle.no_title{font-size:30px;line-height:40px}
 .headline-section .container .subtitle{font-size:20px;line-height:30px}
 .hero_highlighted_title-section .title{font-size:30px !important}
+.cta-section h2{font-size:30px !important}
 }@media only screen and (max-width:505px){.blog-section .container .custom-carousel .r1{display:block}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}
 .blog-section .container .custom-carousel .r1 .carousel-nav{margin-left:20px;width:55px}
@@ -4346,6 +4350,7 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 .headline-section .container .subtitle.no_title{font-size:25px;line-height:30px}
 .headline-section .container .subtitle{font-size:15px;line-height:25px}
 .hero_highlighted_title-section .title{font-size:25px !important}
+.cta-section h2{font-size:25px !important}
 }@media only screen and (max-width:320px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.55rem/1.8 sans-serif}
 }@media only screen and (max-width:240px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.4rem/1.8rem sans-serif}
 }@media print{.d-print-none{display:none !important}

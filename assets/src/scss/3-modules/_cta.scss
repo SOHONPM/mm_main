@@ -7,11 +7,33 @@
         text-align: left;
         font-weight: bold;
         font-size: 44px;
-        line-height: 50px;
 
         & span {
             color: #F05D34;
         }
+
+        @include breakpoint(991) {
+            font-size: 40px !important;
+        }
+
+        @include breakpoint(768) {
+            font-size: 30px !important;
+        }
+
+        @include breakpoint(510) {
+            font-size: 30px !important;
+        }
+
+        @include breakpoint(398) {
+            font-size: 25px !important;
+        }
+    }
+
+    @include breakpoint(768) {
+        .text-right {
+            text-align: left !important;
+        }
+
     }
 
     a {
