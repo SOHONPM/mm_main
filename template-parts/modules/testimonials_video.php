@@ -39,7 +39,7 @@
         ?>
         <div class="row">
           <div class="col text-center">
-            <a class="iwant" href=' <?php echo get_sub_field('button')['url'] ?>'>
+            <a class="iwant" href='<?php echo get_sub_field('button')['url'] ?>'>
               <?php echo get_sub_field('button')['label'] ?>
             </a>
           </div>
