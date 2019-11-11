@@ -10,7 +10,7 @@
             padding: 50px 0;
             border-top: 1px solid $w;
             border-bottom: 1px solid $w;
-            opacity: 1;
+
 
             .title {
                 text-align: center;
@@ -19,7 +19,7 @@
                 font-weight: bold;
                 letter-spacing: 0;
                 color: $b;
-                opacity: 1;
+
             }
 
             .content {
@@ -29,7 +29,7 @@
                 font-weight: normal;
                 letter-spacing: 0;
                 color: $b;
-                opacity: 1;
+
             }
 
             .formula_img {
@@ -69,7 +69,7 @@
                 font-weight: normal;
                 letter-spacing: 0;
                 color: #010101;
-                opacity: 1;
+
                 margin: 0 auto 20px;
 
                 @include min-breakpoint(1200) {
@@ -91,13 +91,13 @@
                     height: 48px;
                     background: #8bc34a 0% 0% no-repeat padding-box;
                     border-radius: 6px;
-                    opacity: 1;
+
                     font-size: 18px;
                     line-height: 49px;
                     font-weight: bold;
                     letter-spacing: 0;
                     color: #FFFFFF;
-                    opacity: 1;
+
                     margin: 0 auto;
                     display: flex;
                     align-items: center;
@@ -153,13 +153,13 @@
                         background: $w 0% 0% no-repeat padding-box;
                         border: 1px solid $b;
                         height: 48px;
-                        opacity: 1;
+
                         font-size: 18px;
                         line-height: 49px;
                         font-weight: normal;
                         letter-spacing: 0;
                         color: $b;
-                        opacity: 1;
+
                         margin: 0 !important;
                         margin-bottom: 12px !important;
 
@@ -172,7 +172,7 @@
                         height: 106px;
                         background: #FFFFFF 0% 0% no-repeat padding-box;
                         border: 1px solid #0C0C0C;
-                        opacity: 1;
+
 
                         &::placeholder {
                             color: #0C0C0C;

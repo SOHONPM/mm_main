@@ -3,7 +3,7 @@
     height: auto;
     background: $w 0% 0% no-repeat padding-box;
     box-shadow: 0px 20px 40px #0000000F;
-    opacity: 1;
+
     padding: 24px 15px;
     margin-bottom: 50px;
 
@@ -17,7 +17,7 @@
         font-weight: bold;
         line-height: 27px;
         letter-spacing: 0;
-        opacity: 1;
+
         text-align: center;
 
         @include breakpoint(991) {
@@ -110,14 +110,14 @@
             line-height: 27px;
             letter-spacing: 0;
             color: #9A9A9A;
-            opacity: 1;
+
         }
 
         input {
             background: $w 0% 0% no-repeat padding-box;
             border: 1px solid #C4C4C4;
             border-radius: 0px;
-            opacity: 1;
+
             width: 100% !important;
             max-width: 100% !important;
             height: 43px;
@@ -127,7 +127,7 @@
             line-height: 27px;
             padding: 7px 10px;
             color: #9A9A9A;
-            opacity: 1;
+
             margin: 0 !important;
         }
 
@@ -136,14 +136,14 @@
             height: 42px;
             background: #8BC34A 0% 0% no-repeat padding-box;
             border-radius: 0px;
-            opacity: 1;
+
             text-align: center;
             font-size: 18px;
             font-weight: bold;
             line-height: 27px;
             letter-spacing: 0;
             color: $w;
-            opacity: 1;
+
             border: none;
         }
 
@@ -224,14 +224,14 @@
     height: 42px;
     background: #8BC34A 0% 0% no-repeat padding-box;
     border-radius: 0px;
-    opacity: 1;
+
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     line-height: 27px;
     letter-spacing: 0;
     color: $w;
-    opacity: 1;
+
     border: none;
     padding: 0 !important;
 }

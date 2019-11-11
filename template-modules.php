@@ -15,7 +15,7 @@
 if (!defined('ABSPATH')) {
 	exit;
 }
-get_header(); ?>
+get_header('landing'); ?>
 
 <?php //get_template_part( 'template-parts/loop/content', 'banner' );  
 ?>

@@ -1,6 +1,5 @@
 .site-footer {
     background: #e6e6e6;
-    opacity: 1;
 
     .container {
         padding-top: 50px;
@@ -20,7 +19,6 @@
                 text-align: left;
                 letter-spacing: 0;
                 color: #313131;
-                opacity: 1;
             }
         }
 
@@ -28,22 +26,17 @@
             p {
                 letter-spacing: 0;
                 color: #807E7E;
-                opacity: 1;
-
-                @include min-breakpoint(768) {
-                    margin-top: 80px;
-                }
-
+                font-size: 16px;
             }
         }
 
         .menu-title,
         .contact-us {
             text-align: left;
-            font: Bold 20px/25px Century Gothic;
+            font-weight: bold;
+            font-size: 20px;
             letter-spacing: 0;
             color: #BC0078;
-            opacity: 1;
         }
 
         .footer-menu {
@@ -63,7 +56,6 @@
                     font: normal 17px/33px Century Gothic;
                     letter-spacing: 0;
                     color: #313131;
-                    opacity: 1;
                     padding: 0;
 
                     &:hover {
@@ -79,7 +71,6 @@
             font: normal 18px/29px Century Gothic;
             letter-spacing: 0;
             color: #4A4A4A;
-            opacity: 1;
         }
     }
 }

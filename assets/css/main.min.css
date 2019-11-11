@@ -2865,7 +2865,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header__top{padding:5px 0;color:#0e2357}
 .site-header__top .header-info{text-align:center}
 .site-header__top .header-info>div{padding:0}
-.site-header__top .header-info span{text-align:left;font:Bold 16px/22px Century Gothic;letter-spacing:0;color:#313131;opacity:1}
+.site-header__top .header-info span{text-align:left;font:Bold 16px/22px Century Gothic;letter-spacing:0;color:#313131}
 .site-header__top .grid{-ms-flex-wrap:wrap;flex-wrap:wrap}
 .site-header__top .col--left,.site-header__top .col--right{padding:0}
 .site-header__top .col--left{width:115px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
@@ -2895,7 +2895,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header__middle .navbar .navbar-toggler rect{fill:#bc0078 !important}
 .site-logo{width:130px;position:relative}
 .site-nav{width:calc(100% - 130px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
-.site-nav .nav-link{text-align:left;font:Bold 18px/25px Century Gothic;letter-spacing:0;color:#171717;opacity:1}
+.site-nav .nav-link{text-align:left;font-weight:18px;line-height:25px;letter-spacing:0;color:#171717}
 .site-nav .nav-link:hover{color:#bc0078}
 .site-nav .active .nav-link{color:#bc0078}
 .site-nav .btn{display:none}
@@ -2912,19 +2912,21 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .main-menu li{display:inline-block;margin-left:20px;padding:0}
 .main-menu li a{font-family:"Century Gothic","Helvetica Neue",helvetica,arial,sans-serif;font-size:19px;-webkit-transition:color .3s ease;transition:color .3s ease;padding-left:0 !important;padding-right:0 !important}
 .main-menu li.current-menu-item a{color:#bc0078}
-.site-footer{background:#e6e6e6;opacity:1}
+.landing-container .progress-container{width:calc(100% - 130px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+.landing-container .progress-container .progress{width:50%;height:15px}
+.site-footer{background:#e6e6e6}
 .site-footer .container{padding-top:50px}
 .site-footer .container .site-logo{width:unset}
 .site-footer .container .site-logo img{width:100px;height:91px;margin-bottom:30px}
-.site-footer .container .content p{text-align:left;letter-spacing:0;color:#313131;opacity:1}
-.site-footer .container .copyright p{letter-spacing:0;color:#807e7e;opacity:1}
-.site-footer .container .menu-title,.site-footer .container .contact-us{text-align:left;font:Bold 20px/25px Century Gothic;letter-spacing:0;color:#bc0078;opacity:1}
+.site-footer .container .content p{text-align:left;letter-spacing:0;color:#313131}
+.site-footer .container .copyright p{letter-spacing:0;color:#807e7e;font-size:16px}
+.site-footer .container .menu-title,.site-footer .container .contact-us{text-align:left;font-weight:bold;font-size:20px;letter-spacing:0;color:#bc0078}
 .site-footer .container .footer-menu{margin-bottom:25px}
 .site-footer .container .footer-menu li{padding:0}
 .site-footer .container .footer-menu li.active a{color:#bc0078}
-.site-footer .container .footer-menu li a{text-align:left;font:normal 17px/33px Century Gothic;letter-spacing:0;color:#313131;opacity:1;padding:0}
+.site-footer .container .footer-menu li a{text-align:left;font:normal 17px/33px Century Gothic;letter-spacing:0;color:#313131;padding:0}
 .site-footer .container .footer-menu li a:hover{color:#bc0078}
-.site-footer .container .contact-address,.site-footer .container .phone-number{text-align:left;font:normal 18px/29px Century Gothic;letter-spacing:0;color:#4a4a4a;opacity:1}
+.site-footer .container .contact-address,.site-footer .container .phone-number{text-align:left;font:normal 18px/29px Century Gothic;letter-spacing:0;color:#4a4a4a}
 .banner__sub{background-size:cover;background-position:center top;background-repeat:no-repeat}
 .banner__sub .banner__header{padding-top:50px;padding-bottom:50px}
 .banner__sub h1{text-align:left;font-size:53px;font-weight:bold;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px}
@@ -2944,28 +2946,28 @@ lesshat-selector{-lh-property:0}
 [not-existing]{zoom:1}
 lesshat-selector{-lh-property:0}
 [not-existing]{zoom:1}
-.hero-section{opacity:1;left:-237px;width:100%;height:auto;background-size:cover !important}
+.hero-section{left:-237px;width:100%;height:auto;background-size:cover !important}
 .hero-section .form__horizontal{max-width:300px;float:right}
 .hero-section .container{padding:80px 15px 0}
 .hero-section .container .title span{color:#f05d34}
 .hero-section .container .wrapper{background:rgba(242,242,242,0.9);padding:20px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-top:180px;bottom:0}
 .hero-section .container .wrapper h1{text-align:left;font-size:40px;line-height:1.5em;font-family:Century Gothic;font-weight:bold;letter-spacing:0;color:#000;max-width:621px}
 .feature-section .container{padding:50px 15px 0}
-.feature-section .container h2{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;opacity:1;margin-bottom:30px}
+.feature-section .container h2{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;margin-bottom:30px}
 .feature-section .container .single-feature{-webkit-box-shadow:0 10px 40px 0 rgba(75,25,141,0.15);box-shadow:0 10px 40px 0 rgba(75,25,141,0.15)}
 .feature-section .container .single-feature .wrapper{padding:30px 30px}
-.feature-section .container .single-feature .wrapper .title{font-size:21px;line-height:27px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
+.feature-section .container .single-feature .wrapper .title{font-size:21px;line-height:27px;font-weight:bold;letter-spacing:0;color:#000}
 .about-section .container{padding:50px 15px}
-.about-section .container .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
+.about-section .container .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000}
 .about-section .container .content{text-align:center}
-.about-section .container hr{width:120px;height:3px;background:#bc0078 0 0 no-repeat padding-box;opacity:1}
+.about-section .container hr{width:120px;height:3px;background:#bc0078 0 0 no-repeat padding-box}
 .client-section .container{padding:50px 15px}
-.client-section .container .title{text-align:center;font-size:29px;line-height:49px;font-weight:normal;letter-spacing:0;color:#a1a1a1;opacity:1;margin-bottom:25px}
-.grid_image_text-section{background:url("../../assets/images/grid_bg.png");opacity:1;background-size:contain}
+.client-section .container .title{text-align:center;font-size:29px;line-height:49px;font-weight:normal;letter-spacing:0;color:#a1a1a1;margin-bottom:25px}
+.grid_image_text-section{background:url("../../assets/images/grid_bg.png");background-size:contain}
 .grid_image_text-section .container{padding:50px 15px}
-.grid_image_text-section .container .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;opacity:1;margin:0 auto}
-.grid_image_text-section .container hr{width:120px;height:3px;background:#bc0078 0 0 no-repeat padding-box;opacity:1}
-.grid_image_text-section .container .wrapper{background:#fff 0 0 no-repeat padding-box;border:1px solid #fff;opacity:1;height:100%}
+.grid_image_text-section .container .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;margin:0 auto}
+.grid_image_text-section .container hr{width:120px;height:3px;background:#bc0078 0 0 no-repeat padding-box}
+.grid_image_text-section .container .wrapper{background:#fff 0 0 no-repeat padding-box;border:1px solid #fff;height:100%}
 .grid_image_text-section .container .wrapper .paragraph{padding:36px 30px}
 .grid_image_text-section .container .img-wrap{position:relative;height:300px}
 .grid_image_text-section .container .img-wrap img{-o-object-fit:cover;object-fit:cover;width:100%;height:100%}
@@ -2979,17 +2981,17 @@ lesshat-selector{-lh-property:0}
 .solutions-section .container .grid .title{text-align:center;font-size:21px;font-weight:bold;line-height:53px;letter-spacing:0;color:#000;opacity:1}
 .testimonials-section{background:#f2f4f5}
 .testimonials-section .container{padding:50px 15px}
-.testimonials-section .container .title{text-align:center;font-size:38px;font-weight:bold;line-height:49px;letter-spacing:0;color:#000;opacity:1}
-.testimonials-section .container hr{width:120px;height:3px;background:#bc0078 0 0 no-repeat padding-box;opacity:1}
+.testimonials-section .container .title{text-align:center;font-size:38px;font-weight:bold;line-height:49px;letter-spacing:0;color:#000}
+.testimonials-section .container hr{width:120px;height:3px;background:#bc0078 0 0 no-repeat padding-box}
 .testimonials-section .container .carousel{width:100%;padding-bottom:50px;margin-top:30px}
-.testimonials-section .container .carousel ol.carousel-indicators li{width:11px;height:11px;background:#fff 0 0 no-repeat padding-box;border:1px solid #707070;opacity:1;padding:0;border-radius:50px}
+.testimonials-section .container .carousel ol.carousel-indicators li{width:11px;height:11px;background:#fff 0 0 no-repeat padding-box;border:1px solid #707070;padding:0;border-radius:50px}
 .testimonials-section .container .carousel ol.carousel-indicators li.active{background:#f05d34 0 0 no-repeat padding-box !important;border:1px solid #f05d34}
 .testimonials-section .container .carousel .carousel-caption{color:#fff;top:50%;position:unset;padding:0 15%}
 .testimonials-section .container .carousel .image-cropper{width:100px;height:100px;position:relative;overflow:hidden;border-radius:50%;margin:0 auto;margin-bottom:25px}
 .testimonials-section .container .carousel .profile{display:inline;margin:0 auto;width:100%;height:100%}
 .testimonials-section .container .carousel .name{text-align:center;font-size:20px;font-weight:bold;letter-spacing:0;color:#000;margin:0;line-height:1;text-transform:capitalize}
-.testimonials-section .container .carousel .position{text-align:center;font-size:15px;letter-spacing:0;color:#f05d34;opacity:1}
-.testimonials-section .container .carousel .content{text-align:center;font-style:italic;color:#707070;opacity:1}
+.testimonials-section .container .carousel .position{text-align:center;font-size:15px;letter-spacing:0;color:#f05d34}
+.testimonials-section .container .carousel .content{text-align:center;font-style:italic;color:#707070}
 .testimonials-section .container .carousel .prev{-webkit-transform:rotate(225deg);transform:rotate(225deg);border-top:2px solid #707070;border-right:2px solid #707070;width:21px;height:21px}
 .testimonials-section .container .carousel .next{-webkit-transform:rotate(45deg);transform:rotate(45deg);border-top:2px solid #707070;border-right:2px solid #707070;width:21px;height:21px}
 .blog-section .container{padding:50px 15px}
@@ -3014,10 +3016,10 @@ lesshat-selector{-lh-property:0}
 .blog-section .container .post-item{-webkit-box-shadow:0 3px 24px 0 rgba(2,6,19,0.12);box-shadow:0 3px 24px 0 rgba(2,6,19,0.12);border-radius:3px;background-color:#fff;margin-bottom:30px}
 .blog-section .container .post-item .title a{color:black}
 .blog-section .container .post-item .s2{padding:18px 20px}
-.blog-section .container .post-item .s2 .link-container a{text-align:left;font:Bold 15px/27px Century Gothic;letter-spacing:0;color:#f05d34;opacity:1}
-.blog-section .container .post-item .s2 .title{text-align:left;font:Bold 21px/27px Century Gothic;letter-spacing:0;color:#000;opacity:1}
-.blog-section .container .post-item .s2 .content{text-align:left;font:normal 18px/27px Century Gothic;letter-spacing:0;color:#000;opacity:1}
-.headline-section{opacity:1;width:100%;height:auto;background-size:cover !important;position:relative}
+.blog-section .container .post-item .s2 .link-container a{text-align:left;font:Bold 15px/27px Century Gothic;letter-spacing:0;color:#f05d34}
+.blog-section .container .post-item .s2 .title{text-align:left;font:Bold 21px/27px Century Gothic;letter-spacing:0;color:#000}
+.blog-section .container .post-item .s2 .content{text-align:left;font:normal 18px/27px Century Gothic;letter-spacing:0;color:#000}
+.headline-section{width:100%;height:auto;background-size:cover !important;position:relative}
 .headline-section .form__horizontal{max-width:300px;float:right}
 .headline-section .container{padding:50px 15px 50px}
 .headline-section .container .title span{color:#aa9766;display:inline-block;padding:10px;background:#fff}
@@ -3027,37 +3029,37 @@ lesshat-selector{-lh-property:0}
 .headline-section .container .subtitle.no_title{font-size:53px;font-weight:bold;line-height:66px}
 .headline-section .container .subtitle-full{max-width:unset}
 .text-section .container{padding:30px 15px}
-.text-section .container .title h1{font-size:20px;font-weight:bold;line-height:49px;letter-spacing:0;color:#000;opacity:1}
+.text-section .container .title h1{font-size:20px;font-weight:bold;line-height:49px;letter-spacing:0;color:#000}
 .text-section .container .content ul{list-style-type:disc}
-.text-section .container .content ul p,.text-section .container .content ul li{text-align:left;font-size:18px;font-weight:normal;line-height:31px;letter-spacing:0;color:#313131;opacity:1}
-.grid-section .container .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
+.text-section .container .content ul p,.text-section .container .content ul li{text-align:left;font-size:18px;font-weight:normal;line-height:31px;letter-spacing:0;color:#313131}
+.grid-section .container .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000}
 .grid-section .container .grid{height:245px;margin-bottom:30px}
 .grid-section .container .grid .wrapper{width:100%;background-repeat:no-repeat !important;background-size:cover !important;position:relative}
 .grid-section .container .grid .wrapper::before{content:'';position:absolute;height:100%;width:100%;background:#000;opacity:.54}
-.grid-section .container .grid .wrapper .number_count p{text-align:center;font-size:38px;line-height:49px;font-weight:normal;letter-spacing:0;color:#878787;opacity:1;margin-bottom:0;margin-top:66px}
-.grid-section .container .grid .wrapper .title p{text-align:center;font-size:23px;line-height:30px;font-weight:bold;letter-spacing:0;color:#fff;opacity:1;margin-bottom:0}
+.grid-section .container .grid .wrapper .number_count p{text-align:center;font-size:38px;line-height:49px;font-weight:normal;letter-spacing:0;color:#878787;margin-bottom:0;margin-top:66px}
+.grid-section .container .grid .wrapper .title p{text-align:center;font-size:23px;line-height:30px;font-weight:bold;letter-spacing:0;color:#fff;margin-bottom:0}
 .formula-section .container{padding:50px 15px}
-.formula-section .container .formula{padding:50px 0;border-top:1px solid #fff;border-bottom:1px solid #fff;opacity:1}
-.formula-section .container .formula .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
-.formula-section .container .formula .content{text-align:center;font-size:18px;line-height:34px;font-weight:normal;letter-spacing:0;color:#000;opacity:1}
+.formula-section .container .formula{padding:50px 0;border-top:1px solid #fff;border-bottom:1px solid #fff}
+.formula-section .container .formula .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000}
+.formula-section .container .formula .content{text-align:center;font-size:18px;line-height:34px;font-weight:normal;letter-spacing:0;color:#000}
 .formula-section .container .formula .formula_img{text-align:center}
 .formula-section .container .formula .formula_img img{width:392px;height:63px;margin-top:33px}
 .formula-section .container .form{padding-top:50px;padding-bottom:50px}
 .formula-section .container .form .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000}
 .formula-section .container .form .title span{color:#bc0078}
-.formula-section .container .form .subtitle{text-align:center;font-size:18px;line-height:29px;font-weight:normal;letter-spacing:0;color:#010101;opacity:1;margin:0 auto 20px}
-.formula-section .container .form .gform_wrapper input[type="submit"]{width:277px;height:48px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:6px;opacity:1;font-size:18px;line-height:49px;font-weight:bold;letter-spacing:0;color:#fff;opacity:1;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;padding:0}
+.formula-section .container .form .subtitle{text-align:center;font-size:18px;line-height:29px;font-weight:normal;letter-spacing:0;color:#010101;margin:0 auto 20px}
+.formula-section .container .form .gform_wrapper input[type="submit"]{width:277px;height:48px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:6px;font-size:18px;line-height:49px;font-weight:bold;letter-spacing:0;color:#fff;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;padding:0}
 .formula-section .container .form .gform_wrapper .gform_title{display:none}
 .formula-section .container .form .gform_wrapper .gform_footer{margin:0}
 .formula-section .container .form .gform_wrapper #gform_fields_5 .gfield_label{display:none}
 .formula-section .container .form .gform_wrapper #gform_fields_5 .gfield{margin:0}
 .formula-section .container .form .gform_wrapper #gform_fields_5 .ginput_container{margin:0 !important}
-.formula-section .container .form .gform_wrapper #gform_fields_5 input{background:#fff 0 0 no-repeat padding-box;border:1px solid #000;height:48px;opacity:1;font-size:18px;line-height:49px;font-weight:normal;letter-spacing:0;color:#000;opacity:1;margin:0 !important;margin-bottom:12px !important}
+.formula-section .container .form .gform_wrapper #gform_fields_5 input{background:#fff 0 0 no-repeat padding-box;border:1px solid #000;height:48px;font-size:18px;line-height:49px;font-weight:normal;letter-spacing:0;color:#000;margin:0 !important;margin-bottom:12px !important}
 .formula-section .container .form .gform_wrapper #gform_fields_5 input::-webkit-input-placeholder{color:#000}
 .formula-section .container .form .gform_wrapper #gform_fields_5 input:-ms-input-placeholder{color:#000}
 .formula-section .container .form .gform_wrapper #gform_fields_5 input::-ms-input-placeholder{color:#000}
 .formula-section .container .form .gform_wrapper #gform_fields_5 input::placeholder{color:#000}
-.formula-section .container .form .gform_wrapper #gform_fields_5 textarea{height:106px;background:#fff 0 0 no-repeat padding-box;border:1px solid #0c0c0c;opacity:1}
+.formula-section .container .form .gform_wrapper #gform_fields_5 textarea{height:106px;background:#fff 0 0 no-repeat padding-box;border:1px solid #0c0c0c}
 .formula-section .container .form .gform_wrapper #gform_fields_5 textarea::-webkit-input-placeholder{color:#0c0c0c}
 .formula-section .container .form .gform_wrapper #gform_fields_5 textarea:-ms-input-placeholder{color:#0c0c0c}
 .formula-section .container .form .gform_wrapper #gform_fields_5 textarea::-ms-input-placeholder{color:#0c0c0c}
@@ -3065,7 +3067,7 @@ lesshat-selector{-lh-property:0}
 .profile-section .container{padding:50px 15px}
 .profile-section .container .profile-pic img{height:200px;width:200px}
 .profile-section .container .social-link a i{font-size:40px;margin:10px;margin-left:0}
-.profile-section .container .name-div .name{font-size:20px;line-height:53px;font-weight:bold;letter-spacing:0;color:#040404;opacity:1}
+.profile-section .container .name-div .name{font-size:20px;line-height:53px;font-weight:bold;letter-spacing:0;color:#040404}
 .profile-section .container .learn-more-link .link{color:#bc0078}
 .text_video-section._alt_bottom .container{max-width:847px}
 .text_video-section .container{padding:50px 15px}
@@ -3074,16 +3076,16 @@ lesshat-selector{-lh-property:0}
 .contact-section{position:relative;background-size:cover !important}
 .contact-section::before{content:'';background:white;width:100%;height:100%;position:absolute;opacity:.7}
 .contact-section .container{padding:50px 15px}
-.contact-section .container h2,.contact-section .container h1{text-align:left;font-size:25px;line-height:30px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
-.contact-section .container .form-section .form__horizontal .sign-up-text p{text-align:left;font-size:18px;line-height:25px;letter-spacing:0;color:#171717;opacity:1}
+.contact-section .container h2,.contact-section .container h1{text-align:left;font-size:25px;line-height:30px;font-weight:bold;letter-spacing:0;color:#000}
+.contact-section .container .form-section .form__horizontal .sign-up-text p{text-align:left;font-size:18px;line-height:25px;letter-spacing:0;color:#171717}
 .contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 .gform_title,.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 .gfield_label{display:none}
 .contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 li{margin-top:0}
-.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input{background:#fff 0 0 no-repeat padding-box;border:1px solid #c4c4c4;border-radius:6px;height:43px;opacity:1;text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1;width:100%}
-.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input::-webkit-input-placeholder{text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input:-ms-input-placeholder{text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input::-ms-input-placeholder{text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input::placeholder{text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input[type="submit"]{width:100%;height:48px;background:#bc0078 0 0 no-repeat padding-box;border-radius:6px;opacity:1;font-size:18px;line-height:49px;font-weight:bold;letter-spacing:0;color:#fff;opacity:1;border:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;padding:0}
+.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input{background:#fff 0 0 no-repeat padding-box;border:1px solid #c4c4c4;border-radius:6px;height:43px;text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a;width:100%}
+.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input::-webkit-input-placeholder{text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input:-ms-input-placeholder{text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input::-ms-input-placeholder{text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input::placeholder{text-align:left;font-size:18px;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.contact-section .container .form-section .form__horizontal .gform_wrapper #gform_1 input[type="submit"]{width:100%;height:48px;background:#bc0078 0 0 no-repeat padding-box;border-radius:6px;font-size:18px;line-height:49px;font-weight:bold;letter-spacing:0;color:#fff;border:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;padding:0}
 .image-section .container{text-align:center;padding:50px 0 0}
 .image-section .container img{width:50%;height:auto}
 .toggle_list-section .container{padding:30px 15px}
@@ -3091,12 +3093,12 @@ lesshat-selector{-lh-property:0}
 .toggle_list-section .container .button-dropdown{cursor:pointer}
 .toggle_list-section .container .modal-dialog{max-width:600px}
 .toggle_list-section .container .item{height:100%;min-height:200px;padding:15px}
-.toggle_list-section .container .item p{text-align:left;font-size:18px;line-height:31px;letter-spacing:0;color:#313131;opacity:1}
-.toggle_list-section .container .item h2{text-align:left;font-size:25px;line-height:40px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
+.toggle_list-section .container .item p{text-align:left;font-size:18px;line-height:31px;letter-spacing:0;color:#313131}
+.toggle_list-section .container .item h2{text-align:left;font-size:25px;line-height:40px;font-weight:bold;letter-spacing:0;color:#000}
 .toggle_list-section .container .modal .close{font-size:30px}
 .toggle_list-section .container .modal .close:hover{background:white;color:red}
 .connect_with_us-section .container{padding:30px}
-.connect_with_us-section .container .title{text-align:center;font-size:38px;font-weight:bold;line-height:49px;letter-spacing:0;color:#000;opacity:1}
+.connect_with_us-section .container .title{text-align:center;font-size:38px;font-weight:bold;line-height:49px;letter-spacing:0;color:#000}
 .connect_with_us-section .container .wrapper{text-align:center}
 .connect_with_us-section .container .wrapper>a{padding:9px 0;border-radius:38px;background:#bc0078;width:30px;height:30px;margin:0 5px}
 .connect_with_us-section .container .wrapper>a i{color:white;width:40px}
@@ -3104,37 +3106,37 @@ lesshat-selector{-lh-property:0}
 .connect_with_us-section .container .content i{color:#ffea00;font-size:30px}
 .subscribe-section{position:relative;background-size:cover !important}
 .subscribe-section .container{padding:50px 0}
-.subscribe-section .container .form-section .form__horizontal h2,.subscribe-section .container .form-section .form__horizontal h1{text-align:center;font-size:25px;line-height:30px;font-weight:bold;letter-spacing:0;color:#000;opacity:1}
-.subscribe-section .container .form-section .form__horizontal .sign-up-text p{text-align:left;font-size:18px;line-height:25px;letter-spacing:0;color:#171717;opacity:1}
+.subscribe-section .container .form-section .form__horizontal h2,.subscribe-section .container .form-section .form__horizontal h1{text-align:center;font-size:25px;line-height:30px;font-weight:bold;letter-spacing:0;color:#000}
+.subscribe-section .container .form-section .form__horizontal .sign-up-text p{text-align:left;font-size:18px;line-height:25px;letter-spacing:0;color:#171717}
 .subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}
 .subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6 .gform_title,.subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6 .gfield_label{display:none}
 .subscribe-section .container .form-section .form__horizontal .gform_wrapper #gform_6 li{margin-top:0;padding-bottom:0}
 .hero_highlighted_title-section{background-size:cover !important}
-.hero_highlighted_title-section .title{background:#171717 0 0 no-repeat padding-box;font-weight:bold;font-size:42px;letter-spacing:0;opacity:1;color:white;margin-bottom:0}
+.hero_highlighted_title-section .title{background:#171717 0 0 no-repeat padding-box;font-weight:bold;font-size:42px;letter-spacing:0;color:white;margin-bottom:0}
 .hero_highlighted_title-section .title.alt_title{background:0;color:#000;font-size:55px;margin-top:40px}
 .hero_highlighted_title-section .title span{color:#f05d34}
 .hero_highlighted_title-section .subtitle{font-size:19px;line-height:31px}
 .hero_highlighted_title-section strong.line-through{text-decoration:line-through;color:red;font-weight:700}
 .hero_highlighted_title-section .container{padding:50px 15px}
-.hero_highlighted_title-section .container .form-section .form__horizontal{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 0 30px 13px #0000000F;box-shadow:0 0 30px 13px #0000000F;opacity:1;padding:24px 27px 24px 21px;margin-bottom:80px;position:relative;max-width:300px;float:right}
+.hero_highlighted_title-section .container .form-section .form__horizontal{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 0 30px 13px #0000000F;box-shadow:0 0 30px 13px #0000000F;padding:24px 27px 24px 21px;margin-bottom:80px;position:relative;max-width:300px;float:right}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title span{color:#bc0078}
-.hero_highlighted_title-section .container .form-section .form__horizontal .form-title{text-align:center;font-size:19px;font-weight:bold;line-height:27px;letter-spacing:0;opacity:1}
+.hero_highlighted_title-section .container .form-section .form__horizontal .form-title{text-align:center;font-size:19px;font-weight:bold;line-height:27px;letter-spacing:0}
 .hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper #gform_fields_7 .gfield_error{max-width:100% !important}
 .hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper .gform_footer{padding:0}
 .hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper .gfield_label{line-height:0;display:none}
 .hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper li{margin-top:0;padding:0}
 .hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper .gform_title{display:none}
-.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input::-webkit-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input:-ms-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input::-ms-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input::placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input{background:#fff 0 0 no-repeat padding-box;border:1px solid #c4c4c4;border-radius:0;opacity:1;width:100%;height:43px;text-align:left;font-size:18px;font-weight:normal;line-height:27px;padding:7px 10px;color:#9a9a9a;opacity:1;margin:0}
-.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input[type="submit"]{width:100%;height:42px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:0;opacity:1;text-align:center;font-size:18px;font-weight:bold;line-height:27px;letter-spacing:0;color:#fff;opacity:1;border:0}
+.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input::-webkit-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input:-ms-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input::-ms-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input::placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input{background:#fff 0 0 no-repeat padding-box;border:1px solid #c4c4c4;border-radius:0;width:100%;height:43px;text-align:left;font-size:18px;font-weight:normal;line-height:27px;padding:7px 10px;color:#9a9a9a;margin:0}
+.hero_highlighted_title-section .container .form-section .form__horizontal .gform_wrapper input[type="submit"]{width:100%;height:42px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:0;text-align:center;font-size:18px;font-weight:bold;line-height:27px;letter-spacing:0;color:#fff;border:0}
 .blur-section .container{padding:50px 15px}
 .blur-section .container h3{text-align:left;font-size:40px;line-height:60px;letter-spacing:0;color:#fff;margin-top:20px}
-.form__horizontal,#sidebar .gform_widget{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;opacity:1;padding:24px 15px;margin-bottom:50px}
+.form__horizontal,#sidebar .gform_widget{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;padding:24px 15px;margin-bottom:50px}
 .form__horizontal .form-title span,#sidebar .gform_widget .form-title span{color:#bc0078}
-.form__horizontal .form-title,#sidebar .gform_widget .form-title{text-align:left;font-size:22px;font-weight:bold;line-height:27px;letter-spacing:0;opacity:1;text-align:center}
+.form__horizontal .form-title,#sidebar .gform_widget .form-title{text-align:left;font-size:22px;font-weight:bold;line-height:27px;letter-spacing:0;text-align:center}
 .form__horizontal div.validation_error,#sidebar .gform_widget div.validation_error{display:none}
 .form__horizontal .gform_wrapper ul,#sidebar .gform_widget .gform_wrapper ul{width:100%}
 .form__horizontal .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),.form__horizontal .gform_wrapper .gform_validation_error .gform_body ul li.gfield.gfield_error,.form__horizontal .gform_wrapper li,#sidebar .gform_widget .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),#sidebar .gform_widget .gform_wrapper .gform_validation_error .gform_body ul li.gfield.gfield_error,#sidebar .gform_widget .gform_wrapper li{margin-top:0 !important;padding:0 !important;max-width:100% !important;border:0;background:0}
@@ -3144,12 +3146,12 @@ lesshat-selector{-lh-property:0}
 .form__horizontal .gform_wrapper .gfield,#sidebar .gform_widget .gform_wrapper .gfield{margin:0 !important;border:0 !important;background:none !important}
 .form__horizontal .gform_wrapper .gfield span,#sidebar .gform_widget .gform_wrapper .gfield span{margin-right:-4px}
 .form__horizontal .gform_wrapper .gform_title,#sidebar .gform_widget .gform_wrapper .gform_title{display:none}
-.form__horizontal .gform_wrapper input::-webkit-input-placeholder,.form__horizontal .gform_wrapper textarea::-webkit-input-placeholder,#sidebar .gform_widget .gform_wrapper input::-webkit-input-placeholder,#sidebar .gform_widget .gform_wrapper textarea::-webkit-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.form__horizontal .gform_wrapper input:-ms-input-placeholder,.form__horizontal .gform_wrapper textarea:-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper input:-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper textarea:-ms-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.form__horizontal .gform_wrapper input::-ms-input-placeholder,.form__horizontal .gform_wrapper textarea::-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper input::-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper textarea::-ms-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.form__horizontal .gform_wrapper input::placeholder,.form__horizontal .gform_wrapper textarea::placeholder,#sidebar .gform_widget .gform_wrapper input::placeholder,#sidebar .gform_widget .gform_wrapper textarea::placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a;opacity:1}
-.form__horizontal .gform_wrapper input,#sidebar .gform_widget .gform_wrapper input{background:#fff 0 0 no-repeat padding-box;border:1px solid #c4c4c4;border-radius:0;opacity:1;width:100% !important;max-width:100% !important;height:43px;text-align:left;font-size:18px;font-weight:normal;line-height:27px;padding:7px 10px;color:#9a9a9a;opacity:1;margin:0 !important}
-.form__horizontal .gform_wrapper input[type="submit"],#sidebar .gform_widget .gform_wrapper input[type="submit"]{width:100%;height:42px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:0;opacity:1;text-align:center;font-size:18px;font-weight:bold;line-height:27px;letter-spacing:0;color:#fff;opacity:1;border:0}
+.form__horizontal .gform_wrapper input::-webkit-input-placeholder,.form__horizontal .gform_wrapper textarea::-webkit-input-placeholder,#sidebar .gform_widget .gform_wrapper input::-webkit-input-placeholder,#sidebar .gform_widget .gform_wrapper textarea::-webkit-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.form__horizontal .gform_wrapper input:-ms-input-placeholder,.form__horizontal .gform_wrapper textarea:-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper input:-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper textarea:-ms-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.form__horizontal .gform_wrapper input::-ms-input-placeholder,.form__horizontal .gform_wrapper textarea::-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper input::-ms-input-placeholder,#sidebar .gform_widget .gform_wrapper textarea::-ms-input-placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.form__horizontal .gform_wrapper input::placeholder,.form__horizontal .gform_wrapper textarea::placeholder,#sidebar .gform_widget .gform_wrapper input::placeholder,#sidebar .gform_widget .gform_wrapper textarea::placeholder{text-align:left;font-size:18px;font-weight:normal;line-height:27px;letter-spacing:0;color:#9a9a9a}
+.form__horizontal .gform_wrapper input,#sidebar .gform_widget .gform_wrapper input{background:#fff 0 0 no-repeat padding-box;border:1px solid #c4c4c4;border-radius:0;width:100% !important;max-width:100% !important;height:43px;text-align:left;font-size:18px;font-weight:normal;line-height:27px;padding:7px 10px;color:#9a9a9a;margin:0 !important}
+.form__horizontal .gform_wrapper input[type="submit"],#sidebar .gform_widget .gform_wrapper input[type="submit"]{width:100%;height:42px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:0;text-align:center;font-size:18px;font-weight:bold;line-height:27px;letter-spacing:0;color:#fff;border:0}
 .form__horizontal .gform_wrapper textarea,#sidebar .gform_widget .gform_wrapper textarea{border:1px solid #c4c4c4;color:#9a9a9a}
 #_form_34_{font-size:14px;line-height:1.6;font-family:arial,helvetica,sans-serif;margin:0}
 #_form_34_ *{outline:0}
@@ -3165,7 +3167,7 @@ lesshat-selector{-lh-property:0}
 #_form_34_ input[type="text"]::-ms-input-placeholder,#_form_34_ input[type="date"]::-ms-input-placeholder,#_form_34_ textarea::-ms-input-placeholder{color:#9a9a9a !important}
 #_form_34_ input[type="text"]::placeholder,#_form_34_ input[type="date"]::placeholder,#_form_34_ textarea::placeholder{color:#9a9a9a !important}
 #_form_34_ textarea{resize:none}
-#_form_34_ ._submit{width:100%;height:42px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:0;opacity:1;text-align:center;font-size:18px;font-weight:bold;line-height:27px;letter-spacing:0;color:#fff;opacity:1;border:0;padding:0 !important}
+#_form_34_ ._submit{width:100%;height:42px;background:#8bc34a 0 0 no-repeat padding-box;border-radius:0;text-align:center;font-size:18px;font-weight:bold;line-height:27px;letter-spacing:0;color:#fff;border:0;padding:0 !important}
 #_form_34_ ._close-icon{cursor:pointer;background-image:url("https://d226aj4ao1t61q.cloudfront.net/esfkyjh1u_forms-close-dark.png");background-repeat:no-repeat;background-size:14.2px 14.2px;position:absolute;display:block;top:11px;right:9px;overflow:hidden;width:16.2px;height:16.2px}
 #_form_34_ ._close-icon:before{position:relative}
 #_form_34_ ._form-body{margin-bottom:30px}
@@ -3223,16 +3225,16 @@ lesshat-selector{-lh-property:0}
 .testimonial_video-section{padding:70px 0;background:#f6f6f6 0 0 no-repeat padding-box}
 .testimonial_video-section video{width:100% !important;height:auto !important}
 .testimonial_video-section .container{max-width:847px}
-.testimonial_video-section .container .title{text-align:center;font-weight:bold;font-size:34px;letter-spacing:0;opacity:1}
+.testimonial_video-section .container .title{text-align:center;font-weight:bold;font-size:34px;letter-spacing:0}
 .testimonial_video-section .container .title span{color:#f05d34}
 .testimonial_video-section .container .subtitle{font-size:24px;text-align:center}
-.testimonial_video-section .container .name{text-align:left;font-weight:bold;letter-spacing:0;color:#242424;opacity:1}
-.testimonial_video-section .container .testimonials .content{text-align:center;letter-spacing:0;color:#242424;opacity:1;margin:0 auto}
+.testimonial_video-section .container .name{text-align:left;font-weight:bold;letter-spacing:0;color:#242424}
+.testimonial_video-section .container .testimonials .content{text-align:center;letter-spacing:0;color:#242424;margin:0 auto}
 .testimonial_video-section .container .testimonials .profile-pic{text-align:center}
 .testimonial_video-section .container .testimonials .profile-pic .profile_pic{width:147px;height:147px}
 .testimonial_video-section .container .testimonials .row.testament{margin-bottom:70px;margin-top:70px}
 .testimonial_video-section .container .testimonials .video-container{margin-top:20px}
-.testimonial_video-section .container .iwant{background:#7fc92a 0 0 no-repeat padding-box;border-radius:6px;opacity:1;padding:0 30px;height:58px;font-weight:bold;font-size:28px;letter-spacing:0;color:#fff;opacity:1;border:0;margin-top:30px}
+.testimonial_video-section .container .iwant{background:#7fc92a 0 0 no-repeat padding-box;border-radius:6px;padding:0 30px;height:58px;font-weight:bold;font-size:28px;letter-spacing:0;color:#fff;border:0;margin-top:30px}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}
 .fade{-webkit-transition:none;transition:none}
@@ -3753,7 +3755,6 @@ th.visible-sm,td.visible-sm{display:table-cell !important}
 .site-nav .btn{display:block;font-size:17px}
 .site-nav .btn i{display:inline-block;margin-right:5px}
 .site-nav .navbar-brand{display:none}
-.site-footer .container .copyright p{margin-top:80px}
 .feature-section .row{display:-webkit-box;display:-ms-flexbox;display:flex}
 .feature-section .row>div{display:-webkit-box;display:-ms-flexbox;display:flex}
 .formula-section .container .form .gform_wrapper #gform_fields_5 .gfield.gf_left_half{padding-right:8px !important}

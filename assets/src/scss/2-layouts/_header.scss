@@ -39,7 +39,6 @@
                 font: Bold 16px/22px Century Gothic;
                 letter-spacing: 0;
                 color: #313131;
-                opacity: 1;
             }
         }
 
@@ -260,10 +259,10 @@
 
     .nav-link {
         text-align: left;
-        font: Bold 18px/25px Century Gothic;
+        font-weight: 18px;
+        line-height: 25px;
         letter-spacing: 0;
         color: #171717;
-        opacity: 1;
 
         &:hover {
             color: #BC0078;
