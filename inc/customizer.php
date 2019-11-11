@@ -97,7 +97,7 @@ function themezero_customize_register($wp_customize)
 
 	$wp_customize->add_control('phone', array(
 		'type' => 'textarea',
-		'label'      => __('Address', 'themezero'),
+		'label'      => __('Phone', 'themezero'),
 		'section'    => 'themezero_theme_option',
 		'settings'   => 'phone',
 	));
@@ -126,7 +126,7 @@ function themezero_customize_register($wp_customize)
 		'themezero_sanitize_js_callback' => '',
 	));
 
-	$wp_customize->add_control('copyright', array(
+	$wp_customize->add_control('footer_description', array(
 		'type' => 'textarea',
 		'label'      => __('Footer Description', 'themezero'),
 		'section'    => 'themezero_theme_option',
