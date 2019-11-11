@@ -1,13 +1,23 @@
 .text_video-section {
+    &._alt_bottom {
+        .container {
+            max-width: 847px;
+        }
+    }
+
     .container {
         padding: 50px 15px;
 
         h2 {
-            text-align: left;
+            text-align: center;
             color: #0D0D0D;
             font-size: 35px;
             line-height: 44px;
             font-weight: bold;
+
+            span {
+                color: $orange;
+            }
         }
 
         @include min-breakpoint(768) {

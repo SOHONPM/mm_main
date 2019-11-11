@@ -1,15 +1,15 @@
-<section class="text_video-section">
+<section class="text_video-section <?php echo get_sub_field('video_position')=='right'?'':'_alt_bottom' ?>">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+        <h2 class="title"><?php echo get_sub_field('title') ?></h2>
+        <div class="row content">
+            <div class="<?php echo get_sub_field('video_position')=='right'?'col-md-6':'col-md-12'?>">
                 <div class="content">
                     <?php echo get_sub_field('content') ?>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="<?php echo get_sub_field('video_position')=='right'?'col-md-6':'col-md-12'?>">
                 <?php echo get_sub_field('video') ?>
             </div>
         </div>
-
     </div>
 </section>

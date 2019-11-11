@@ -3067,8 +3067,10 @@ lesshat-selector{-lh-property:0}
 .profile-section .container .social-link a i{font-size:40px;margin:10px;margin-left:0}
 .profile-section .container .name-div .name{font-size:20px;line-height:53px;font-weight:bold;letter-spacing:0;color:#040404;opacity:1}
 .profile-section .container .learn-more-link .link{color:#bc0078}
+.text_video-section._alt_bottom .container{max-width:847px}
 .text_video-section .container{padding:50px 15px}
-.text_video-section .container h2{text-align:left;color:#0d0d0d;font-size:35px;line-height:44px;font-weight:bold}
+.text_video-section .container h2{text-align:center;color:#0d0d0d;font-size:35px;line-height:44px;font-weight:bold}
+.text_video-section .container h2 span{color:#fd7e14}
 .contact-section{position:relative;background-size:cover !important}
 .contact-section::before{content:'';background:white;width:100%;height:100%;position:absolute;opacity:.7}
 .contact-section .container{padding:50px 15px}
@@ -3218,6 +3220,19 @@ lesshat-selector{-lh-property:0}
 .cta-section h2{text-align:left;font-weight:bold;font-size:44px}
 .cta-section h2 span{color:#f05d34}
 .cta-section a.btn{background:#8bc34a 0 0 no-repeat padding-box;width:250px;height:56px;border-radius:0;line-height:40px}
+.testimonial_video-section{padding:70px 0;background:#f6f6f6 0 0 no-repeat padding-box}
+.testimonial_video-section video{width:100% !important;height:auto !important}
+.testimonial_video-section .container{max-width:847px}
+.testimonial_video-section .container .title{text-align:center;font-weight:bold;font-size:34px;letter-spacing:0;opacity:1}
+.testimonial_video-section .container .title span{color:#f05d34}
+.testimonial_video-section .container .subtitle{font-size:24px;text-align:center}
+.testimonial_video-section .container .name{text-align:left;font-weight:bold;letter-spacing:0;color:#242424;opacity:1}
+.testimonial_video-section .container .testimonials .content{text-align:center;letter-spacing:0;color:#242424;opacity:1;margin:0 auto}
+.testimonial_video-section .container .testimonials .profile-pic{text-align:center}
+.testimonial_video-section .container .testimonials .profile-pic .profile_pic{width:147px;height:147px}
+.testimonial_video-section .container .testimonials .row.testament{margin-bottom:70px;margin-top:70px}
+.testimonial_video-section .container .testimonials .video-container{margin-top:20px}
+.testimonial_video-section .container .iwant{background:#7fc92a 0 0 no-repeat padding-box;border-radius:6px;opacity:1;padding:0 30px;height:58px;font-weight:bold;font-size:28px;letter-spacing:0;color:#fff;opacity:1;border:0;margin-top:30px}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}
 .fade{-webkit-transition:none;transition:none}
