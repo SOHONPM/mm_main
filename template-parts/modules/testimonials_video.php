@@ -39,9 +39,9 @@
         ?>
         <div class="row">
           <div class="col text-center">
-            <button class="iwant">
-              YES! I Want To Attend This Retreat
-            </button>
+            <a class="iwant" href=' <?php echo get_sub_field('button')['url'] ?>'>
+              <?php echo get_sub_field('button')['label'] ?>
+            </a>
           </div>
         </div>
       </div>
