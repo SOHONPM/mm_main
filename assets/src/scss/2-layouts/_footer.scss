@@ -1,6 +1,12 @@
 .site-footer {
     background: #e6e6e6;
 
+    .landing-container {
+        .container {
+            max-width: 990px;
+        }
+    }
+
     .container {
         padding-top: 50px;
 

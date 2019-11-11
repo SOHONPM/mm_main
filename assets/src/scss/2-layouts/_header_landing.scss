@@ -1,4 +1,8 @@
 .landing-container {
+    .container {
+        max-width: 990px;
+    }
+
     .progress-container {
         width: calc(100% - 130px);
         display: -webkit-box;
