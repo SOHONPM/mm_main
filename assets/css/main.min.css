@@ -2753,6 +2753,7 @@ img{max-width:100%}
 strong{font-weight:700}
 dfn,cite,em,i{font-style:italic}
 .row{margin-right:-15px;margin-left:-15px}
+ol.list-style-decimal{list-style:decimal}
 .section-padding{padding:50px 0}
 .align-items-center{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .page-wrapper{overflow:hidden}
