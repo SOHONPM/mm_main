@@ -2895,7 +2895,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-header__middle .navbar .navbar-toggler rect{fill:#bc0078 !important}
 .site-logo{width:130px;position:relative}
 .site-nav{width:calc(100% - 130px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
-.site-nav .nav-link{text-align:left;font-weight:18px;line-height:25px;letter-spacing:0;color:#171717}
+.site-nav .nav-link{text-align:left;font-weight:bold;line-height:25px;letter-spacing:0;color:#171717}
 .site-nav .nav-link:hover{color:#bc0078}
 .site-nav .active .nav-link{color:#bc0078}
 .site-nav .btn{display:none}
