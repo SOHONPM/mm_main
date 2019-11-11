@@ -120,7 +120,20 @@
 		$("body").addClass("scroll-enable");
 	});
 })(jQuery);
-//
+
+//Smooth scroll
+jQuery('a[href^="#"]').click(function () {
+	var href = jQuery.attr(this, 'href');
+
+	$('html, body').animate({
+		scrollTop: jQuery(href).offset().top
+	}, 500, function () {
+		window.location.hash = href;
+	});
+
+	return false;
+});
+
 (function ($) {
 	$(function () {
 		if (typeof $().slick !== "undefined") {
