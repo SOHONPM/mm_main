@@ -2923,7 +2923,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .site-footer .container .content p{text-align:left;letter-spacing:0;color:#313131}
 .site-footer .container .copyright p{letter-spacing:0;color:#807e7e;font-size:16px}
 .site-footer .container .menu-title,.site-footer .container .contact-us{text-align:left;font-weight:bold;font-size:20px;letter-spacing:0;color:#bc0078}
-.site-footer .container .footer-menu{margin-bottom:25px}
+.site-footer .container .footer-menu{margin-bottom:25px;margin-left:0}
 .site-footer .container .footer-menu li{padding:0}
 .site-footer .container .footer-menu li.active a{color:#bc0078}
 .site-footer .container .footer-menu li a{text-align:left;font:normal 17px/33px Century Gothic;letter-spacing:0;color:#313131;padding:0}

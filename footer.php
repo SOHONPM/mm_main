@@ -24,7 +24,7 @@ if (!defined('ABSPATH')) {
           <a href="<?php echo site_url() ?>"><?php themezero_get_logo() ?></a>
         </div>
         <div class="content">
-          <p>NeuroCoding<sup>©</sup> is the science and skill of using the neuroplastic nature of your brain to create new patterns and connections that allow you to access your full potential.</p>
+          <p><?php echo get_theme_mod('footer_description') ?></p>
         </div>
       </div>
       <div class="col-md-3">
@@ -50,7 +50,7 @@ if (!defined('ABSPATH')) {
       </div>
       <div class="col-md-12">
         <div class="copyright">
-          <p>© 2017 mindmatters.me | Founders of NeuroCoding<sup>©</sup></p>
+          <p><?php echo get_theme_mod('copyright') ?></p>
         </div>
       </div>
     </div>

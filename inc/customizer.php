@@ -101,6 +101,37 @@ function themezero_customize_register($wp_customize)
 		'section'    => 'themezero_theme_option',
 		'settings'   => 'phone',
 	));
+	$wp_customize->add_setting('copyright', array(
+		'type' => 'theme_mod',
+		'capability' => 'edit_theme_options',
+		'theme_supports' => '',
+		'default' => '',
+		'transport' => 'refresh',
+		'themezero_sanitize_js_callback' => '',
+	));
+
+	$wp_customize->add_control('copyright', array(
+		'type' => 'textarea',
+		'label'      => __('Copyright', 'themezero'),
+		'section'    => 'themezero_theme_option',
+		'settings'   => 'copyright',
+	));
+
+	$wp_customize->add_setting('footer_description', array(
+		'type' => 'theme_mod',
+		'capability' => 'edit_theme_options',
+		'theme_supports' => '',
+		'default' => '',
+		'transport' => 'refresh',
+		'themezero_sanitize_js_callback' => '',
+	));
+
+	$wp_customize->add_control('copyright', array(
+		'type' => 'textarea',
+		'label'      => __('Footer Description', 'themezero'),
+		'section'    => 'themezero_theme_option',
+		'settings'   => 'footer_description',
+	));
 }
 
 
