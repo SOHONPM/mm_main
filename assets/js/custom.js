@@ -119,7 +119,6 @@
   //Smooth scroll
   jQuery('a[href^="#"]').not('.carousel-arrow').click(function () {
     var href = jQuery.attr(this, 'href');
-    console.log('test');
     $('html, body').animate({
       scrollTop: jQuery(href).offset().top
     }, 500, function () {
@@ -132,7 +131,6 @@
 (function ($) {
   $(function () {
     if (typeof $().slick !== "undefined") {
-      console.log("Custom JS");
       $(".carousel-cols-3").each(function () {
         var $carousel_nav = $(this).find(".carousel-nav");
         var $carousel_items = $(this).find(".carousel-items");
