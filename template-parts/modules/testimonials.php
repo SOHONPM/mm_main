@@ -32,10 +32,10 @@
                     <?php }
                     ?>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <a class="carousel-arrow carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <div class="prev"></div>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <a class="carousel-arrow carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                     <div class="next"></div>
                 </a>
             </div>
