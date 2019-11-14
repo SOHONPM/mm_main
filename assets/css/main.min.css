@@ -3248,7 +3248,7 @@ lesshat-selector{-lh-property:0}
 .video-section .container{padding-top:50px;padding-bottom:50px}
 .video-section .container .main-title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;margin-bottom:30px}
 .video-section .container .video-block{border:1px solid #eee;padding:5px;margin-bottom:20px}
-.video-section .container .video-block .inner-text{padding:15px 0}
+.video-section .container .video-block .inner-text{padding:15px}
 .video-section .container .video-block p{margin-bottom:0;line-height:1}
 .video-section .container .video-block p.title{font-weight:bold;color:#000}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
