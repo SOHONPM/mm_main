@@ -4379,6 +4379,7 @@ th.visible-xs,td.visible-xs{display:table-cell !important}
 }@media only screen and (max-width:505px){.blog-section .container .custom-carousel .r1{display:block}
 }@media only screen and (max-width:480px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.8rem/1.8 sans-serif}
 .blog-section .container .custom-carousel .r1 .carousel-nav{margin-left:20px;width:55px}
+}@media only screen and (max-width:463px){.blog-section .media-box-loaded{min-height:400px}
 }@media only screen and (max-width:398px){.banner__sub h1{font-size:25px;line-height:30px}
 .hero-section .container .wrapper h1{font-size:25px;line-height:30px}
 .headline-section .container .title{font-size:25px;line-height:30px}

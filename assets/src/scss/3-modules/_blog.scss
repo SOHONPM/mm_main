@@ -6,6 +6,10 @@
         @include breakpoint(991) {
             min-height: 510px;
         }
+
+        @include breakpoint(463) {
+            min-height: 400px;
+        }
     }
 
     .container {
