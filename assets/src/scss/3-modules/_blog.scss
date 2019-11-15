@@ -1,4 +1,9 @@
 .blog-section {
+    .media-box-loaded {
+        min-height: 400px;
+        position: unset !important;
+    }
+
     .container {
         padding: 50px 15px;
 

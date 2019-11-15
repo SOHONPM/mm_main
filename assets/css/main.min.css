@@ -2998,6 +2998,7 @@ lesshat-selector{-lh-property:0}
 .testimonials-section .container .carousel .content{text-align:center;font-style:italic;color:#707070}
 .testimonials-section .container .carousel .prev{-webkit-transform:rotate(225deg);transform:rotate(225deg);border-top:2px solid #707070;border-right:2px solid #707070;width:21px;height:21px}
 .testimonials-section .container .carousel .next{-webkit-transform:rotate(45deg);transform:rotate(45deg);border-top:2px solid #707070;border-right:2px solid #707070;width:21px;height:21px}
+.blog-section .media-box-loaded{min-height:400px;position:unset !important}
 .blog-section .container{padding:50px 15px}
 .blog-section .container .media-box-container .more-link{font-size:16px}
 .blog-section .container .slick-slider{margin-left:-15px;margin-right:-15px}
