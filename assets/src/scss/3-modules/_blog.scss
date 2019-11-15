@@ -2,6 +2,10 @@
     .media-box-loaded {
         min-height: 400px;
         position: unset !important;
+
+        @include breakpoint(991) {
+            min-height: 500px;
+        }
     }
 
     .container {
