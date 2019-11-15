@@ -7441,9 +7441,9 @@ lesshat-selector { -lh-property: 0; }
 
 .testimonials-section .container .carousel .next { -webkit-transform: rotate(45deg); transform: rotate(45deg); border-top: 2px solid #707070; border-right: 2px solid #707070; width: 21px; height: 21px; }
 
-.blog-section .media-box-loaded { min-height: 400px; position: unset !important; }
+.blog-section .media-box-loaded { min-height: 455px; position: unset !important; }
 
-@media only screen and (max-width: 991px) { .blog-section .media-box-loaded { min-height: 500px; } }
+@media only screen and (max-width: 991px) { .blog-section .media-box-loaded { min-height: 510px; } }
 
 .blog-section .container { padding: 50px 15px; }
 
