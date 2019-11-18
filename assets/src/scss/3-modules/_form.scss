@@ -3,8 +3,6 @@ body .gform_wrapper .top_label div.ginput_container {
     margin-bottom: 8px !important;
 }
 
-
-
 .form__horizontal,
 #sidebar .gform_widget {
     height: auto;
@@ -16,6 +14,10 @@ body .gform_wrapper .top_label div.ginput_container {
 
     .form-title span {
         color: $brand_color;
+    }
+
+    .gform_wrapper .gform_footer {
+        margin: 0;
     }
 
     #gform_17 {
