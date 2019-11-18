@@ -4,8 +4,10 @@ body .gform_wrapper .top_label div.ginput_container {
 }
 
 #gform_17 {
-    label {
-        display: block !important;
+    #gform_17 label.gfield_label {
+        display: inline-flex;
+        font-size: 15px;
+        padding-bottom: 8px;
     }
 }
 
