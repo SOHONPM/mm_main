@@ -16,7 +16,7 @@
     }
 
     .container {
-        padding: 50px 15px 50px;
+        padding: 50px 15px 0;
 
         .title span {
             color: #AA9766;
@@ -38,10 +38,12 @@
             background: #750049;
             width: fit-content;
             padding: 10px;
+            margin-top: 175px;
 
 
             @include breakpoint(992) {
                 max-width: unset;
+                margin-top: 0;
             }
 
             @include breakpoint(768) {
