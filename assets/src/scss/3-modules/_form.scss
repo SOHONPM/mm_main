@@ -1,3 +1,5 @@
+body .gform_wrapper .top_label div.ginput_container {}
+
 .form__horizontal,
 #sidebar .gform_widget {
     height: auto;
@@ -9,6 +11,12 @@
 
     .form-title span {
         color: $brand_color;
+    }
+
+    #gform_17 {
+        label {
+            display: block;
+        }
     }
 
     .form-title {
