@@ -12,7 +12,7 @@
                 // loop through the rows of data
                 while (have_rows('videos')) : the_row();
                     ?>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="video-block">
                             <?php echo get_sub_field('video'); ?>
                             <div class="inner-text">
