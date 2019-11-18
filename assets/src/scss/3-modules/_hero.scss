@@ -18,7 +18,7 @@
     }
 
     .container {
-        padding: 80px 15px 0;
+        padding: 50px 15px 0;
 
         @include breakpoint(768) {
             padding: 50px 15px 0;
@@ -29,7 +29,7 @@
         }
 
         .wrapper {
-            padding: 20px 30px;
+            padding: 0 30px 20px;
             width: fit-content;
             margin-bottom: 180px;
             bottom: 0;
@@ -52,6 +52,7 @@
                 letter-spacing: 0;
                 color: $b;
                 max-width: 621px;
+                margin-bottom: 100px;
 
                 @include breakpoint(992) {
                     max-width: unset;

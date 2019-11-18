@@ -2952,10 +2952,10 @@ lesshat-selector{-lh-property:0}
 [not-existing]{zoom:1}
 .hero-section{left:-237px;width:100%;height:auto;background-size:cover !important}
 .hero-section .form__horizontal{max-width:300px;float:right}
-.hero-section .container{padding:80px 15px 0}
+.hero-section .container{padding:50px 15px 0}
 .hero-section .container .title span{color:#aa9766}
-.hero-section .container .wrapper{padding:20px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-bottom:180px;bottom:0}
-.hero-section .container .wrapper h1{text-align:left;font-size:40px;line-height:1.5em;font-family:Century Gothic;font-weight:bold;letter-spacing:0;color:#000;max-width:621px}
+.hero-section .container .wrapper{padding:0 30px 20px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-bottom:180px;bottom:0}
+.hero-section .container .wrapper h1{text-align:left;font-size:40px;line-height:1.5em;font-family:Century Gothic;font-weight:bold;letter-spacing:0;color:#000;max-width:621px;margin-bottom:100px}
 .feature-section .container{padding:50px 15px 0}
 .feature-section .container h2{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;margin-bottom:30px}
 .feature-section .container .single-feature{-webkit-box-shadow:0 10px 40px 0 rgba(75,25,141,0.15);box-shadow:0 10px 40px 0 rgba(75,25,141,0.15)}
