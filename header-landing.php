@@ -69,7 +69,18 @@ if (!defined('ABSPATH')) {
     </div>
     <!-- ./Preloader -->
     <!-- Site-header -->
-    test
+    <header id="masthead" class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="site-header__middle">
+            <div class="container">
+
+                <!-- Site-logo -->
+                <div class="site-logo">
+                    <a href="<?php echo site_url() ?>"><?php themezero_get_logo() ?></a>
+                </div>
+                <!-- ./Site-logo -->
+            </div>
+        </div>
+    </header>
     <!-- ./Site-header -->
     <!-- Accessibility -->
     <div class="container screen-reader-text">
