@@ -77,6 +77,58 @@ if (!defined('ABSPATH')) {
                 <div class="site-logo">
                     <a href="<?php echo site_url() ?>"><?php themezero_get_logo() ?></a>
                 </div>
+                <div class="col-md">
+
+                    <div class="countdown-timer">
+
+                        <div class="row">
+
+                            <div class="col with-separator">
+
+                                <div class="countdown-timer-days">
+
+                                    <strong></strong>
+                                    <span>Days</span>
+
+                                </div>
+
+                            </div>
+                            <div class="col with-separator">
+
+                                <div class="countdown-timer-hours">
+
+                                    <strong></strong>
+                                    <span>Hours</span>
+
+                                </div>
+
+                            </div>
+                            <div class="col with-separator">
+
+                                <div class="countdown-timer-minutes">
+
+                                    <strong></strong>
+                                    <span>Minutes</span>
+
+                                </div>
+
+                            </div>
+                            <div class="col">
+
+                                <div class="countdown-timer-seconds">
+
+                                    <strong></strong>
+                                    <span>Seconds</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
                 <!-- ./Site-logo -->
             </div>
         </div>
