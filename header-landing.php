@@ -69,7 +69,7 @@ if (!defined('ABSPATH')) {
     </div>
     <!-- ./Preloader -->
     <!-- Site-header -->
-    <header id="masthead" class="site-header" itemscope itemtype="http://schema.org/WPHeader">
+    <header id="landing" class="site-header" itemscope itemtype="http://schema.org/WPHeader">
         <div class="site-header__middle">
             <div class="container">
 

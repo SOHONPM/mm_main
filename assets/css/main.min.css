@@ -2914,7 +2914,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .main-menu li{display:inline-block;margin-left:20px;padding:0}
 .main-menu li a{font-family:"Century Gothic","Helvetica Neue",helvetica,arial,sans-serif;font-size:19px;-webkit-transition:color .3s ease;transition:color .3s ease;padding-left:0 !important;padding-right:0 !important}
 .main-menu li.current-menu-item a{color:#bc0078}
-.landing-container .container{max-width:990px}
+.landing-container #landing .site-header__middle .container{padding:15px}
 .landing-container .progress-container{width:calc(100% - 130px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
 .landing-container .progress-container .progress{width:50%;height:15px}
 .site-footer{background:#e6e6e6}

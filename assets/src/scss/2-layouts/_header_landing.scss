@@ -1,6 +1,10 @@
 .landing-container {
-    .container {
-        max-width: 990px;
+    #landing {
+        .site-header__middle {
+            .container {
+                padding: 15px;
+            }
+        }
     }
 
     .progress-container {
