@@ -4303,7 +4303,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .table-responsive-xl>.table-bordered{border:0}
 .navbar-expand-xl>.container,.navbar-expand-xl>.container-fluid{padding-right:0;padding-left:0}
 }@media only screen and (max-width:1024px){.wp-caption .wp-caption-text,.gallery-caption{font:300 2rem/3.1rem sans-serif}
-}@media only screen and (max-width:992px){.hero-section .container .wrapper h1{max-width:unset}
+}@media only screen and (max-width:992px){.hero-section .container .wrapper h1{max-width:unset;margin-bottom:0}
 .feature-section .container .text-center{width:100%;-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;display:block}
 .feature-section .container .single-feature{margin-bottom:25px}
 .solutions-section .container .grid{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
