@@ -3,13 +3,7 @@ body .gform_wrapper .top_label div.ginput_container {
     margin-bottom: 8px !important;
 }
 
-#gform_17 {
-    #gform_17 label.gfield_label {
-        display: inline-flex !important;
-        font-size: 15px;
-        padding-bottom: 8px;
-    }
-}
+
 
 .form__horizontal,
 #sidebar .gform_widget {
@@ -24,6 +18,13 @@ body .gform_wrapper .top_label div.ginput_container {
         color: $brand_color;
     }
 
+    #gform_17 {
+        #gform_17 label.gfield_label {
+            display: inline-flex !important;
+            font-size: 15px;
+            padding-bottom: 8px;
+        }
+    }
 
     .form-title {
         text-align: left;
