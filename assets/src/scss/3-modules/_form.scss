@@ -1,4 +1,13 @@
-body .gform_wrapper .top_label div.ginput_container {}
+body .gform_wrapper .top_label div.ginput_container {
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+
+#gform_17 {
+    label {
+        display: block;
+    }
+}
 
 .form__horizontal,
 #sidebar .gform_widget {
@@ -13,11 +22,6 @@ body .gform_wrapper .top_label div.ginput_container {}
         color: $brand_color;
     }
 
-    #gform_17 {
-        label {
-            display: block;
-        }
-    }
 
     .form-title {
         text-align: left;
