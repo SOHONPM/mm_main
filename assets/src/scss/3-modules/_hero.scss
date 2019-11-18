@@ -32,16 +32,15 @@
             background: rgba(242, 242, 242, .9);
             padding: 20px 30px;
             width: fit-content;
-            margin-top: 180px;
+            margin-bottom: 180px;
             bottom: 0;
 
             @include breakpoint(1200) {
-                margin-top: 195px;
+                margin-bottom: 195px;
             }
 
             @include breakpoint(991) {
-                margin-top: 0;
-                background: none;
+                margin-bottom: 0;
                 padding: 20px 0;
             }
 

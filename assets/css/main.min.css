@@ -2954,7 +2954,7 @@ lesshat-selector{-lh-property:0}
 .hero-section .form__horizontal{max-width:300px;float:right}
 .hero-section .container{padding:80px 15px 0}
 .hero-section .container .title span{color:#f05d34}
-.hero-section .container .wrapper{background:rgba(242,242,242,0.9);padding:20px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-top:180px;bottom:0}
+.hero-section .container .wrapper{background:rgba(242,242,242,0.9);padding:20px 30px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-bottom:180px;bottom:0}
 .hero-section .container .wrapper h1{text-align:left;font-size:40px;line-height:1.5em;font-family:Century Gothic;font-weight:bold;letter-spacing:0;color:#000;max-width:621px}
 .feature-section .container{padding:50px 15px 0}
 .feature-section .container h2{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;margin-bottom:30px}
@@ -4297,7 +4297,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .formula-section .container{max-width:850px}
 .formula-section .container .form .subtitle{max-width:450px}
 }@media only screen and (max-width:1280px){.wp-caption .wp-caption-text,.gallery-caption{font:300 2rem/3.1rem sans-serif}
-}@media only screen and (max-width:1200px){.hero-section .container .wrapper{margin-top:195px}
+}@media only screen and (max-width:1200px){.hero-section .container .wrapper{margin-bottom:195px}
 }@media(max-width:1199.98px){.table-responsive-xl{display:block;width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .table-responsive-xl>.table-bordered{border:0}
 .navbar-expand-xl>.container,.navbar-expand-xl>.container-fluid{padding-right:0;padding-left:0}
@@ -4313,7 +4313,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .table-responsive-lg>.table-bordered{border:0}
 .navbar-expand-lg>.container,.navbar-expand-lg>.container-fluid{padding-right:0;padding-left:0}
 }@media only screen and (max-width:991px){.hero-section .form__horizontal{float:left;max-width:100%;width:100%}
-.hero-section .container .wrapper{margin-top:0;background:0;padding:20px 0}
+.hero-section .container .wrapper{margin-bottom:0;padding:20px 0}
 .blog-section .media-box-loaded{min-height:510px}
 .headline-section .form__horizontal{float:left;max-width:100%;width:100%}
 .hero_highlighted_title-section .title.alt_title{margin-top:0}
