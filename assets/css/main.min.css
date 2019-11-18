@@ -3128,7 +3128,7 @@ lesshat-selector{-lh-property:0}
 .hero_highlighted_title-section .title.alt_title{background:0;color:#000;font-size:55px;margin-top:40px}
 .hero_highlighted_title-section .title span{color:#aa9766}
 .hero_highlighted_title-section .subtitle{font-size:19px;line-height:31px}
-.hero_highlighted_title-section strong.line-through{text-decoration:line-through;color:red;font-weight:700}
+.hero_highlighted_title-section strong.line-through{text-decoration:line-through;color:#bc0078;font-weight:700}
 .hero_highlighted_title-section .container{padding:50px 15px}
 .hero_highlighted_title-section .container .form-section .form__horizontal{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 0 30px 13px #0000000F;box-shadow:0 0 30px 13px #0000000F;padding:24px 27px 24px 21px;margin-bottom:80px;position:relative;max-width:300px;float:right}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title span{color:#bc0078}
@@ -3238,7 +3238,7 @@ body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;marg
 .form_image-section .container h1.form-title{font-size:24px;font-weight:bold;line-height:40px;text-align:center}
 .cta-section .container{padding:50px 15px}
 .cta-section h2{text-align:left;font-weight:bold;font-size:44px}
-.cta-section h2 span{color:#f05d34}
+.cta-section h2 span{color:#bc0078}
 .cta-section a.btn{background:#8bc34a 0 0 no-repeat padding-box;width:250px;height:56px;border-radius:0;line-height:40px}
 .testimonial_video-section{padding:70px 0;background:#f6f6f6 0 0 no-repeat padding-box}
 .testimonial_video-section video{width:100% !important;height:auto !important}
