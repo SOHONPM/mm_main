@@ -3031,6 +3031,7 @@ lesshat-selector{-lh-property:0}
 .headline-section .container .title{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px;text-shadow:0 1px 0 black}
 .headline-section .container .title-full{max-width:unset}
 .headline-section .container .subtitle{color:#aa9766;display:inline-block;padding:10px;background:#fff;text-align:left;font-size:30px;font-weight:bold;line-height:40px;letter-spacing:0;max-width:621px;margin-top:20px}
+.headline-section .container .subtitle span{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px;text-shadow:0 1px 0 black}
 .headline-section .container .subtitle.no_title{font-size:53px;font-weight:bold;line-height:66px}
 .headline-section .container .subtitle-full{max-width:unset}
 .text-section .container{padding:30px 15px}

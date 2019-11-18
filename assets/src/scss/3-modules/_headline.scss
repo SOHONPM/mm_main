@@ -74,6 +74,18 @@
             max-width: 621px;
             margin-top: 20px;
 
+            span {
+                text-align: left;
+                font-size: 53px;
+                font-weight: bold;
+                line-height: 66px;
+                letter-spacing: 0;
+                color: #fff;
+                max-width: 621px;
+                margin-top: 20px;
+                text-shadow: 0 1px 0 black;
+            }
+
             &.no_title {
                 font-size: 53px;
                 font-weight: bold;
