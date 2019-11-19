@@ -4,11 +4,9 @@
             <div class="grid">
                 <div class="col--right">
                     <div class='header-info'>
-
                         <div class="col-md-12">
                             <div class="wrapper">
                                 <p class="info button-dropdown " data-toggle="modal" data-target="#email"><?php echo "<span class='email'><i class='fas fa-envelope'></i> " . get_theme_mod('header_info') . "</span>" ?></p>
-
                                 <!-- Modal -->
                                 <div class="modal fade bd-example-modal-lg" id="email" tabindex="-1" role="dialog" aria-labelledby="emailLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -63,7 +61,7 @@
                         <div class='header-info'>
                             <div class="col-md-12">
                                 <div class="count">
-                                    <p><span>10</span> out of 12 spots left!</p>
+                                    <p><span><?php echo get_sub_field('slots_left') ?></span> out of 12 spots left!</p>
                                 </div>
                             </div>
                         </div>
