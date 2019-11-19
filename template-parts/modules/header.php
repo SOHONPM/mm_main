@@ -49,19 +49,24 @@
                 </div>
             </div>
         </div>
-        <div class="site-header__middle">
+        <div class="">
             <div class="container">
                 <!-- Site-logo -->
-                <div class="site-logo">
-                    <a href="<?php echo site_url() ?>"><?php themezero_get_logo() ?></a>
-                </div>
-                <!-- ./Site-logo -->
-                <div class="grid">
-                    <div class="col--right">
-                        <div class='header-info'>
-                            <div class="col-md-12">
-                                <div class="count">
-                                    <p><span><?php echo get_sub_field('slots_left') ?></span> out of 12 spots left!</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="site-logo">
+                            <a href="<?php echo site_url() ?>"><?php themezero_get_logo() ?></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="grid">
+                            <div class="col--right">
+                                <div class='header-info'>
+                                    <div class="col-md-12">
+                                        <div class="count">
+                                            <p><span><?php echo get_sub_field('slots_left') ?></span> out of <?php echo get_sub_field('max_slots') ?> spots left!</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
