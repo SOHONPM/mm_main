@@ -7735,7 +7735,7 @@ lesshat-selector { -lh-property: 0; }
 
 .hero_highlighted_title-section { background-size: cover !important; }
 
-@media only screen and (max-width: 768px) { .hero_highlighted_title-section { background: #f2f4f5 !important; } }
+@media only screen and (max-width: 767px) { .hero_highlighted_title-section { background: #f2f4f5 !important; } }
 
 .hero_highlighted_title-section .title { background: #171717 0% 0% no-repeat padding-box; font-weight: bold; font-size: 42px; letter-spacing: 0; color: white; margin-bottom: 0; }
 
