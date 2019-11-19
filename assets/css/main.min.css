@@ -2916,7 +2916,7 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .main-menu li.current-menu-item a{color:#bc0078}
 #landing .site-header__middle .container{padding:15px}
 #landing .site-header__middle .grid{width:100%}
-#landing .count p{font-size:30px;margin:0}
+#landing .count p{font-size:28px;margin:0;text-transform:uppercase;font-weight:700}
 #landing .count p span{font-size:unset;color:#b30073;font-weight:bolder}
 #landing .with-separator{border-right:1px solid #efefef}
 #landing .countdown-timer{max-width:400px;padding:20px 0;float:right;text-align:center}
@@ -3152,10 +3152,11 @@ lesshat-selector{-lh-property:0}
 .blur-section .container h3{text-align:left;font-size:40px;line-height:60px;letter-spacing:0;color:#fff;margin-top:20px}
 body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;margin-bottom:8px !important}
 .form__horizontal,#sidebar .gform_widget{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;padding:24px 15px;margin-bottom:50px}
+.form__horizontal .ginput_container.ginput_recaptcha,#sidebar .gform_widget .ginput_container.ginput_recaptcha{transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0}
 .form__horizontal .form-title span,#sidebar .gform_widget .form-title span{color:#bc0078}
 .form__horizontal .gform_wrapper .gform_footer,#sidebar .gform_widget .gform_wrapper .gform_footer{margin:0}
 .form__horizontal #gform_17 label.gfield_label,#sidebar .gform_widget #gform_17 label.gfield_label{display:-webkit-inline-box !important;display:-ms-inline-flexbox !important;display:inline-flex !important;font-size:15px;padding-bottom:8px}
-.form__horizontal .form-title,#sidebar .gform_widget .form-title{text-align:left;font-size:22px;font-weight:bold;line-height:27px;letter-spacing:0;text-align:center}
+.form__horizontal .form-title,.form__horizontal .widget-title,#sidebar .gform_widget .form-title,#sidebar .gform_widget .widget-title{text-align:left;font-size:22px;font-weight:bold;line-height:27px;letter-spacing:0;text-align:center}
 .form__horizontal div.validation_error,#sidebar .gform_widget div.validation_error{display:none}
 .form__horizontal .gform_wrapper ul,#sidebar .gform_widget .gform_wrapper ul{width:100%}
 .form__horizontal .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),.form__horizontal .gform_wrapper .gform_validation_error .gform_body ul li.gfield.gfield_error,.form__horizontal .gform_wrapper li,#sidebar .gform_widget .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),#sidebar .gform_widget .gform_wrapper .gform_validation_error .gform_body ul li.gfield.gfield_error,#sidebar .gform_widget .gform_wrapper li{margin-top:0 !important;padding:0 !important;max-width:100% !important;border:0;background:0}
@@ -4332,7 +4333,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .hero_highlighted_title-section .title{font-size:35px !important}
 .hero_highlighted_title-section .container .form-section .form__horizontal{float:left;max-width:100%;width:100%}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{font-size:19px;max-width:unset}
-.form__horizontal .form-title,#sidebar .gform_widget .form-title{font-size:19px;max-width:unset}
+.form__horizontal .form-title,.form__horizontal .widget-title,#sidebar .gform_widget .form-title,#sidebar .gform_widget .widget-title{font-size:19px;max-width:unset}
 .cta-section h2{font-size:40px !important}
 }@media only screen and (max-width:768px){.wp-caption .wp-caption-text,.gallery-caption{font:300 1.9rem/1.7 sans-serif}
 .site-header__top .header-info{display:contents}
@@ -4353,7 +4354,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .headline-section .container .subtitle{font-size:25px;line-height:35px}
 .hero_highlighted_title-section .title{font-size:30px !important}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{max-width:unset}
-.form__horizontal .form-title,#sidebar .gform_widget .form-title{max-width:unset}
+.form__horizontal .form-title,.form__horizontal .widget-title,#sidebar .gform_widget .form-title,#sidebar .gform_widget .widget-title{max-width:unset}
 .cta-section h2{font-size:30px !important}
 .cta-section .text-right{text-align:left !important}
 }@media only screen and (max-width:767px){.section-padding{padding:30px 0}
