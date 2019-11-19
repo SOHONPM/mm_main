@@ -59,16 +59,8 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <div class="grid">
-                            <div class="col--right">
-                                <div class='header-info'>
-                                    <div class="col-md-12">
-                                        <div class="count">
-                                            <p><span><?php echo get_sub_field('slots_left') ?></span> out of <?php echo get_sub_field('max_slots') ?> spots left!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="count">
+                            <p><span><?php echo get_sub_field('slots_left') ?></span> out of <?php echo get_sub_field('max_slots') ?> spots left!</p>
                         </div>
                     </div>
                 </div>
