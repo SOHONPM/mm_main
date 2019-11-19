@@ -7,12 +7,24 @@
  }
 
  #landing {
-     .grid {
-         width: 100%;
+     .site-header__middle {
+         .grid {
+             width: 100%;
+         }
      }
 
-     .header-info {
-         width: 100%;
+     .count {
+         p {
+             font-size: 30px;
+             margin: 0;
+
+             span {
+                 font-size: unset;
+                 color: #b30073;
+                 font-weight: bolder;
+             }
+         }
+
      }
 
      .with-separator {
