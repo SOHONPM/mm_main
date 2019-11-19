@@ -3258,7 +3258,7 @@ body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;marg
 .video-section .container .video-block p{margin-bottom:0;line-height:1}
 .video-section .container .video-block p.title{font-weight:bold;color:#000}
 #landing .site-header__middle .grid{width:100%}
-#landing .count{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;float:right;text-align:center;max-width:330px}
+#landing .count{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;float:right;text-align:center;min-width:330px}
 #landing .count p{font-size:28px;margin:0;text-transform:uppercase;font-weight:700;text-align:center}
 #landing .count p span{font-size:unset;color:#b30073;font-weight:bolder}
 #landing .with-separator{border-right:1px solid #efefef}

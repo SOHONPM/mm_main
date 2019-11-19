@@ -8073,7 +8073,7 @@ body .gform_wrapper .top_label div.ginput_container { margin-top: 0 !important; 
 
 @media only screen and (max-width: 767px) { #landing .site-logo { text-align: center; margin: 10px auto; } }
 
-#landing .count { width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; float: right; text-align: center; max-width: 330px; }
+#landing .count { width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; float: right; text-align: center; min-width: 330px; }
 
 @media only screen and (max-width: 767px) { #landing .count { text-align: center; margin-top: 0; width: unset; float: none; } }
 
