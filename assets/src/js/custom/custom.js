@@ -115,9 +115,12 @@
 		idvideo: "videoPopper"
 	});
 
-	$(window).on("load", function () {
-		$(".preloader").addClass("hide");
-		$("body").addClass("scroll-enable");
+	$(document).ready(function () {
+		setTimeout(function () {
+			$(".preloader").addClass("hide");
+			$("body").addClass("scroll-enable");
+		}, 1500)
+
 	});
 })(jQuery);
 (function ($) {
