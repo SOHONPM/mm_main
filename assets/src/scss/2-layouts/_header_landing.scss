@@ -6,29 +6,39 @@
      }
  }
 
- .with-separator {
-     border-right: 1px solid #efefef;
- }
+ #landing {
+     .grid {
+         width: 100%;
+     }
 
- .countdown-timer {
-     max-width: 400px;
-     padding: 20px 0;
-     float: right;
-     text-align: center;
+     .header-info {
+         width: 100%;
+     }
 
- }
+     .with-separator {
+         border-right: 1px solid #efefef;
+     }
 
- .countdown-timer span {
-     font-size: 12px;
-     color: #b9b9b9;
-     display: block;
-     margin-top: -10px;
- }
+     .countdown-timer {
+         max-width: 400px;
+         padding: 20px 0;
+         float: right;
+         text-align: center;
 
- .countdown-timer strong {
-     font-weight: 700;
-     font-size: 30px;
-     display: block;
+     }
+
+     .countdown-timer span {
+         font-size: 12px;
+         color: #b9b9b9;
+         display: block;
+         margin-top: -10px;
+     }
+
+     .countdown-timer strong {
+         font-weight: 700;
+         font-size: 30px;
+         display: block;
+     }
  }
 
  .landing-container {

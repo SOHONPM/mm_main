@@ -2917,6 +2917,10 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 #landing .site-header__middle .container{padding:15px}
 #landing .grid{width:100%}
 #landing .header-info{width:100%}
+#landing .with-separator{border-right:1px solid #efefef}
+#landing .countdown-timer{max-width:400px;padding:20px 0;float:right;text-align:center}
+#landing .countdown-timer span{font-size:12px;color:#b9b9b9;display:block;margin-top:-10px}
+#landing .countdown-timer strong{font-weight:700;font-size:30px;display:block}
 .landing-container .progress-container{width:calc(100% - 130px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
 .landing-container .progress-container .progress{width:50%;height:15px}
 .site-footer{background:#e6e6e6}
