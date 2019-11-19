@@ -2,6 +2,22 @@
     padding: 70px 0;
     background: #f6f6f6 0% 0% no-repeat padding-box;
 
+    .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+    }
+
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
     video {
         width: 100% !important;
         height: auto !important;

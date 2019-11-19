@@ -2915,10 +2915,8 @@ a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
 .main-menu li a{font-family:"Century Gothic","Helvetica Neue",helvetica,arial,sans-serif;font-size:19px;-webkit-transition:color .3s ease;transition:color .3s ease;padding-left:0 !important;padding-right:0 !important}
 .main-menu li.current-menu-item a{color:#bc0078}
 #landing .site-header__middle .container{padding:15px}
-.with-separator{border-right:1px solid #efefef}
-.countdown-timer{max-width:400px;padding:20px 0;float:right;text-align:center}
-.countdown-timer span{font-size:12px;color:#b9b9b9;display:block;margin-top:-10px}
-.countdown-timer strong{font-weight:700;font-size:30px;display:block}
+#landing .grid{width:100%}
+#landing .header-info{width:100%}
 .landing-container .progress-container{width:calc(100% - 130px);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
 .landing-container .progress-container .progress{width:50%;height:15px}
 .site-footer{background:#e6e6e6}
@@ -3241,6 +3239,8 @@ body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;marg
 .cta-section h2 span{color:#bc0078}
 .cta-section a.btn{background:#8bc34a 0 0 no-repeat padding-box;width:250px;height:56px;border-radius:0;line-height:40px}
 .testimonial_video-section{padding:70px 0;background:#f6f6f6 0 0 no-repeat padding-box}
+.testimonial_video-section .videoWrapper{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}
+.testimonial_video-section .videoWrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 .testimonial_video-section video{width:100% !important;height:auto !important}
 .testimonial_video-section .container{max-width:847px}
 .testimonial_video-section .container .title{text-align:center;font-weight:bold;font-size:34px;letter-spacing:0}
