@@ -1,6 +1,10 @@
 .hero_highlighted_title-section {
     background-size: cover !important;
 
+    @include breakpoint(768) {
+        background: #f2f4f5 !important;
+    }
+
     .title {
         background: #171717 0% 0% no-repeat padding-box;
         font-weight: bold;
