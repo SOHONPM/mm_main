@@ -3239,8 +3239,6 @@ body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;marg
 .cta-section h2 span{color:#bc0078}
 .cta-section a.btn{background:#8bc34a 0 0 no-repeat padding-box;width:250px;height:56px;border-radius:0;line-height:40px}
 .testimonial_video-section{padding:70px 0;background:#f6f6f6 0 0 no-repeat padding-box}
-.testimonial_video-section .videoWrapper{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}
-.testimonial_video-section .videoWrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 .testimonial_video-section video{width:100% !important;height:auto !important}
 .testimonial_video-section .container{max-width:847px}
 .testimonial_video-section .container .title{text-align:center;font-weight:bold;font-size:34px;letter-spacing:0}
@@ -3254,6 +3252,8 @@ body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;marg
 .testimonial_video-section .container .testimonials .video-container{margin-top:20px}
 .testimonial_video-section .container .iwant{background:#7fc92a 0 0 no-repeat padding-box;padding:15px 30px;height:58px;font-weight:bold;font-size:28px;letter-spacing:0;color:#fff;border:0;margin-top:30px}
 .video-section .container{padding-top:50px;padding-bottom:50px}
+.video-section .container .videoWrapper{position:relative;padding-bottom:56.25%;padding-top:25px;height:0}
+.video-section .container .videoWrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 .video-section .container .main-title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000;margin-bottom:30px}
 .video-section .container .video-block{border:1px solid #eee;padding:5px;margin-bottom:20px}
 .video-section .container .video-block .inner-text{padding:15px}
