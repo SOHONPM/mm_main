@@ -2957,7 +2957,7 @@ lesshat-selector{-lh-property:0}
 lesshat-selector{-lh-property:0}
 [not-existing]{zoom:1}
 .hero-section{left:-237px;width:100%;height:auto;background-size:cover !important}
-.hero-section .form__horizontal{max-width:300px;float:right}
+.hero-section .form__horizontal{max-width:330px;float:right}
 .hero-section .container{padding:50px 15px 0}
 .hero-section .container .title span{color:#aa9766}
 .hero-section .container .wrapper{padding:0 30px 20px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin-bottom:180px;bottom:0}
@@ -3031,7 +3031,7 @@ lesshat-selector{-lh-property:0}
 .blog-section .container .post-item .s2 .title{text-align:left;font:Bold 21px/27px Century Gothic;letter-spacing:0;color:#000}
 .blog-section .container .post-item .s2 .content{text-align:left;font:normal 18px/27px Century Gothic;letter-spacing:0;color:#000}
 .headline-section{width:100%;height:auto;background-size:cover !important;position:relative}
-.headline-section .form__horizontal{max-width:300px;float:right}
+.headline-section .form__horizontal{max-width:330px;float:right}
 .headline-section .container{padding:50px 15px 0}
 .headline-section .container .title span{color:#aa9766;display:inline-block;padding:10px;background:#fff}
 .headline-section .container .title{text-align:left;font-size:53px;font-weight:bold;line-height:66px;letter-spacing:0;color:#fff;max-width:621px;margin-top:20px;background:#750049;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding:10px;margin-top:175px}
@@ -3151,8 +3151,7 @@ lesshat-selector{-lh-property:0}
 .blur-section .container{padding:50px 15px}
 .blur-section .container h3{text-align:left;font-size:40px;line-height:60px;letter-spacing:0;color:#fff;margin-top:20px}
 body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;margin-bottom:8px !important}
-.form__horizontal,#sidebar .gform_widget{height:auto;background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;padding:24px 15px;margin-bottom:50px}
-.form__horizontal .ginput_container.ginput_recaptcha,#sidebar .gform_widget .ginput_container.ginput_recaptcha{transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0}
+.form__horizontal,#sidebar .gform_widget{background:#fff 0 0 no-repeat padding-box;-webkit-box-shadow:0 20px 40px #0000000F;box-shadow:0 20px 40px #0000000F;padding:24px 15px;margin-bottom:50px}
 .form__horizontal .form-title span,#sidebar .gform_widget .form-title span{color:#bc0078}
 .form__horizontal .gform_wrapper .gform_footer,#sidebar .gform_widget .gform_wrapper .gform_footer{margin:0}
 .form__horizontal #gform_17 label.gfield_label,#sidebar .gform_widget #gform_17 label.gfield_label{display:-webkit-inline-box !important;display:-ms-inline-flexbox !important;display:inline-flex !important;font-size:15px;padding-bottom:8px}

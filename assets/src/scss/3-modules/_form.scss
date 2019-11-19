@@ -5,17 +5,8 @@ body .gform_wrapper .top_label div.ginput_container {
 
 .form__horizontal,
 #sidebar .gform_widget {
-    .ginput_container.ginput_recaptcha {
-        transform: scale(0.77);
-        -webkit-transform: scale(0.77);
-        transform-origin: 0 0;
-        -webkit-transform-origin: 0 0;
-    }
-
-    height: auto;
     background: $w 0% 0% no-repeat padding-box;
     box-shadow: 0px 20px 40px #0000000F;
-
     padding: 24px 15px;
     margin-bottom: 50px;
 
