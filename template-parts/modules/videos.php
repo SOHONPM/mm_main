@@ -13,7 +13,7 @@
                 while (have_rows('videos')) : the_row();
                     ?>
                     <div class="col-md-4">
-                        <div class="video-block">
+                        <div class="video-block videoWrapper">
                             <?php echo get_sub_field('video'); ?>
                             <div class="inner-text">
                                 <p class="title"><?php echo get_sub_field('title') ?></p>
