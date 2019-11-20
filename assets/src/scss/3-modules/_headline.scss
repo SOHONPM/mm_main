@@ -87,6 +87,16 @@
                 color: #aa9766;
                 max-width: 621px;
                 margin-top: 20px;
+
+                @include breakpoint(510) {
+                    font-size: 40px;
+                    line-height: 40px;
+                }
+
+                @include breakpoint(398) {
+                    font-size: 35px;
+                    line-height: 30px;
+                }
             }
 
             &.no_title {
