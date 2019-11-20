@@ -8065,7 +8065,7 @@ body .gform_wrapper .top_label div.ginput_container { margin-top: 0 !important; 
 
 .video-section .container .video-block { border: 1px solid #eee; margin-bottom: 20px; }
 
-@media only screen and (max-width: 767px) { .video-section .container .video-block { margin-bottom: 70px; } }
+@media only screen and (max-width: 767px) { .video-section .container .video-block { margin-bottom: 80px; } }
 
 .video-section .container .video-block .inner-text { padding: 15px; }
 
