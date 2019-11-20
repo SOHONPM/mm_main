@@ -4330,6 +4330,7 @@ th.visible-lg,td.visible-lg{display:table-cell !important}
 .blog-section .media-box-loaded{min-height:510px}
 .headline-section .form__horizontal{float:left;max-width:100%;width:100%}
 .hero_highlighted_title-section .title.alt_title{margin-top:0}
+.hero_highlighted_title-section .title.alt_title br{display:none}
 .hero_highlighted_title-section .title{font-size:35px !important}
 .hero_highlighted_title-section .container .form-section .form__horizontal{float:left;max-width:100%;width:100%}
 .hero_highlighted_title-section .container .form-section .form__horizontal .form-title{font-size:19px;max-width:unset}

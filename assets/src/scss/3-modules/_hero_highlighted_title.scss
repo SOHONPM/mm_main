@@ -22,7 +22,12 @@
 
             @include breakpoint(991) {
                 margin-top: 0;
+
+                br {
+                    display: none;
+                }
             }
+
         }
 
         @include breakpoint(991) {
