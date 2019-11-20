@@ -33,6 +33,9 @@
             border: 1px solid #eee;
             margin-bottom: 20px;
 
+            @include breakpoint(767) {
+                margin-bottom: 70px;
+            }
 
             .inner-text {
                 padding: 15px;
