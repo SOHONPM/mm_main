@@ -12,12 +12,12 @@
                 <div class="col-md-4 text-center">
                     <div class="single-feature">
                         <div class="wrapper">
-                            <?php if ('image_position == "top') : ?>
+                            <?php if ($value['image_position'] == "top") : ?>
                                 <img src="<?php echo $value['icon']['url'] ?>" alt="">
                             <?php endif ?>
                             <p class="title"><?php echo $value['title'] ?></p>
                             <p class="content"><?php echo $value['content'] ?></p>
-                            <?php if ('image_position == "bottom') : ?>
+                            <?php if ($value['image_position'] == "bottom") : ?>
                                 <img src="<?php echo $value['icon']['url'] ?>" alt="">
                             <?php endif ?>
                         </div>
