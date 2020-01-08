@@ -1,176 +1,173 @@
 .hero_highlighted_title-section {
-    background-size: cover !important;
+	background-size: cover !important;
 
-    @include breakpoint(767) {
-        background: #f2f4f5 !important;
-    }
+	@include breakpoint(767) {
+		background: #f2f4f5 !important;
+	}
 
-    .title {
-        background: #171717 0% 0% no-repeat padding-box;
-        font-weight: bold;
-        font-size: 42px;
-        letter-spacing: 0;
+	.title {
+		background: #171717 0% 0% no-repeat padding-box;
+		font-weight: bold;
+		font-size: 42px;
+		letter-spacing: 0;
 
-        color: white;
-        margin-bottom: 0;
+		color: white;
+		margin-bottom: 0;
 
-        &.alt_title {
-            background: none;
-            color: $b;
-            font-size: 55px;
-            margin-top: 40px;
+		&.alt_title {
+			background: none;
+			color: $b;
+			font-size: 55px;
+			margin-top: 40px;
 
-            @include breakpoint(991) {
-                margin-top: 0;
+			@include breakpoint(991) {
+				margin-top: 0;
 
-                br {
-                    display: none;
-                }
-            }
+				br {
+					display: none;
+				}
+			}
+		}
 
-        }
+		@include breakpoint(991) {
+			font-size: 35px !important;
+		}
 
-        @include breakpoint(991) {
-            font-size: 35px !important;
-        }
+		@include breakpoint(768) {
+			font-size: 30px !important;
+		}
 
-        @include breakpoint(768) {
-            font-size: 30px !important;
-        }
+		@include breakpoint(510) {
+			font-size: 30px !important;
+		}
 
-        @include breakpoint(510) {
-            font-size: 30px !important;
-        }
+		@include breakpoint(398) {
+			font-size: 25px !important;
+		}
 
-        @include breakpoint(398) {
-            font-size: 25px !important;
-        }
+		span {
+			color: #bc0078;
+		}
+	}
 
-        span {
-            color: #aa9766;
-        }
-    }
+	.subtitle {
+		font-size: 19px;
+		line-height: 31px;
+	}
 
-    .subtitle {
-        font-size: 19px;
-        line-height: 31px;
-    }
+	strong.line-through {
+		text-decoration: line-through;
+		color: #bc0078;
+		font-weight: 700;
+	}
 
-    strong.line-through {
-        text-decoration: line-through;
-        color: #bc0078;
-        font-weight: 700;
-    }
+	.container {
+		padding: 50px 15px;
 
-    .container {
-        padding: 50px 15px;
+		.form-section {
+			.form__horizontal {
+				height: auto;
+				background: $w 0% 0% no-repeat padding-box;
+				box-shadow: 0px 0px 30px 13px #0000000f;
+				position: relative;
+				max-width: 330px;
+				float: right;
 
-        .form-section {
-            .form__horizontal {
-                height: auto;
-                background: $w 0% 0% no-repeat padding-box;
-                box-shadow: 0px 0px 30px 13px #0000000F;
-                position: relative;
-                max-width: 330px;
-                float: right;
+				@include breakpoint(991) {
+					float: left;
+					max-width: 100%;
+					width: 100%;
+				}
 
-                @include breakpoint(991) {
-                    float: left;
-                    max-width: 100%;
-                    width: 100%;
-                }
+				.form-title span {
+					color: $brand_color;
+				}
 
-                .form-title span {
-                    color: $brand_color;
-                }
+				.form-title {
+					text-align: center;
+					font-size: 19px;
+					font-weight: bold;
+					line-height: 27px;
+					letter-spacing: 0;
 
-                .form-title {
-                    text-align: center;
-                    font-size: 19px;
-                    font-weight: bold;
-                    line-height: 27px;
-                    letter-spacing: 0;
+					@include breakpoint(991) {
+						font-size: 19px;
+						max-width: unset;
+					}
 
+					@include breakpoint(768) {
+						max-width: unset;
+					}
+				}
 
-                    @include breakpoint(991) {
-                        font-size: 19px;
-                        max-width: unset;
-                    }
+				.gform_wrapper {
+					#gform_fields_7 {
+						.gfield_error {
+							max-width: 100% !important;
+						}
+					}
 
-                    @include breakpoint(768) {
-                        max-width: unset;
-                    }
-                }
+					.gform_footer {
+						padding: 0;
+					}
 
-                .gform_wrapper {
-                    #gform_fields_7 {
-                        .gfield_error {
-                            max-width: 100% !important;
-                        }
-                    }
+					.gfield_label {
+						line-height: 0;
+						display: none;
+					}
 
-                    .gform_footer {
-                        padding: 0;
-                    }
+					li {
+						margin-top: 0;
+						padding: 0;
+					}
 
-                    .gfield_label {
-                        line-height: 0;
-                        display: none;
-                    }
+					.gform_title {
+						display: none;
+					}
 
-                    li {
-                        margin-top: 0;
-                        padding: 0;
-                    }
+					input::placeholder {
+						text-align: left;
+						font-size: 18px;
+						font-weight: normal;
+						line-height: 27px;
+						letter-spacing: 0;
+						color: #9a9a9a;
+					}
 
-                    .gform_title {
-                        display: none;
-                    }
+					input {
+						background: $w 0% 0% no-repeat padding-box;
+						border: 1px solid #c4c4c4;
+						border-radius: 0;
 
-                    input::placeholder {
-                        text-align: left;
-                        font-size: 18px;
-                        font-weight: normal;
-                        line-height: 27px;
-                        letter-spacing: 0;
-                        color: #9A9A9A;
+						width: 100%;
+						height: 43px;
+						text-align: left;
+						font-size: 18px;
+						font-weight: normal;
+						line-height: 27px;
+						padding: 7px 10px;
+						color: #9a9a9a;
 
-                    }
+						margin: 0;
+					}
 
-                    input {
-                        background: $w 0% 0% no-repeat padding-box;
-                        border: 1px solid #C4C4C4;
-                        border-radius: 0;
+					input[type="submit"] {
+						width: 100%;
+						height: 42px;
+						background: #8bc34a 0% 0% no-repeat padding-box;
+						border-radius: 0;
 
-                        width: 100%;
-                        height: 43px;
-                        text-align: left;
-                        font-size: 18px;
-                        font-weight: normal;
-                        line-height: 27px;
-                        padding: 7px 10px;
-                        color: #9A9A9A;
+						text-align: center;
+						font-size: 18px;
+						font-weight: bold;
+						line-height: 27px;
+						letter-spacing: 0;
+						color: $w;
 
-                        margin: 0;
-                    }
-
-                    input[type="submit"] {
-                        width: 100%;
-                        height: 42px;
-                        background: #8BC34A 0% 0% no-repeat padding-box;
-                        border-radius: 0;
-
-                        text-align: center;
-                        font-size: 18px;
-                        font-weight: bold;
-                        line-height: 27px;
-                        letter-spacing: 0;
-                        color: $w;
-
-                        border: none;
-                    }
-                }
-            }
-        }
-    }
+						border: none;
+					}
+				}
+			}
+		}
+	}
 }
