@@ -2960,6 +2960,9 @@ lesshat-selector{-lh-property:0}
 .feature-section .container .single-feature{-webkit-box-shadow:0 10px 40px 0 rgba(75,25,141,0.15);box-shadow:0 10px 40px 0 rgba(75,25,141,0.15)}
 .feature-section .container .single-feature .wrapper{padding:30px 30px}
 .feature-section .container .single-feature .wrapper .title{font-size:21px;line-height:27px;font-weight:bold;letter-spacing:0;color:#000}
+.feature-section .container .single-feature .wrapper .top{margin-bottom:20px}
+.feature-section .container .single-feature .wrapper .bottom{margin-top:20px}
+.feature-section .container .single-feature .wrapper .content{margin:0}
 .about-section .container{padding:50px 15px}
 .about-section .container .title{text-align:center;font-size:38px;line-height:49px;font-weight:bold;letter-spacing:0;color:#000}
 .about-section .container .content{text-align:center}

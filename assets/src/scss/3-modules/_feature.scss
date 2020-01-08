@@ -1,62 +1,70 @@
 .feature-section {
-    .row {
-        @include min-breakpoint(768) {
-            display: flex;
-        }
+	.row {
+		@include min-breakpoint(768) {
+			display: flex;
+		}
 
-        &>div {
-            @include min-breakpoint(768) {
-                display: flex;
-            }
-        }
-    }
+		& > div {
+			@include min-breakpoint(768) {
+				display: flex;
+			}
+		}
+	}
 
-    .container {
-        padding: 50px 15px 0;
+	.container {
+		padding: 50px 15px 0;
 
-        @include breakpoint(992) {
-            .text-center {
-                width: 100%;
-                flex: 0 0 100%;
-                max-width: 100%;
-                display: block;
-            }
-        }
+		@include breakpoint(992) {
+			.text-center {
+				width: 100%;
+				flex: 0 0 100%;
+				max-width: 100%;
+				display: block;
+			}
+		}
 
-        h2 {
-            text-align: center;
-            font-size: 38px;
-            line-height: 49px;
-            font-weight: bold;
-            letter-spacing: 0;
-            color: #000000;
+		h2 {
+			text-align: center;
+			font-size: 38px;
+			line-height: 49px;
+			font-weight: bold;
+			letter-spacing: 0;
+			color: #000000;
 
-            margin-bottom: 30px;
-        }
+			margin-bottom: 30px;
+		}
 
-        .single-feature {
-            box-shadow: 0 10px 40px 0 rgba(75, 25, 141, 0.15);
+		.single-feature {
+			box-shadow: 0 10px 40px 0 rgba(75, 25, 141, 0.15);
 
-            @include breakpoint(992) {
-                margin-bottom: 25px;
-            }
+			@include breakpoint(992) {
+				margin-bottom: 25px;
+			}
 
-            .wrapper {
-                padding: 30px 30px;
+			.wrapper {
+				padding: 30px 30px;
 
-                @include breakpoint(768) {
-                    padding-bottom: 50px;
-                }
+				@include breakpoint(768) {
+					padding-bottom: 50px;
+				}
 
-                .title {
-                    font-size: 21px;
-                    line-height: 27px;
-                    font-weight: bold;
-                    letter-spacing: 0;
-                    color: $b;
-
-                }
-            }
-        }
-    }
+				.title {
+					font-size: 21px;
+					line-height: 27px;
+					font-weight: bold;
+					letter-spacing: 0;
+					color: $b;
+				}
+				.top {
+					margin-bottom: 20px;
+				}
+				.bottom {
+					margin-top: 20px;
+				}
+				.content {
+					margin: 0;
+				}
+			}
+		}
+	}
 }

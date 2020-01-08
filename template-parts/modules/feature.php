@@ -13,12 +13,12 @@
                     <div class="single-feature">
                         <div class="wrapper">
                             <?php if ($value['image_position'] == "top") : ?>
-                                <img src="<?php echo $value['icon']['url'] ?>" alt="">
+                                <img class="top" src="<?php echo $value['icon']['url'] ?>" alt="">
                             <?php endif ?>
                             <p class="title"><?php echo $value['title'] ?></p>
                             <p class="content"><?php echo $value['content'] ?></p>
                             <?php if ($value['image_position'] == "bottom") : ?>
-                                <img src="<?php echo $value['icon']['url'] ?>" alt="">
+                                <img class="bottom" src="<?php echo $value['icon']['url'] ?>" alt="">
                             <?php endif ?>
                         </div>
                     </div>
