@@ -13,11 +13,10 @@
 ?>
 
 <?php if (has_nav_menu('top')) : ?>
-
-	<nav itemscope itemtype="http://schema.org/SiteNavigationElement" class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+	<nav itemscope itemtype="http://schema.org/SiteNavigationElement" class="navbar navbar-expand-md" role="navigation">
 		<div class="navbar__mobile">
 			<a class="navbar-brand" href="#">Menu</a>
-			<button class="hamburger animated fadeInLeft is-closed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon">
 					<svg width="35.477" height="27.916" viewBox="0 0 35.477 27.916" id="burgerMenu">
 						<g id="Group_26" data-name="Group 26" transform="translate(-361 -79)">
@@ -36,7 +35,7 @@
 			'menu'           => 'Primary Menu', // Do not fall back to first non-empty menu.
 			'depth'	         => 2,
 			'theme_location' => 'top',
-			'menu_class' 	 => 'nav sidebar-nav',
+			'menu_class' 	 => 'nav navbar-nav main-menu',
 			'container'       => 'div',
 			'container_class' => 'collapse navbar-collapse',
 			'container_id'    => 'navbarSupportedContent',
@@ -46,5 +45,4 @@
 
 		?>
 	</nav>
-
 <?php endif; ?>
