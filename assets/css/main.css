@@ -7225,7 +7225,7 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 
 .site-footer .container .site-logo { width: unset; }
 
-.site-footer .container .site-logo img { width: 100px; height: 91px; margin-bottom: 30px; }
+.site-footer .container .site-logo img { width: 100px; height: auto; margin-bottom: 30px; }
 
 .site-footer .container .content p { text-align: left; letter-spacing: 0; color: #313131; }
 
