@@ -1,4 +1,4 @@
-<section class="subscribe-section" style="background:<?php echo get_sub_field('background') ? 'url(' . get_sub_field('background') . ')' : '#F4F0F9' ?>">
+<section id="subscribe" class="subscribe-section" style="background:<?php echo get_sub_field('background') ? 'url(' . get_sub_field('background') . ')' : '#F4F0F9' ?>">
     <div class="container">
         <div class="row">
             <div class="col-md-12 form-section">
