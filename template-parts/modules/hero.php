@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-lg-8">
-                    <div class="wrapper">]
+                    <div class="wrapper">
                         <h1 class="title"><?php echo get_sub_field('title') ?></h1>
                     </div>
                 </div>
