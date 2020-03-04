@@ -3268,6 +3268,23 @@ body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;marg
 #landing .countdown-timer{max-width:400px;padding:20px 0;float:right;text-align:center}
 #landing .countdown-timer span{font-size:12px;color:#b9b9b9;display:block;margin-top:-10px}
 #landing .countdown-timer strong{font-weight:700;font-size:30px;display:block}
+.wheel-section tr{border:0}
+.wheel-section .wrapper{width:700px;height:700px;border:1px solid black;border-radius:100%}
+.wheel-section .rotation-wrapper-outer{display:table}
+.wheel-section .rotation-wrapper-inner{padding:50% 0;height:0}
+.wheel-section .ray{height:3px;background:#00000085;width:700px;margin-top:-3px}
+.wheel-section table{width:100%}
+.wheel-section table:not(.right){margin-top:-16px}
+.wheel-section table.right .insideCircle{float:right}
+.wheel-section .ray td{width:10%;padding:0}
+.wheel-section .ray2{-webkit-transform:rotate(-36deg)}
+.wheel-section .ray2{-webkit-transform:rotate(-36deg)}
+.wheel-section .ray3{-webkit-transform:rotate(-72deg)}
+.wheel-section .ray4{-webkit-transform:rotate(-108deg)}
+.wheel-section .ray5{-webkit-transform:rotate(-144deg)}
+.wheel-section svg{position:absolute;top:0;left:0;height:200vh}
+.wheel-section .insideCircle.hide,.wheel-section .hide{display:none}
+.wheel-section .insideCircle{background:#fff;width:10px;height:10px;border:2px solid #bc0078;border-radius:20px;margin-top:-4px;padding:0}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}
 .fade{-webkit-transition:none;transition:none}

@@ -185,6 +185,46 @@
 		});
 	});
 })(jQuery);
+(function ($) {
+	$(function () {
+		$('.insideCircle').click(function (event) {
+			var className = '.' + $(this).closest('table').prop('className').split(' ')[0] + ' .insideCircle';
+			// alert(className)
+			if (!$(this).hasClass('clicked')) {
+				$(className).addClass('hide');
+				$(this).removeClass('hide').addClass('clicked');
+				// console.log(className);
+			} else {
+				$(className).removeClass('hide');
+				$(this).removeClass('clicked');
+				$(className).removeClass('hide');
+			}
+
+			var x = event.clientX;
+			var y = event.clientY;
+			var max = 10;
+			var coords = "X coords: " + x + ", Y coords: " + y;
+			var offset = $(this).offset()
+			// alert(coords)
+			var present = '#' + $(this).attr('class').split(' ')[1];
+			prev = [($(this).attr('class').split(' ')[1]) - 1];
+			if (prev < 1) {
+				prev = max;
+			}
+			var prev = '#' + prev;
+			$(present).attr({ "x1": offset.left + 5, "y1": offset.top + 5 })
+			$(prev).attr({ "x2": offset.left + 5, "y2": offset.top + 5 })
+			for (let index = 1; index <= max; index++) {
+				var variable = "#" + index;
+
+				console.log()
+				if ($(variable).attr('x1') > 0 && $(variable).attr('x2') > 0 && $(variable).attr('y1') > 0 && $(variable).attr('y2') > 0) {
+					$(variable).removeClass('hide');
+				}
+			}
+		})
+	});
+})(jQuery);
 
 window.cfields = [];
 window._show_thank_you = function (id, message, trackcmp_url) {

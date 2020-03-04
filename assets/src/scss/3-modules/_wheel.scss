@@ -1,0 +1,98 @@
+.wheel-section {
+    tr {
+        border: none;
+    }
+
+    .wrapper {
+        width: 700px;
+        height: 700px;
+        border: 1px solid black;
+        border-radius: 100%;
+    }
+
+
+    .rotation-wrapper-outer {
+        display: table;
+    }
+
+    .rotation-wrapper-inner {
+        padding: 50% 0;
+        height: 0;
+    }
+
+    .ray {
+        height: 3px;
+        background: #00000085;
+        width: 700px;
+        margin-top: -3px // position: absolute;
+            // top: 50%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table:not(.right) {
+        margin-top: -16px;
+    }
+
+    table.right .insideCircle {
+        float: right;
+    }
+
+    .ray td {
+        /* background: red; */
+        width: 10%;
+        padding: 0;
+    }
+
+    .ray2 {
+        -webkit-transform: rotate(-36deg);
+        /* top: -185px; left: 85px; */
+    }
+
+    .ray2 {
+        -webkit-transform: rotate(-36deg);
+        /* top: -185px; left: 85px; */
+    }
+
+    .ray3 {
+        -webkit-transform: rotate(-72deg);
+        /* top: -138px; left: 135px; */
+    }
+
+    .ray4 {
+        -webkit-transform: rotate(-108deg);
+        /* top: -61px; left: 157px; */
+    }
+
+    .ray5 {
+        -webkit-transform: rotate(-144deg);
+        /* top: 30px; left: 119px; */
+    }
+
+    svg {
+        position: absolute;
+        /* top: -30px */
+        top: 0;
+        left: 0;
+        height: 200vh;
+    }
+
+    .insideCircle.hide,
+    .hide {
+        display: none;
+    }
+
+    .insideCircle {}
+
+    .insideCircle {
+        background: #fff;
+        width: 10px;
+        height: 10px;
+        border: 2px solid #bc0078;
+        border-radius: 20px;
+        margin-top: -4px;
+        padding: 0;
+    }
+}
