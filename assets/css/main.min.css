@@ -3290,8 +3290,9 @@ body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;marg
 .wheel-section .ray4{-webkit-transform:rotate(-108deg)}
 .wheel-section .ray5{-webkit-transform:rotate(-144deg)}
 .wheel-section svg{position:absolute;top:0;left:0;height:200vh}
+.wheel-section svg line{stroke:#bc0078 !important}
 .wheel-section .insideCircle.hide,.wheel-section .hide{display:none}
-.wheel-section .insideCircle{background:#fff;width:10px;height:10px;border:2px solid #bc0078;border-radius:20px;margin-top:-4px;padding:0}
+.wheel-section .insideCircle{background:#fff;width:10px;height:10px;border:2px solid #a99666;border-radius:20px;margin-top:-4px;padding:0}
 @media(prefers-reduced-motion:reduce){.form-control{-webkit-transition:none;transition:none}
 .btn{-webkit-transition:none;transition:none}
 .fade{-webkit-transition:none;transition:none}

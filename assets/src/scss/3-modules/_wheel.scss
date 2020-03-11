@@ -120,6 +120,10 @@
         height: 200vh;
     }
 
+    svg line {
+        stroke: #bc0078 !important;
+    }
+
     .insideCircle.hide,
     .hide {
         display: none;
@@ -131,7 +135,7 @@
         background: #fff;
         width: 10px;
         height: 10px;
-        border: 2px solid #bc0078;
+        border: 2px solid #A99666;
         border-radius: 20px;
         margin-top: -4px;
         padding: 0;
