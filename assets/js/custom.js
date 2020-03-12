@@ -181,6 +181,12 @@
     $('.insideCircle').click(function (event) {
       var className = '.' + $(this).closest('table').prop('className').split(' ')[0] + ' .insideCircle'; // alert(className)
 
+      var click = '.' + $(this).closest('table').prop('className').split(' ')[0] + ' ul li:nth-child(' + $(this).attr('attr') + ') input';
+      var form_parent = '.' + $(this).closest('table').prop('className').split(' ')[0] + ' ul li input';
+      var form_id = '#' + $(click).attr('id');
+      $(form_parent).removeAttr('checked');
+      $(form_id).attr('checked', 'checked');
+
       if (!$(this).hasClass('clicked')) {
         $(className).addClass('hide');
         $(this).removeClass('hide').addClass('clicked'); // console.log(className);
