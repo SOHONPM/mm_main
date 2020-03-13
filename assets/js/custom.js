@@ -186,14 +186,15 @@
       var form_id = '#' + $(click).attr('id');
       $(form_parent).removeAttr('checked');
       $(form_id).attr('checked', 'checked');
+      $(className).removeClass('clicked');
 
       if (!$(this).hasClass('clicked')) {
-        $(className).addClass('hide');
-        $(this).removeClass('hide').addClass('clicked'); // console.log(className);
+        $(className).addClass('hideDots');
+        $(this).removeClass('hideDots').addClass('clicked'); // console.log(className);
       } else {
-        $(className).removeClass('hide');
+        $(className).removeClass('hideDots');
         $(this).removeClass('clicked');
-        $(className).removeClass('hide');
+        $(className).removeClass('hideDots');
       }
 
       var x = event.clientX;

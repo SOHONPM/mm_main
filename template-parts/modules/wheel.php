@@ -28,7 +28,7 @@
                     <div class="ray ray1">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="rayLeft noRotate">10</div>
+                                <div class="rayLeft noRotate" style="-webkit-transform: rotate(-90deg);">ENOUGH MONEY<br>10</div>
                                 <table class="money">
                                     <tbody>
                                         <tr>
@@ -65,12 +65,11 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabel">ENOUGH<br />MONEY
-                                </div>
+                                <!-- <div class="dimensionLabel">ENOUGHMONEY
+                                </div> -->
                             </div>
                             <div class="col-md-6">
-                                <div class="rayRight noRotate">10</div>
-
+                                <div class="rayRight noRotate" style="-webkit-transform: rotate(90deg);">HEALTH<br>10</div>
                                 <table class="health right">
                                     <tbody>
                                         <tr>
@@ -108,15 +107,15 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabelRight" style="top: -75px;">HEALTH<br />&nbsp;
-                                </div>
+                                <!-- <div class="dimensionLabelRight">&nbsp;
+                                </div> -->
                             </div>
                         </div>
                     </div>
                     <div class="ray ray2">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="rayLeft">10</div>
+                                <div class="rayLeft">10<br>BUSINESS / CAREER</div>
 
                                 <table class="business">
                                     <tbody>
@@ -155,11 +154,11 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabel" style="-webkit-transform: rotate(36deg)">BUSINESS/<br />CAREER
-                                </div>
+                                <!-- <div class="dimensionLabel" style="-webkit-transform: rotate(36deg)">BUSINESS/CAREER
+                                </div> -->
                             </div>
                             <div class="col-md-6">
-                                <div class="rayRight">10</div>
+                                <div class="rayRight">SELF DEVELOPMENT<br>10</div>
 
                                 <table class="selfDevelopment right">
                                     <tbody>
@@ -198,15 +197,15 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabelRight" style="-webkit-transform: rotate(36deg)">SELF<br />DEVELOPMENT
-                                </div>
+                                <!-- <div class="dimensionLabelRight" style="-webkit-transform: rotate(36deg)">SELF DEVELOPMENT
+                                </div> -->
                             </div>
                         </div>
                     </div>
                     <div class="ray ray3">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="rayLeft">10</div>
+                                <div class="rayLeft">10<br>SOCIAL / FRIENDS</div>
 
                                 <table class="social">
                                     <tbody>
@@ -245,11 +244,13 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabel" style="-webkit-transform: rotate(72deg)">SOCIAL/<br />FRIENDS
-                                </div>
+                                <!-- <div class="dimensionLabel" style="-webkit-transform: rotate(72deg)">SOCIAL/FRIENDS
+                                </div> -->
                             </div>
                             <div class="col-md-6">
-                                <div class="rayRight">10</div>
+                                <div class="rayRight">
+                                    CIRCLE OF INSPIRATION <br>10
+                                </div>
 
                                 <table class="inspiration right">
                                     <tbody>
@@ -288,15 +289,15 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabelRight" style="-webkit-transform: rotate(72deg)">CIRCLE OF<br />INSPIRATION
-                                </div>
+                                <!-- <div class="dimensionLabelRight" style="-webkit-transform: rotate(72deg)">CIRCLE OF INSPIRATION
+                                </div> -->
                             </div>
                         </div>
                     </div>
                     <div class="ray ray4">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="rayLeft">10</div>
+                                <div class="rayLeft">10<br>LOVE / INTIMACY</div>
 
                                 <table class="love">
                                     <tbody>
@@ -335,11 +336,11 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabel" style="-webkit-transform: rotate(108deg);">LOVE/<br />INTIMACY
-                                </div>
+                                <!-- <div class="dimensionLabel" style="-webkit-transform: rotate(108deg);">LOVE/INTIMACY
+                                </div> -->
                             </div>
                             <div class="col-md-6">
-                                <div class="rayRight">10</div>
+                                <div class="rayRight">ADVENTURE / LIFESTYLE <br>10</div>
 
                                 <table class="adventure right">
                                     <tbody>
@@ -378,15 +379,15 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabelRight" style="-webkit-transform: rotate(108deg)">ADVENTURE/<br />LIFESTYLE
-                                </div>
+                                <!-- <div class="dimensionLabelRight" style="-webkit-transform: rotate(108deg)">ADVENTURE/LIFESTYLE
+                                </div> -->
                             </div>
                         </div>
                     </div>
                     <div class="ray ray5">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="rayLeft">10</div>
+                                <div class="rayLeft">10<br>FAMILY LIFE</div>
 
                                 <table class="familyLife">
                                     <tbody>
@@ -425,11 +426,11 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabel" style="-webkit-transform: rotate(144deg);">FAMILY LIFE<br />&nbsp;
-                                </div>
+                                <!-- <div class="dimensionLabel" style="-webkit-transform: rotate(144deg);">FAMILY LIFE&nbsp;
+                                </div> -->
                             </div>
                             <div class="col-md-6">
-                                <div class="rayRight">10</div>
+                                <div class="rayRight">CONTRIBUTION / IMPACT <br> 10</div>
 
                                 <table class="contribution right">
                                     <tbody>
@@ -467,9 +468,8 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div class="dimensionLabelRight" style="-webkit-transform: rotate(144deg);    top: -110px;
-    left: 145px;">CONTRIBUTION/<br />IMPACT
-                                </div>
+                                <!-- <div class="dimensionLabelRight">CONTRIBUTION / IMPACT
+                                </div> -->
                             </div>
                         </div>
                     </div>

@@ -1,13 +1,18 @@
 .wheel-section {
     .rayRight {
         position: absolute;
-        right: -5px;
-        top: -15px;
+        right: -160px;
+        top: -30px;
+        text-align: center;
+        width: 300px;
+
 
         &:not(.noRotate) {
             -webkit-transform: rotate(90deg)
         }
     }
+
+
 
     .dimensionLabel {
         position: absolute;
@@ -19,10 +24,10 @@
 
     .dimensionLabelRight {
         position: absolute;
-        width: fit-content;
-        top: -95px;
         font-weight: bold;
-        left: 170px;
+        right: -96px;
+        font-size: 15px;
+        -webkit-transform: rotate(90deg) !important;
     }
 
     .dimensionRight {
@@ -32,8 +37,11 @@
 
     .rayLeft {
         position: absolute;
-        left: -10px;
-        top: -15px;
+        left: -162px;
+        top: -28px;
+        width: 300px;
+        text-align: center;
+        width: 300px;
 
         &:not(.noRotate) {
             -webkit-transform: rotate(90deg)
@@ -112,7 +120,7 @@
         /* top: 30px; left: 119px; */
     }
 
-    svg {
+    .svgWrap svg {
         position: absolute;
         /* top: -30px */
         top: 0;
@@ -122,6 +130,10 @@
 
     svg line {
         stroke: #bc0078 !important;
+    }
+
+    .hideDots {
+        opacity: .5;
     }
 
     .insideCircle.hide,
@@ -139,5 +151,10 @@
         border-radius: 20px;
         margin-top: -4px;
         padding: 0;
+
+        &.clicked {
+            background: #bc0078;
+            border: #bc0078;
+        }
     }
 }
