@@ -2,6 +2,10 @@
     margin-top: 50px;
     margin-bottom: 50px;
 
+    @include breakpoint(850) {
+        display: none;
+    }
+
     .rayRight {
         position: absolute;
         right: -160px;
