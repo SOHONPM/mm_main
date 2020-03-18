@@ -3290,7 +3290,7 @@ body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;marg
 .wheel-section .ray3{-webkit-transform:rotate(-72deg)}
 .wheel-section .ray4{-webkit-transform:rotate(-108deg)}
 .wheel-section .ray5{-webkit-transform:rotate(-144deg)}
-.wheel-section .svgWrap svg{position:absolute;top:0;left:0;height:200vh}
+.wheel-section .svgWrap svg{position:absolute;top:0;left:0;height:200vh;width:100%}
 .wheel-section svg line{stroke:#bc0078 !important}
 .wheel-section .hideDots{opacity:.5}
 .wheel-section .insideCircle.hide,.wheel-section .hide{display:none}
