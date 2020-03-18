@@ -3269,6 +3269,7 @@ body .gform_wrapper .top_label div.ginput_container{margin-top:0 !important;marg
 #landing .countdown-timer span{font-size:12px;color:#b9b9b9;display:block;margin-top:-10px}
 #landing .countdown-timer strong{font-weight:700;font-size:30px;display:block}
 .wheel-section{margin-top:50px;margin-bottom:50px}
+.wheel-section .row:before,.wheel-section .row:after{display:none !important}
 .wheel-section .rayRight{position:absolute;right:-160px;top:-30px;text-align:center;width:300px}
 .wheel-section .rayRight:not(.noRotate){-webkit-transform:rotate(90deg)}
 .wheel-section .dimensionLabel{position:absolute;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;top:45px;font-weight:bold;left:100px}
